@@ -55,6 +55,10 @@ public class ExtratorRADOC {
             for(Atividade a: at){
                 System.out.println(a.toString());
             }
+            at = getAtividadesQualificao(novoTexto);
+            for(Atividade a: at){
+                System.out.println(a.toString());
+            }
             //for(AtividadesExtensao s: list){
             //    System.out.println(s.toString());
             //}
@@ -151,6 +155,66 @@ public class ExtratorRADOC {
             ++i;
         }
         return listaAtividades.size()>0 ? listaAtividades : null;
+    }
+    
+    public static List<Atividade> getAtividadesQualificao(final String text){
+        final String tipo = "qualificacao";
+        int escopoInicio = text.toLowerCase().indexOf("atividades de qualificacao");
+        int escopoFinal = text.toLowerCase().indexOf("atividades academicas especiais");
+        String escopoTexto = text.substring(escopoInicio,escopoFinal);
+        Pattern padrao = Pattern.compile(Regex.REGEX_TITULO_ATIVIDADES_QUALIFICACAO,Pattern.CASE_INSENSITIVE);
+        Matcher correspondente = padrao.matcher(escopoTexto);
+        List<Atividade> listaAtividades = new ArrayList<>();
+        Atividade atividade;
+        int i=0;
+        while(correspondente.find()){
+            String temp = correspondente.group().replaceAll("(\\s*Tabela:\\s*)|(\\s*Descricao:\\s*)|(\\s*Data:\\s*)","");
+            atividade = new Atividade();
+            atividade.setId(i);
+            atividade.setDescricao(temp);
+            atividade.setTipo(tipo);
+            listaAtividades.add(atividade);
+            ++i;
+        }
+        padrao = Pattern.compile(Regex.REGEX_CHA_ATIVIDADES,Pattern.CASE_INSENSITIVE);
+        correspondente = padrao.matcher(escopoTexto);       
+        i=0;
+        while(correspondente.find()){
+            int cha = Integer.valueOf(correspondente.group().replaceAll("(\\s*CHA:\\s*)|(\\s*Data\\s+inicio:\\s*)",""));
+            atividade = listaAtividades.get(i);
+            atividade.setCargaHoraria(cha);
+            ++i;
+        }
+        padrao = Pattern.compile(Regex.REGEX_DESCRICAO_ATIVIDADES_QUALIFICACAO,Pattern.CASE_INSENSITIVE);
+        correspondente = padrao.matcher(escopoTexto);       
+        i=0;
+        while(correspondente.find()){
+            String temp = correspondente.group().replaceAll("(\\s*CHA:\\s*)|(\\s*Descricao:\\s*)","");
+            atividade = listaAtividades.get(i);
+            temp += ", ";
+            temp += atividade.getDescricao();
+            atividade.setDescricao(temp);
+            ++i;
+        }
+        padrao = Pattern.compile(Regex.REGEX_DATA_INICIO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
+        correspondente = padrao.matcher(escopoTexto);       
+        i=0;
+        while(correspondente.find()){
+            String temp = correspondente.group().replaceAll("(\\s*Data de inicio:)\\s*","");
+            atividade = listaAtividades.get(i);
+            atividade.setDataInicio(temp);
+            ++i;
+        }
+        padrao = Pattern.compile(Regex.REGEX_DATA_TERMINO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
+        correspondente = padrao.matcher(escopoTexto);       
+        i=0;
+        while(correspondente.find()){
+            String temp = correspondente.group().replaceAll("(\\s*Data de termino:)\\s*","");
+            atividade = listaAtividades.get(i);
+            atividade.setDataTermino(temp);
+            ++i;
+        }
+        return listaAtividades;
     }
     
     public static String removeAcentos(String string) {

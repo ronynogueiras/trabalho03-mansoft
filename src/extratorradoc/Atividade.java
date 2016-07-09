@@ -105,6 +105,7 @@ public class Atividade {
     public String toString(){
         String str = "ID: "+this.id+"\n";
         str += "Tipo: "+this.tipo+"\n";
+        str += "Carga Horaria: "+this.cargaHoraria+"\n";
         str += "Descricao: "+this.descricao+"\n";
         str += "Data Inicio: "+this.dataInicio+"\n";
         str += "Data Termino:"+this.dataTermino+"\n";
