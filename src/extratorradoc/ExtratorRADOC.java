@@ -80,64 +80,62 @@ public class ExtratorRADOC {
     public static List<AtividadesExtensao> getAtividadesExtensao(String text){
         int initScope = text.toLowerCase().indexOf("atividades de extensao");
         int finalScope = text.toLowerCase().indexOf("atividades de qualificacao");
-        String scopeText = text.substring(initScope, finalScope);
-        
+        String scopeText = text.substring(initScope, finalScope).replace("\n", " ").replace("\r", " ");
         Pattern pattern = Pattern.compile(Regex.REGEX_TITULO_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(scopeText);
         List<AtividadesExtensao> listMatches = new ArrayList<>();
         AtividadesExtensao atividadesExtensao;
         int i=0;
         while(matcher.find()){
-            String temp = matcher.group().replaceAll("(\\s*Tabela:\\s*)|(\\s*CHA:)","");
-            //atividadesExtensao = new AtividadesExtensao();
-            //atividadesExtensao.setId(i);
-            //atividadesExtensao.setDescription(temp);
-            //listMatches.add(atividadesExtensao);
-            //++i;
-            System.out.println(temp);
+            String descricao = matcher.group().replaceAll("(\\s*Tabela:\\s*)|(\\s*CHA:)","");
+            atividadesExtensao = new AtividadesExtensao();;
+            atividadesExtensao.setId(i);
+            atividadesExtensao.setDescription(descricao);
+            listMatches.add(atividadesExtensao);
+            ++i;
+            //System.out.println(temp);
         }
         pattern = Pattern.compile(Regex.REGEX_CHA_ATIVIDADES,Pattern.CASE_INSENSITIVE);
         matcher = pattern.matcher(scopeText);
         i=0;
         while(matcher.find()){
-            int temp = Integer.valueOf(matcher.group().replaceAll("(\\s*CHA:)","").trim());
-            //atividadesExtensao = listMatches.get(i);
-            //atividadesExtensao.setHours(temp);
-            //++i;
-            System.out.println(temp);
+            int cha = Integer.valueOf(matcher.group().replaceAll("(\\s*CHA:)","").trim());
+            atividadesExtensao = listMatches.get(i);
+            atividadesExtensao.setHours(cha);
+            ++i;
+            //System.out.println(temp);
         }
         pattern = Pattern.compile(Regex.REGEX_DESCRICAO_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
         matcher = pattern.matcher(scopeText);
         i=0;
         while(matcher.find()){
             String temp = matcher.group().replaceAll("(\\s*Descricao da atividade:\\s*)|(\\s*Descricao da clientela:\\s*)","").trim();
-            //atividadesExtensao = listMatches.get(i);
-            //temp += ", ";
-            //temp += atividadesExtensao.getDescription();
-            //atividadesExtensao.setDescription(temp);
-            //++i;
-            System.out.println(temp);
+            atividadesExtensao = listMatches.get(i);
+            temp += ", ";
+            temp += atividadesExtensao.getDescription();
+            atividadesExtensao.setDescription(temp);
+            ++i;
+            //System.out.println(temp);
         }
         pattern = Pattern.compile(Regex.REGEX_DESCRICAO_CLIENTELA_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
         matcher = pattern.matcher(scopeText);
         i=0;
         while(matcher.find()){
             String temp = matcher.group().replaceAll("(\\s*Descricao da clientela:\\s*)|(\\s*Tabela:\\s*)","").trim();
-            //atividadesExtensao = listMatches.get(i);
-            //temp += ", ";
-            //temp += atividadesExtensao.getDescription();
-            //atividadesExtensao.setDescription(temp);
-            //++i;
-            System.out.println(temp);
+            atividadesExtensao = listMatches.get(i);
+            temp += ", ";
+            temp += atividadesExtensao.getDescription();
+            atividadesExtensao.setDescription(temp);
+            ++i;
         }
         pattern = Pattern.compile(Regex.REGEX_DATA_INICIO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
         matcher = pattern.matcher(scopeText);
         i=0;
         while(matcher.find()){
             String temp = matcher.group().replaceAll("(\\s*Data\\s*inicio:\\s*)","").trim();
-            //atividadesExtensao = listMatches.get(i);
-            //atividadesExtensao.setInitDate(temp);
-            //++i;
+            atividadesExtensao = listMatches.get(i);
+            atividadesExtensao.setInitDate(temp);
+            ++i;
             System.out.println(temp);
         }
         pattern = Pattern.compile(Regex.REGEX_DATA_TERMINO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
