@@ -9,11 +9,16 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ExtratorRADOC {
 
+    
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -23,11 +28,7 @@ public class ExtratorRADOC {
     public static void parse() throws IOException
     {
         String[] files = new String[]{
-            "files/Radoc-2011-Final.pdf"
-            ,"files/Radoc-2012-Final.pdf"
-            ,"files/Radoc-2013-Final.pdf"
-            ,"files/Radoc-2014-Final.pdf"
-            ,"files/Radoc-2015-Final.pdf"};
+            "files/Radoc-2011-Final.pdf"};
         
         for(String file : files){
             Document pdf = PDF.open(file);
@@ -44,39 +45,114 @@ public class ExtratorRADOC {
             FileWriter fw = new FileWriter(newFile.getAbsoluteFile());
             BufferedWriter bw = new BufferedWriter(fw);
             String newText = removeDiacriticalMarks(text.toString());
-            bw.write(newText.trim().replaceAll("(\\s{2})+"," "));
+            bw.write(newText.trim().replaceAll("(\\s{2})+|([\n])+"," "));
             bw.close();
             
-            getAtividadesOrientacao(newText);
+            //getAtividadesOrientacao(newText);
+            List<AtividadesExtensao> list = getAtividadesExtensao(newText);
+            //for(AtividadesExtensao s: list){
+            //    System.out.println(s.toString());
+            //}
             //System.out.println(file);
             //System.out.println(text);
         }
     }
     
     
-    public static void getAtividadesOrientacao(String text)
+    public static List<String> getAtividadesOrientacao(String text)
     {
         int aux = text.indexOf("Atividades de orientacao");
         System.out.println(aux);
         int aux2 = text.indexOf("Atividades em projetos");
         System.out.println(aux2);
         text = text.substring(aux,aux2);
-        Pattern pattern = Pattern.compile("(Titulo\\s+do\\s+trabalho:\\s*[a-zA-Z:_ .-]*\\s*Tabela:)|(CHA:\\s*\\d+\\s*(Data\\s*inicio:\\s*)?\\d{2}\\/\\d{2}\\/\\d{4}\\s*(Data\\s*termino:\\s*)?\\d{2}\\/\\d{2}\\/\\d{4})+",Pattern.CASE_INSENSITIVE);
-        // in case you would like to ignore case sensitivity,
-        // you could use this statement:
-        // Pattern pattern = Pattern.compile("\\s+", Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile(Regex.REGEX_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(text);
-        // check all occurance
-        StringBuilder str = new StringBuilder();
-        int index=1;
-        int auxIdx=1;
+        List<String> listMatches = new ArrayList<>();       
         while (matcher.find()) {
-            String temp = matcher.group().replaceAll("(Titulo do trabalho:\\s*)|(\\s*Tabela:)|(CHA:\\s*)|(Data\\s*inicio:\\s*)|(Data\\s*termino:\\s*)+","");
+            String temp = matcher.group().replaceAll(Regex.REGEX_REPLACE_ALL_ATIVIDADES_ORIENTACAO,"");
             temp = temp.replaceAll("(\\s{2})+",";");
-            str.append(temp).append(";");
+            listMatches.add(temp);
         }
-        System.out.println(str.toString());
+        return listMatches;
     }
+    
+    public static List<AtividadesExtensao> getAtividadesExtensao(String text){
+        int initScope = text.toLowerCase().indexOf("atividades de extensao");
+        int finalScope = text.toLowerCase().indexOf("atividades de qualificacao");
+        String scopeText = text.substring(initScope, finalScope);
+        
+        Pattern pattern = Pattern.compile(Regex.REGEX_TITULO_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(scopeText);
+        List<AtividadesExtensao> listMatches = new ArrayList<>();
+        AtividadesExtensao atividadesExtensao;
+        int i=0;
+        while(matcher.find()){
+            String temp = matcher.group().replaceAll("(\\s*Tabela:\\s*)|(\\s*CHA:)","");
+            //atividadesExtensao = new AtividadesExtensao();
+            //atividadesExtensao.setId(i);
+            //atividadesExtensao.setDescription(temp);
+            //listMatches.add(atividadesExtensao);
+            //++i;
+            System.out.println(temp);
+        }
+        pattern = Pattern.compile(Regex.REGEX_CHA_ATIVIDADES,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(scopeText);
+        i=0;
+        while(matcher.find()){
+            int temp = Integer.valueOf(matcher.group().replaceAll("(\\s*CHA:)","").trim());
+            //atividadesExtensao = listMatches.get(i);
+            //atividadesExtensao.setHours(temp);
+            //++i;
+            System.out.println(temp);
+        }
+        pattern = Pattern.compile(Regex.REGEX_DESCRICAO_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(scopeText);
+        i=0;
+        while(matcher.find()){
+            String temp = matcher.group().replaceAll("(\\s*Descricao da atividade:\\s*)|(\\s*Descricao da clientela:\\s*)","").trim();
+            //atividadesExtensao = listMatches.get(i);
+            //temp += ", ";
+            //temp += atividadesExtensao.getDescription();
+            //atividadesExtensao.setDescription(temp);
+            //++i;
+            System.out.println(temp);
+        }
+        pattern = Pattern.compile(Regex.REGEX_DESCRICAO_CLIENTELA_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(scopeText);
+        i=0;
+        while(matcher.find()){
+            String temp = matcher.group().replaceAll("(\\s*Descricao da clientela:\\s*)|(\\s*Tabela:\\s*)","").trim();
+            //atividadesExtensao = listMatches.get(i);
+            //temp += ", ";
+            //temp += atividadesExtensao.getDescription();
+            //atividadesExtensao.setDescription(temp);
+            //++i;
+            System.out.println(temp);
+        }
+        pattern = Pattern.compile(Regex.REGEX_DATA_INICIO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(scopeText);
+        i=0;
+        while(matcher.find()){
+            String temp = matcher.group().replaceAll("(\\s*Data\\s*inicio:\\s*)","").trim();
+            //atividadesExtensao = listMatches.get(i);
+            //atividadesExtensao.setInitDate(temp);
+            //++i;
+            System.out.println(temp);
+        }
+        pattern = Pattern.compile(Regex.REGEX_DATA_TERMINO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(scopeText);
+        i=0;
+        while(matcher.find()){
+            String temp = matcher.group().replaceAll("(\\s*Data\\s*termino:\\s*)","").trim();
+            //atividadesExtensao = listMatches.get(i);
+            //atividadesExtensao.setFinalDate(temp);
+            //++i;
+            System.out.println(temp);
+        }
+        return listMatches.size()>0 ? listMatches : null;
+    }
+    
     public static String removeDiacriticalMarks(String string) {
         return Normalizer.normalize(string, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
     }
