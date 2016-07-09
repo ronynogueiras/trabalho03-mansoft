@@ -30,4 +30,7 @@ public class Regex {
     public static final String REGEX_TITULO_ATIVIDADES_QUALIFICACAO = "(Tabela:\\s*[a-zA-Z0-9 \\-\\(\\),.><=|/]+(((Descricao:\\s*)?)|(Data:\\s*)?))+";
     public static final String REGEX_DESCRICAO_ATIVIDADES_QUALIFICACAO = "(Descricao:\\s*[a-zA-Z \\-\\(\\),.0-9]+CHA:)+";
     public static final String REGEX_DESCRICAO_ATIVIDADES_ADMINISTRATIVAS = "(Descricao:\\s*[a-zA-Z0-9 \\-\\(\\),.><=|/]+Orgao emissor)+";
+    public static final String REGEX_DESCRICAO_PRODUTO = "(Descricao do produto:\\s*[a-zA-Z0-9 \\-(),.><=|/]+((Titulo do produto:)|(Data:)))";
+    public static final String REGEX_TITULO_PRODUTO = "(Titulo do produto:\\s*[a-zA-Z0-9 \\-(),.><=|/:]+Autoria:)";
+    public static final String REGEX_DATA_PRODUTO = "(Data:\\s*\\d{2}\\/\\d{2}\\/\\d{4}\\s*Ano de publicacao:)";
 }

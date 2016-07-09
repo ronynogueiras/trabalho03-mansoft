@@ -50,7 +50,10 @@ public class ExtratorRADOC {
             bw.close();
             
             //getAtividadesOrientacao(newText);
-            getAtividadesExtensao(novoTexto);
+            List<Atividade> listExtensao = getAtividadesExtensao(novoTexto);
+            for(Atividade a : listExtensao){
+                System.out.println(a.toString());
+            }
             List<Atividade> listOrientacao = getAtividadesOrientacao(novoTexto);
             for(Atividade a : listOrientacao){
                 System.out.println(a.toString());
@@ -63,6 +66,11 @@ public class ExtratorRADOC {
             for(Atividade a: listAdministrativa){
                 System.out.println(a.toString());
             }
+            List<Atividade> listProdutos = getProdutos(novoTexto);;
+            for(Atividade a: listProdutos){
+                System.out.println(a.toString());
+            }
+            
             //System.out.println(file);
             //System.out.println(text);
         }
@@ -336,6 +344,49 @@ public class ExtratorRADOC {
             String temp = correspondente.group().replaceAll("(\\s*Data termino:)\\s*","");
             atividade = listaAtividades.get(i);
             atividade.setDataTermino(temp);
+            ++i;
+        }
+        return listaAtividades;
+    }
+    
+    public static List<Atividade> getProdutos(final String text){
+        final String tipo = "produtos";
+        int escopoInicio = text.toLowerCase().indexOf("produtos");
+        int escopoFinal = text.length();
+        String escopoTexto = text.substring(escopoInicio,escopoFinal);
+        Pattern padrao = Pattern.compile(Regex.REGEX_DESCRICAO_PRODUTO,Pattern.CASE_INSENSITIVE);
+        Matcher correspondente = padrao.matcher(escopoTexto);
+        List<Atividade> listaAtividades = new ArrayList<>();
+        Atividade atividade;
+        int i=0;
+        while(correspondente.find()){
+            String temp = correspondente.group().replaceAll("(\\s*Descricao do produto:\\s*)|(\\s*Titulo do produto:\\s*)|(\\s*Data:\\s*)","");
+            atividade = new Atividade();
+            atividade.setId(i);
+            atividade.setDescricao(temp);
+            atividade.setTipo(tipo);
+            listaAtividades.add(atividade);
+            ++i;            
+        }
+        padrao = Pattern.compile(Regex.REGEX_TITULO_PRODUTO,Pattern.CASE_INSENSITIVE);
+        correspondente = padrao.matcher(escopoTexto);       
+        i=0;
+        while(correspondente.find()){
+            String temp = correspondente.group().replaceAll("(\\s*Titulo do produto:\\s*)|(\\s*Autoria:\\s*)","");
+            atividade = listaAtividades.get(i);
+            temp += ", ";
+            temp += atividade.getDescricao();
+            atividade.setDescricao(temp);
+            ++i;
+        }
+        padrao = Pattern.compile(Regex.REGEX_DATA_PRODUTO,Pattern.CASE_INSENSITIVE);
+        correspondente = padrao.matcher(escopoTexto);       
+        i=0;
+        while(correspondente.find()){
+            String temp = correspondente.group().replaceAll("(\\s*Data:\\s*)|(\\s*Ano de publicacao:\\s*)","");
+            atividade = listaAtividades.get(i);
+            atividade.setDataInicio(tipo);
+            atividade.setDataTermino(tipo);
             ++i;
         }
         return listaAtividades;
