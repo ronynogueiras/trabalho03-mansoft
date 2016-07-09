@@ -51,7 +51,10 @@ public class ExtratorRADOC {
             
             //getAtividadesOrientacao(newText);
             //List<AtividadesExtensao> list = getAtividadesExtensao(novoTexto);
-            getAtividadesExtensao(novoTexto);
+            List<Atividade> at = getAtividadesExtensao(novoTexto);
+            for(Atividade a: at){
+                System.out.println(a.toString());
+            }
             //for(AtividadesExtensao s: list){
             //    System.out.println(s.toString());
             //}
@@ -79,7 +82,8 @@ public class ExtratorRADOC {
         return listMatches;
     }
     
-    public static void getAtividadesExtensao(String text){
+    public static List<Atividade> getAtividadesExtensao(String text){
+        final String tipo = "extensao";
         int escopoInicio = text.toLowerCase().indexOf("atividades de extensao");
         int escopoFinal = text.toLowerCase().indexOf("atividades de qualificacao");
         String escopoTexto = text.substring(escopoInicio,escopoFinal);
@@ -93,9 +97,9 @@ public class ExtratorRADOC {
             atividade = new Atividade();
             atividade.setId(i);
             atividade.setDescricao(temp);
+            atividade.setTipo(tipo);
             listaAtividades.add(atividade);
             ++i;
-            System.out.println(temp);
         }
         padrao = Pattern.compile(Regex.REGEX_CHA_ATIVIDADES,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
@@ -105,7 +109,6 @@ public class ExtratorRADOC {
             atividade = listaAtividades.get(i);
             atividade.setCargaHoraria(temp);
             ++i;
-            System.out.println(temp);
         }
         padrao = Pattern.compile(Regex.REGEX_DESCRICAO_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
@@ -117,19 +120,17 @@ public class ExtratorRADOC {
             temp += atividade.getDescricao();
             atividade.setDescricao(temp);
             ++i;
-            System.out.println(temp);
         }
         padrao = Pattern.compile(Regex.REGEX_DESCRICAO_CLIENTELA_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
         i=0;
         while(correspondente.find()){
             String temp = correspondente.group().replaceAll("(\\s*Descricao da clientela:\\s*)|(\\s*Tabela:\\s*)","").trim();
-            System.out.println(temp);
-            //atividade = listaAtividades.get(i);
-            //temp += ", ";
-            //temp += atividade.getDescricao();
-            //atividade.setDescricao(temp);
-            //++i;
+            atividade = listaAtividades.get(i);
+            temp += ", ";
+            temp += atividade.getDescricao();
+            atividade.setDescricao(temp);
+            ++i;
         }
         padrao = Pattern.compile(Regex.REGEX_DATA_INICIO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
@@ -139,7 +140,6 @@ public class ExtratorRADOC {
             atividade = listaAtividades.get(i);
             atividade.setDataInicio(temp);
             ++i;
-            System.out.println(temp);
         }
         padrao = Pattern.compile(Regex.REGEX_DATA_TERMINO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
@@ -149,9 +149,8 @@ public class ExtratorRADOC {
             atividade = listaAtividades.get(i);
             atividade.setDataTermino(temp);
             ++i;
-            System.out.println(temp);
         }
-        //return listaAtividades.size()>0 ? listaAtividades : null;
+        return listaAtividades.size()>0 ? listaAtividades : null;
     }
     
     public static String removeAcentos(String string) {
