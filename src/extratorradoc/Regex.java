@@ -27,6 +27,7 @@ public class Regex {
     public static final String REGEX_CHA_ATIVIDADES = "(CHA:\\s*\\d+)";
     public static final String REGEX_DATA_INICIO_ATIVIDADES = "(Data\\s*(de)?\\s*inicio:\\s*\\d{2}\\/\\d{2}\\/\\d{4})";
     public static final String REGEX_DATA_TERMINO_ATIVIDADES = "(Data\\s*(de)?\\s*termino:\\s*\\d{2}\\/\\d{2}\\/\\d{4})";
-    public static final String REGEX_TITULO_ATIVIDADES_QUALIFICACAO = "(Tabela:\\s*[a-zA-Z \\-\\(\\),.]+(((Descricao:\\s*)?)|(Data:\\s*)?))+";
+    public static final String REGEX_TITULO_ATIVIDADES_QUALIFICACAO = "(Tabela:\\s*[a-zA-Z0-9 \\-\\(\\),.><=|/]+(((Descricao:\\s*)?)|(Data:\\s*)?))+";
     public static final String REGEX_DESCRICAO_ATIVIDADES_QUALIFICACAO = "(Descricao:\\s*[a-zA-Z \\-\\(\\),.0-9]+CHA:)+";
+    public static final String REGEX_DESCRICAO_ATIVIDADES_ADMINISTRATIVAS = "(Descricao:\\s*[a-zA-Z0-9 \\-\\(\\),.><=|/]+Orgao emissor)+";
 }
