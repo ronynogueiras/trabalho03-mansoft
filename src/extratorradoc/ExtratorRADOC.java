@@ -45,11 +45,13 @@ public class ExtratorRADOC {
             FileWriter fw = new FileWriter(novoArquivo.getAbsoluteFile());
             BufferedWriter bw = new BufferedWriter(fw);
             String novoTexto = removeAcentos(texto.toString());
-            novoTexto = novoTexto.trim().replaceAll("(\\s{2})+|([\n\r])+"," ");
+            novoTexto = novoTexto.trim()
+                    .replaceAll("(\\s{2})+|([\n\r])+"," ")
+                    .replaceAll("Data:[ 0-9/: a-zA-Z]*(Pagina[ 0-9/]*)", "")
+                    .replaceAll("UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES EXTRATO DAS ATIVIDADES - ANO BASE: [0-9]{4}","");
             bw.write(novoTexto);
             bw.close();
-            
-            //getAtividadesOrientacao(newText);
+
             getAtividadesExtensao(novoTexto);
             List<Atividade> listOrientacao = getAtividadesOrientacao(novoTexto);
             for(Atividade a : listOrientacao){
@@ -59,6 +61,7 @@ public class ExtratorRADOC {
             for(Atividade a : listEspeciais){
                 System.out.println(a.toString());
             }
+
             //for(AtividadesExtensao s: list){
             //    System.out.println(s.toString());
             //}
@@ -71,7 +74,7 @@ public class ExtratorRADOC {
         int aux = text.toLowerCase().indexOf("atividades academicas especiais");
         int aux2 = text.toLowerCase().indexOf("atividades administrativas");
         text = text.substring(aux,aux2).replace("\n", " ").replace("\r", " ");
-        Pattern pattern = Pattern.compile(Regex.TITULO_DO_TRABALHO_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile(Regex.TABELA_ATIVIDADES_ESPECIAIS,Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(text);
         List<Atividade> listMatches = new ArrayList<>();
         Atividade atividade;
@@ -79,11 +82,38 @@ public class ExtratorRADOC {
         while(matcher.find()){
             atividade = new Atividade();
             atividade.setTipo("Acadêmicas Especiais");
-            String descricao = matcher.group().replaceAll("(Tabela:)","").trim();
+            String descricao = matcher.group().replaceAll("(Tabela:|CHA:)","").trim();
             atividade.setId(i);
             atividade.setDescricao(descricao);
             i++;
             listMatches.add(atividade);
+        }
+        pattern = Pattern.compile(Regex.CHA_ATIVIDADES_ESPECIAIS,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            int cha = Integer.valueOf(matcher.group().replaceAll("CHA:","").trim());
+            atividade.setCargaHoraria(cha);
+            i++;
+        }
+        pattern = Pattern.compile(Regex.DATA_INICIO_ATIVIDADES_ESPECIAIS,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            String dataInicio = matcher.group().replaceAll("(Data inicio:)","").trim();
+            atividade.setDataInicio(dataInicio);
+            i++;
+        }
+        pattern = Pattern.compile(Regex.DATA_TERMINO_ATIVIDADES_ESPECIAIS,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            String dataTermino = matcher.group().replaceAll("(Data termino:)","").trim();
+            atividade.setDataTermino(dataTermino);
+            i++;
         }
         return listMatches;
     }
