@@ -50,8 +50,15 @@ public class ExtratorRADOC {
             bw.close();
             
             //getAtividadesOrientacao(newText);
-            List<AtividadesExtensao> listExtencao = getAtividadesExtensao(newText);
-            List<AtividadesOrientacao> listOrientacao = getAtividadesOrientacao(newText);
+            getAtividadesExtensao(novoTexto);
+            List<Atividade> listOrientacao = getAtividadesOrientacao(novoTexto);
+            for(Atividade a : listOrientacao){
+                System.out.println(a.toString());
+            }
+            List<Atividade> listEspeciais = getAtividadesEspeciais(novoTexto);
+            for(Atividade a : listEspeciais){
+                System.out.println(a.toString());
+            }
             //for(AtividadesExtensao s: list){
             //    System.out.println(s.toString());
             //}
@@ -60,27 +67,82 @@ public class ExtratorRADOC {
         }
     }
     
-    
-    public static List<AtividadesOrientacao> getAtividadesOrientacao(String text)
-    {
-        int aux = text.indexOf("Atividades de orientacao");
-        System.out.println(aux);
-        int aux2 = text.indexOf("Atividades em projetos");
-        System.out.println(aux2);
+    public static List<Atividade> getAtividadesEspeciais(String text){
+        int aux = text.toLowerCase().indexOf("atividades academicas especiais");
+        int aux2 = text.toLowerCase().indexOf("atividades administrativas");
         text = text.substring(aux,aux2).replace("\n", " ").replace("\r", " ");
         Pattern pattern = Pattern.compile(Regex.TITULO_DO_TRABALHO_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(text);
-        List<AtividadesOrientacao> listMatches = new ArrayList<>();
-        AtividadesOrientacao atividade;
+        List<Atividade> listMatches = new ArrayList<>();
+        Atividade atividade;
+        int i = 0;
+        while(matcher.find()){
+            atividade = new Atividade();
+            atividade.setTipo("Acadêmicas Especiais");
+            String descricao = matcher.group().replaceAll("(Tabela:)","").trim();
+            atividade.setId(i);
+            atividade.setDescricao(descricao);
+            i++;
+            listMatches.add(atividade);
+        }
+        return listMatches;
+    }
+    
+    public static List<Atividade> getAtividadesOrientacao(String text)
+    {
+        int aux = text.indexOf("Atividades de orientacao");
+        int aux2 = text.indexOf("Atividades em projetos");
+        text = text.substring(aux,aux2).replace("\n", " ").replace("\r", " ");
+        Pattern pattern = Pattern.compile(Regex.TITULO_DO_TRABALHO_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(text);
+        List<Atividade> listMatches = new ArrayList<>();
+        Atividade atividade;
         int i = 0;
         while (matcher.find()) {
-            atividade = new AtividadesOrientacao();
-            String temp = matcher.group().replaceAll("(Titulo do trabalho:|Tabela:|Orientador Nivel:)","");
-            atividade.setDescricao(temp);
-            atividade.set
+            atividade = new Atividade();
+            atividade.setTipo("Orientação");
+            String descricao = matcher.group().replaceAll("(Titulo do trabalho:|Tabela:|Orientador Nivel:)","").trim();
+            atividade.setId(i);
+            atividade.setDescricao(descricao);
             i++;
-            //temp = temp.replaceAll("(\\s{2})+",";");
             listMatches.add(atividade);
+        }
+        pattern = Pattern.compile(Regex.TABELA_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            String temp = matcher.group().replaceAll("(Titulo do trabalho:|Tabela:|Orientador Nivel:)","").trim();
+            String descricao = atividade.getDescricao() + ", " + temp;
+            atividade.setDescricao(descricao);
+            i++;
+        }
+        pattern = Pattern.compile(Regex.CHA_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            int cha = Integer.valueOf(matcher.group().replaceAll("(CHA:)","").trim());
+            atividade.setCargaHoraria(cha);
+            i++;
+        }
+        pattern = Pattern.compile(Regex.DATA_INICIO_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            String dataInicio = matcher.group().replaceAll("(Data inicio:)","").trim();
+            atividade.setDataInicio(dataInicio);
+            i++;
+        }
+        pattern = Pattern.compile(Regex.DATA_TERMINO_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            String dataTermino = matcher.group().replaceAll("(Data termino:)","").trim();
+            atividade.setDataTermino(dataTermino);
+            i++;
         }
         return listMatches;
     }
