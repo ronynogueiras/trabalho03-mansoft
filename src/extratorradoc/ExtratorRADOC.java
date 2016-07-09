@@ -49,7 +49,8 @@ public class ExtratorRADOC {
             bw.close();
             
             //getAtividadesOrientacao(newText);
-            List<AtividadesExtensao> list = getAtividadesExtensao(newText);
+            List<AtividadesExtensao> listExtencao = getAtividadesExtensao(newText);
+            List<AtividadesOrientacao> listOrientacao = getAtividadesOrientacao(newText);
             //for(AtividadesExtensao s: list){
             //    System.out.println(s.toString());
             //}
@@ -59,20 +60,26 @@ public class ExtratorRADOC {
     }
     
     
-    public static List<String> getAtividadesOrientacao(String text)
+    public static List<AtividadesOrientacao> getAtividadesOrientacao(String text)
     {
         int aux = text.indexOf("Atividades de orientacao");
         System.out.println(aux);
         int aux2 = text.indexOf("Atividades em projetos");
         System.out.println(aux2);
-        text = text.substring(aux,aux2);
-        Pattern pattern = Pattern.compile(Regex.REGEX_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
+        text = text.substring(aux,aux2).replace("\n", " ").replace("\r", " ");
+        Pattern pattern = Pattern.compile(Regex.TITULO_DO_TRABALHO_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(text);
-        List<String> listMatches = new ArrayList<>();       
+        List<AtividadesOrientacao> listMatches = new ArrayList<>();
+        AtividadesOrientacao atividade;
+        int i = 0;
         while (matcher.find()) {
-            String temp = matcher.group().replaceAll(Regex.REGEX_REPLACE_ALL_ATIVIDADES_ORIENTACAO,"");
-            temp = temp.replaceAll("(\\s{2})+",";");
-            listMatches.add(temp);
+            atividade = new AtividadesOrientacao();
+            String temp = matcher.group().replaceAll("(Titulo do trabalho:|Tabela:|Orientador Nivel:)","");
+            atividade.setDescricao(temp);
+            atividade.set
+            i++;
+            //temp = temp.replaceAll("(\\s{2})+",";");
+            listMatches.add(atividade);
         }
         return listMatches;
     }
