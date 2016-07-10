@@ -14,22 +14,24 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static javax.swing.text.html.HTML.Tag.HEAD;
+
 public class ExtratorRADOC {
 
-    
-    
-    
+
+
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        parse();        
+        parse();
     }
     public static void parse() throws IOException
     {
         String[] files = new String[]{
             "files/Radoc-2011-Final.pdf"};
-        
+
         for(String file : files){
             Document pdf = PDF.open(file);
             StringBuilder texto = new StringBuilder(1024);
@@ -45,11 +47,12 @@ public class ExtratorRADOC {
             FileWriter fw = new FileWriter(novoArquivo.getAbsoluteFile());
             BufferedWriter bw = new BufferedWriter(fw);
             String novoTexto = removeAcentos(texto.toString());
-            novoTexto = novoTexto.trim().replaceAll("(\\s{2})+|([\n\r])+"," ");
+            novoTexto = novoTexto.trim()
+                    .replaceAll("(\\s{2})+|([\n\r])+"," ")
+                    .replaceAll("Data:[ 0-9/: a-zA-Z]*(Pagina[ 0-9/]*)", "")
+                    .replaceAll("UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES EXTRATO DAS ATIVIDADES - ANO BASE: [0-9]{4}","");
             bw.write(novoTexto);
             bw.close();
-            
-            //getAtividadesOrientacao(newText);
             getAtividadesExtensao(novoTexto);
             List<Atividade> listOrientacao = getAtividadesOrientacao(novoTexto);
             for(Atividade a : listOrientacao){
@@ -59,6 +62,7 @@ public class ExtratorRADOC {
             for(Atividade a : listEspeciais){
                 System.out.println(a.toString());
             }
+
             //for(AtividadesExtensao s: list){
             //    System.out.println(s.toString());
             //}
@@ -66,12 +70,12 @@ public class ExtratorRADOC {
             //System.out.println(text);
         }
     }
-    
+
     public static List<Atividade> getAtividadesEspeciais(String text){
         int aux = text.toLowerCase().indexOf("atividades academicas especiais");
         int aux2 = text.toLowerCase().indexOf("atividades administrativas");
         text = text.substring(aux,aux2).replace("\n", " ").replace("\r", " ");
-        Pattern pattern = Pattern.compile(Regex.TITULO_DO_TRABALHO_ATIVIDADES_ORIENTACAO,Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile(Regex.TABELA_ATIVIDADES_ESPECIAIS,Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(text);
         List<Atividade> listMatches = new ArrayList<>();
         Atividade atividade;
@@ -79,15 +83,42 @@ public class ExtratorRADOC {
         while(matcher.find()){
             atividade = new Atividade();
             atividade.setTipo("Acadêmicas Especiais");
-            String descricao = matcher.group().replaceAll("(Tabela:)","").trim();
+            String descricao = matcher.group().replaceAll("(Tabela:|CHA:)","").trim();
             atividade.setId(i);
             atividade.setDescricao(descricao);
             i++;
             listMatches.add(atividade);
         }
+        pattern = Pattern.compile(Regex.CHA_ATIVIDADES_ESPECIAIS,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            int cha = Integer.valueOf(matcher.group().replaceAll("CHA:","").trim());
+            atividade.setCargaHoraria(cha);
+            i++;
+        }
+        pattern = Pattern.compile(Regex.DATA_INICIO_ATIVIDADES_ESPECIAIS,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            String dataInicio = matcher.group().replaceAll("(Data inicio:)","").trim();
+            atividade.setDataInicio(dataInicio);
+            i++;
+        }
+        pattern = Pattern.compile(Regex.DATA_TERMINO_ATIVIDADES_ESPECIAIS,Pattern.CASE_INSENSITIVE);
+        matcher = pattern.matcher(text);
+        i = 0;
+        while (matcher.find()) {
+            atividade = listMatches.get(i);
+            String dataTermino = matcher.group().replaceAll("(Data termino:)","").trim();
+            atividade.setDataTermino(dataTermino);
+            i++;
+        }
         return listMatches;
     }
-    
+
     public static List<Atividade> getAtividadesOrientacao(String text)
     {
         int aux = text.indexOf("Atividades de orientacao");
@@ -146,9 +177,8 @@ public class ExtratorRADOC {
         }
         return listMatches;
     }
-    
-    public static List<Atividade> getAtividadesExtensao(String text){
-        final String tipo = "extensao";
+
+    public static void getAtividadesExtensao(String text){
         int escopoInicio = text.toLowerCase().indexOf("atividades de extensao");
         int escopoFinal = text.toLowerCase().indexOf("atividades de qualificacao");
         String escopoTexto = text.substring(escopoInicio,escopoFinal);
@@ -162,9 +192,9 @@ public class ExtratorRADOC {
             atividade = new Atividade();
             atividade.setId(i);
             atividade.setDescricao(temp);
-            atividade.setTipo(tipo);
             listaAtividades.add(atividade);
             ++i;
+            System.out.println(temp);
         }
         padrao = Pattern.compile(Regex.REGEX_CHA_ATIVIDADES,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
@@ -174,6 +204,7 @@ public class ExtratorRADOC {
             atividade = listaAtividades.get(i);
             atividade.setCargaHoraria(temp);
             ++i;
+            System.out.println(temp);
         }
         padrao = Pattern.compile(Regex.REGEX_DESCRICAO_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
@@ -185,17 +216,19 @@ public class ExtratorRADOC {
             temp += atividade.getDescricao();
             atividade.setDescricao(temp);
             ++i;
+            System.out.println(temp);
         }
         padrao = Pattern.compile(Regex.REGEX_DESCRICAO_CLIENTELA_ATIVIDADES_EXTENSAO,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
         i=0;
         while(correspondente.find()){
             String temp = correspondente.group().replaceAll("(\\s*Descricao da clientela:\\s*)|(\\s*Tabela:\\s*)","").trim();
-            atividade = listaAtividades.get(i);
-            temp += ", ";
-            temp += atividade.getDescricao();
-            atividade.setDescricao(temp);
-            ++i;
+            System.out.println(temp);
+            //atividade = listaAtividades.get(i);
+            //temp += ", ";
+            //temp += atividade.getDescricao();
+            //atividade.setDescricao(temp);
+            //++i;
         }
         padrao = Pattern.compile(Regex.REGEX_DATA_INICIO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
@@ -205,6 +238,7 @@ public class ExtratorRADOC {
             atividade = listaAtividades.get(i);
             atividade.setDataInicio(temp);
             ++i;
+            System.out.println(temp);
         }
         padrao = Pattern.compile(Regex.REGEX_DATA_TERMINO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
         correspondente = padrao.matcher(escopoTexto);
@@ -214,68 +248,9 @@ public class ExtratorRADOC {
             atividade = listaAtividades.get(i);
             atividade.setDataTermino(temp);
             ++i;
+            System.out.println(temp);
         }
-        return listaAtividades.size()>0 ? listaAtividades : null;
-    }
-    
-    public static List<Atividade> getAtividadesQualificao(final String text){
-        final String tipo = "qualificacao";
-        int escopoInicio = text.toLowerCase().indexOf("atividades de qualificacao");
-        int escopoFinal = text.toLowerCase().indexOf("atividades academicas especiais");
-        String escopoTexto = text.substring(escopoInicio,escopoFinal);
-        Pattern padrao = Pattern.compile(Regex.REGEX_TITULO_ATIVIDADES_QUALIFICACAO,Pattern.CASE_INSENSITIVE);
-        Matcher correspondente = padrao.matcher(escopoTexto);
-        List<Atividade> listaAtividades = new ArrayList<>();
-        Atividade atividade;
-        int i=0;
-        while(correspondente.find()){
-            String temp = correspondente.group().replaceAll("(\\s*Tabela:\\s*)|(\\s*Descricao:\\s*)|(\\s*Data:\\s*)","");
-            atividade = new Atividade();
-            atividade.setId(i);
-            atividade.setDescricao(temp);
-            atividade.setTipo(tipo);
-            listaAtividades.add(atividade);
-            ++i;
-        }
-        padrao = Pattern.compile(Regex.REGEX_CHA_ATIVIDADES,Pattern.CASE_INSENSITIVE);
-        correspondente = padrao.matcher(escopoTexto);       
-        i=0;
-        while(correspondente.find()){
-            int cha = Integer.valueOf(correspondente.group().replaceAll("(\\s*CHA:\\s*)|(\\s*Data\\s+inicio:\\s*)",""));
-            atividade = listaAtividades.get(i);
-            atividade.setCargaHoraria(cha);
-            ++i;
-        }
-        padrao = Pattern.compile(Regex.REGEX_DESCRICAO_ATIVIDADES_QUALIFICACAO,Pattern.CASE_INSENSITIVE);
-        correspondente = padrao.matcher(escopoTexto);       
-        i=0;
-        while(correspondente.find()){
-            String temp = correspondente.group().replaceAll("(\\s*CHA:\\s*)|(\\s*Descricao:\\s*)","");
-            atividade = listaAtividades.get(i);
-            temp += ", ";
-            temp += atividade.getDescricao();
-            atividade.setDescricao(temp);
-            ++i;
-        }
-        padrao = Pattern.compile(Regex.REGEX_DATA_INICIO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
-        correspondente = padrao.matcher(escopoTexto);       
-        i=0;
-        while(correspondente.find()){
-            String temp = correspondente.group().replaceAll("(\\s*Data de inicio:)\\s*","");
-            atividade = listaAtividades.get(i);
-            atividade.setDataInicio(temp);
-            ++i;
-        }
-        padrao = Pattern.compile(Regex.REGEX_DATA_TERMINO_ATIVIDADES,Pattern.CASE_INSENSITIVE);
-        correspondente = padrao.matcher(escopoTexto);       
-        i=0;
-        while(correspondente.find()){
-            String temp = correspondente.group().replaceAll("(\\s*Data de termino:)\\s*","");
-            atividade = listaAtividades.get(i);
-            atividade.setDataTermino(temp);
-            ++i;
-        }
-        return listaAtividades;
+        //return listaAtividades.size()>0 ? listaAtividades : null;
     }
     
     public static String removeAcentos(String string) {
