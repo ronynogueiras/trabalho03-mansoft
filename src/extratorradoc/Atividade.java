@@ -103,13 +103,11 @@ public class Atividade {
     }
     @Override
     public String toString(){
-        String str = "ID: "+this.id+"\n";
-        str += "Tipo: "+this.tipo+"\n";
-        str += "Carga Horaria: "+this.cargaHoraria+"\n";
-        str += "Descricao: "+this.descricao+"\n";
-        str += "Data Inicio: "+this.dataInicio+"\n";
-        str += "Data Termino:"+this.dataTermino+"\n";
-        str += "-------------------------";
+        String str = this.id+";";
+        str+= this.descricao+";";
+        str += this.cargaHoraria+";";
+        str += this.dataInicio+";";
+        str += this.dataTermino+";";
         return str;
     }
     
