@@ -22,35 +22,35 @@ Data Termino:31/12/2015
 ID: 0
 Tipo: Extensão
 Carga Horaria: 2
-Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, 
+Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, participantes da xv jges tabela
 Data Inicio: 
 Data Termino:
 -------------------------
 ID: 1
 Tipo: Extensão
 Carga Horaria: 2
-Descricao: promocao ou producao de eventos artisticos e cientificos nacionais - presidente, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, 
+Descricao: promocao ou producao de eventos artisticos e cientificos nacionais - presidente, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, participantes da xv jges tabela
 Data Inicio: 
 Data Termino:
 -------------------------
 ID: 2
 Tipo: Extensão
 Carga Horaria: 2
-Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, 
+Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, participantes da xv jges tabela
 Data Inicio: 
 Data Termino:
 -------------------------
 ID: 3
 Tipo: Extensão
 Carga Horaria: 2
-Descricao: promocao ou producao de eventos artisticos e cientificos nacionais - comissao organizadora, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, 
+Descricao: promocao ou producao de eventos artisticos e cientificos nacionais - comissao organizadora, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, participantes da xv jges tabela
 Data Inicio: 
 Data Termino:
 -------------------------
 ID: 4
 Tipo: Extensão
 Carga Horaria: 2
-Descricao: promocao ou producao de eventos artisticos e cientificos regionais - comissao organizadora, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, 
+Descricao: promocao ou producao de eventos artisticos e cientificos regionais - comissao organizadora, palestra ministrada: uma certificacao para a qualidade de produto de software brasileiro, participantes da xv jges tabela
 Data Inicio: 
 Data Termino:
 -------------------------
@@ -134,56 +134,126 @@ Data Termino:31/12/2015
 ID: 0
 Tipo: Administração
 Carga Horaria: 150
-Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante (nde) do curso de engenharia de software orgao emissor  inf/ufg  orgao servido  inf portaria  019/2010
+Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante (nde) do curso de engenharia de software
 Data Inicio: 01/01/2015
 Data Termino:31/12/2015
 -------------------------
 ID: 1
 Tipo: Administração
 Carga Horaria: 150
-Descricao: membros da cppd ou da comissao de avaliacao institucional ou da comissao propria de avaliacao ou da cad, membro do nucleo docente estruturante (nde) do curso de engenharia de software orgao emissor  inf/ufg  orgao servido  inf portaria  019/2010
+Descricao: membros da cppd ou da comissao de avaliacao institucional ou da comissao propria de avaliacao ou da cad, membro do nucleo docente estruturante (nde) do curso de engenharia de software
 Data Inicio: 01/01/2015
 Data Termino:31/12/2015
 -------------------------
 ID: 2
 Tipo: Administração
 Carga Horaria: 150
-Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante (nde) do curso de engenharia de software orgao emissor  inf/ufg  orgao servido  inf portaria  019/2010
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante (nde) do curso de engenharia de software
 Data Inicio: 01/01/2015
 Data Termino:31/12/2015
 -------------------------
 ID: 3
 Tipo: Administração
 Carga Horaria: 150
-Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante (nde) do curso de engenharia de software orgao emissor  inf/ufg  orgao servido  inf portaria  019/2010
+Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante (nde) do curso de engenharia de software
 Data Inicio: 01/01/2015
 Data Termino:31/12/2015
 -------------------------
 ID: 4
 Tipo: Administração
 Carga Horaria: 150
-Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante (nde) do curso de engenharia de software orgao emissor  inf/ufg  orgao servido  inf portaria  019/2010
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante (nde) do curso de engenharia de software
 Data Inicio: 01/01/2015
 Data Termino:31/12/2015
 -------------------------
 ID: 5
 Tipo: Administração
 Carga Horaria: 150
-Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante (nde) do curso de engenharia de software orgao emissor  inf/ufg  orgao servido  inf portaria  019/2010
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante (nde) do curso de engenharia de software
 Data Inicio: 01/01/2015
 Data Termino:31/12/2015
 -------------------------
 ID: 6
 Tipo: Administração
 Carga Horaria: 150
-Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante (nde) do curso de engenharia de software orgao emissor  inf/ufg  orgao servido  inf portaria  019/2010
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante (nde) do curso de engenharia de software
 Data Inicio: 01/01/2015
 Data Termino:31/12/2015
 -------------------------
 ID: 7
 Tipo: Administração
 Carga Horaria: 150
-Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante (nde) do curso de engenharia de software orgao emissor  inf/ufg  orgao servido  inf portaria  019/2010
+Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante (nde) do curso de engenharia de software
 Data Inicio: 01/01/2015
 Data Termino:31/12/2015
+-------------------------
+ID: 0
+Tipo: produtos
+Carga Horaria: 0
+Descricao: trabalho completo publicado em anais de congresso cientifico, a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
+-------------------------
+ID: 1
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
+-------------------------
+ID: 2
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
+-------------------------
+ID: 3
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
+-------------------------
+ID: 4
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
+-------------------------
+ID: 5
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
+-------------------------
+ID: 6
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
+-------------------------
+ID: 7
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer de consultoria ad hoc em comites de avaliacao de concursos e editais de publicacao de livros de editoras com corpo editorial, a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
+-------------------------
+ID: 8
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer de consultoria ad hoc para periodicos especializados com corpo editorial ou para instituicoes de fomento a pesquisa ou para livros de editoras com corpo editorial, a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
+-------------------------
+ID: 9
+Tipo: produtos
+Carga Horaria: 0
+Descricao: livro publicado com selo de editora que possua corpo editorial, a brief experience report on teaching software methods in a software engineering undergraduate course
+Data Inicio: 
+Data Termino:
 -------------------------

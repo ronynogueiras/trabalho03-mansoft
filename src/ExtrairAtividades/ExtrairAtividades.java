@@ -14,13 +14,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javafx.beans.binding.StringBinding;
-
 /**
  * Extrai atividades de arquivo RADOC
  */
 public class ExtrairAtividades {
-
     /**
      * @param args, arquivos passados por linha de comando
      */
@@ -46,6 +43,7 @@ public class ExtrairAtividades {
                     "files/Radoc-2015-Final.pdf"
             };
         }
+
         for(String file : files){
             String texto = tratarPDF(getPdfTexto(file));
             BufferedWriter bw = criarNovoArquivo(file);
@@ -62,6 +60,9 @@ public class ExtrairAtividades {
                 bw.write(atividade.toString());
             }
             for(Atividade atividade : getAtividadesAdministrativas(texto)){
+                bw.write(atividade.toString());
+            }
+            for(Atividade atividade : getProdutos(texto)){
                 bw.write(atividade.toString());
             }
             bw.close();
@@ -95,7 +96,6 @@ public class ExtrairAtividades {
      */
     private static List<Atividade> getAtividades(String regex, String texto, String tipo){
         Pattern pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
-        Matcher matcher = pattern.matcher(texto);
         List<Atividade> atividades = new ArrayList<>();
         Atividade atividade;
         int i = 0;
@@ -241,13 +241,40 @@ public class ExtrairAtividades {
     }
 
     /**
+     * Restorna lista de produtos
+     * @param text, texto do arquivo pdf
+     * @return List<Atividade>
+     */
+    public static List<Atividade> getProdutos(String text){
+        int escopoInicio = text.toLowerCase().indexOf("produtos");
+        int escopoFinal = text.length();
+        text = text.substring(escopoInicio,escopoFinal);
+        List<Atividade> atividades = getAtividades(Regex.DESCRICAO_PRODUTO, text, "produtos");
+        List<String> DESCRICAO = getValores(Regex.TITULO_PRODUTO, text);
+        List<String> DATA_INICIO = getValores(Regex.DATA, text);
+        List<String> DATA_TERMINO = getValores(Regex.DATA, text);
+
+        int i = 0;
+        for(Atividade atividade : atividades){
+            String descricao = atividade.getDescricao() +", "+ DESCRICAO.get(i);
+            if(DATA_INICIO.get(i) == DATA_TERMINO.get(i)){
+                atividade.setCargaHoraria(8);
+            }
+            atividade.setDescricao(descricao);
+            atividade.setDataInicio(DATA_INICIO.get(i));
+            atividade.setDataTermino(DATA_TERMINO.get(i));
+        }
+        return atividades;
+    }
+
+    /**
      * Remove espaços muito longos, quebras de linha, o cabeçario e o footer
      * @param texto, texto do pdf
      * @return texto devidamente tratado
      */
     public static String tratarPDF(String texto) {
         return removeAcentos(texto.trim().replaceAll("(\\s{2})+|([\n\r])+"," ")) //Remove espaços extras e quebras de linhas
-                .replaceAll("(?i)Data:[ 0-9/: a-zA-Z]*(Pagina[ 0-9/]*)", "") //Remove footer
+                .replaceAll("(?i)(data:(\\s*)?([0-9]{2}\\/)([0-9]{2}\\/)([0-9]{4})(\\s*)?([0-9]{2}:){2}([0-9]{2})(.*?)(pagina)(\\s*)?([0-9]*(\\s*)?\\/(\\s*)?[0-9]*))", "") //Remove footer
                 .replaceAll("(?i)UNIVERSIDADE(\\s+)FEDERAL(\\s+)DE(\\s+)GOIAS(\\s+)SISTEMA(\\s+)DE(\\s+)CADASTRO(\\s+)DE(\\s+)ATIVIDADES(\\s+)DOCENTES(\\s+)EXTRATO(\\s+)DAS(\\s+)ATIVIDADES(\\s+)-(\\s+)ANO(\\s+)BASE:(\\s+)[0-9]{4}","") // Remove cabeçario
                 .toLowerCase();
     }

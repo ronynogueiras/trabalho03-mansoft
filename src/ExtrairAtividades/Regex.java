@@ -34,14 +34,21 @@ public class Regex {
             "Data:|" +
             "Data\\s*(de)?\\s*inicio:|" +
             "Data\\s*(de)?\\s*termino:|" +
-            "Atividades de qualificação" +
+            "Atividades de qualificação|" +
+            "Descricao do Produto:|" +
+            "Autoria:|" +
+            "Associacao do Produto:|" +
+            "Ano de Publicacao:" +
             ")";
     public static final String TABELA = "(?i)Tabela:"+VALOR_QUALQUER+CAMPOS;
     public static final String TITULO_DO_TRABALHO = "(?i)Titulo do trabalho:"+VALOR_QUALQUER+CAMPOS;
     public static final String CHA = "(?i)CHA:"+VALOR_NUMERO;
+    public static final String DATA = "(?i)Data:"+VALOR_DATA;
     public static final String DATA_INICIO = "(?i)(Data inicio:|Data\\s*(de)?\\s*inicio:)"+VALOR_DATA;
     public static final String DATA_TERMINO = "(?i)(Data termino:|Data\\s*(de)?\\s*termino:)"+VALOR_DATA;
     public static final String DESCRICAO= "(?i)Descricao:"+VALOR_QUALQUER+CAMPOS;
     public static final String DESCRICAO_ATIVIDADE = "(?i)Descricao da atividade:"+VALOR_QUALQUER+CAMPOS;
     public static final String DESCRICAO_CLIENTELA = "(?i)Descricao da clientela:"+VALOR_QUALQUER+CAMPOS;
+    public static final String DESCRICAO_PRODUTO = "(?i)Descricao do Produto:"+VALOR_QUALQUER+CAMPOS;
+    public static final String TITULO_PRODUTO = "(?i)Titulo do Produto:"+VALOR_QUALQUER+CAMPOS;
 }

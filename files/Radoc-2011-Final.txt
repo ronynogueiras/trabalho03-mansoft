@@ -173,3 +173,171 @@ Descricao: outras atividades administrativas e/ou de representacao, membro do nu
 Data Inicio: 01/01/2011
 Data Termino:31/12/2011
 -------------------------
+ID: 0
+Tipo: produtos
+Carga Horaria: 0
+Descricao: trabalho completo publicado em anais de congresso cientifico qualis b3, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 1
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer de consultoria ad hoc para periodicos especializados com corpo editorial ou para instituicoes de fomento a pesquisa, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 2
+Tipo: produtos
+Carga Horaria: 0
+Descricao: desenvolvimento de software com divulgacao em periodicos indexados e com corpo editorial ou em anais de congresso, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 3
+Tipo: produtos
+Carga Horaria: 0
+Descricao: trabalho completo publicado em anais de congresso cientifico qualis b5, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 4
+Tipo: produtos
+Carga Horaria: 0
+Descricao: tese, dissertacao e trabalho de iniciacao cientifica premiados por instituicoes de fomento (autor e orientador), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 5
+Tipo: produtos
+Carga Horaria: 0
+Descricao: resumo expandido publicado em anais de congressos cientificos - congresso nacional, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 6
+Tipo: produtos
+Carga Horaria: 0
+Descricao: artigos em repositorios de publicacao eletronica ligados a editoras ou universidades, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 7
+Tipo: produtos
+Carga Horaria: 0
+Descricao: trabalho completo publicado em anais de congresso nao sujeitos a classificacao no qualis, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 8
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 9
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 10
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 11
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 12
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 13
+Tipo: produtos
+Carga Horaria: 0
+Descricao: trabalho completo publicado em anais de congresso cientifico qualis b5, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 14
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 15
+Tipo: produtos
+Carga Horaria: 0
+Descricao: trabalho completo publicado em anais de congresso nao sujeitos a classificacao no qualis, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 16
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 17
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 18
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 19
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 20
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 21
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 22
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------
+ID: 23
+Tipo: produtos
+Carga Horaria: 0
+Descricao: outros tipos de producao, an early aspect for model-driven transformers engineering
+Data Inicio: 25/03/2011
+Data Termino:25/03/2011
+-------------------------

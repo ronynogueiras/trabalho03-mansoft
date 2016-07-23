@@ -263,6 +263,61 @@ public class ExtrairAtividadesTest {
         }
     }
 
+    public void testGetProduto() throws IOException {
+        String texto = ExtrairAtividades.tratarPDF(ExtrairAtividades.getPdfTexto("files/Radoc-2011-Final.pdf"));
+        List<Atividade> expResult = new ArrayList<>();
+        Atividade atividade;
+        atividade = new Atividade();
+        atividade.setDescricao(ExtrairAtividades.tratarPDF("Atividades acadêmicas e administrativas designadas por portaria do Reitor, Pró-Reitor ou Diretor de Unidade Acadêmica com carga horária >=150 horas, "
+                + "Membro do Núcleo Docente Estruturante (NDE) do curso de Engenharia de Software"));
+        atividade.setCargaHoraria(150);
+        atividade.setDataInicio("01/01/2015");
+        atividade.setDataTermino("31/12/2015");
+        expResult.add(atividade);
+        atividade = new Atividade();
+        atividade.setDescricao(ExtrairAtividades.tratarPDF("Membros da CPPD ou da Comissão de Avaliação Institucional ou da Comissão Própria de Avaliação ou da CAD, "
+                + "PRESIDENTE DA COMISSÃO DE AVALIAÇÃO DOCENTE - CAD - PARA TRATAR PRIORITARIAMENTE\n" +
+                "DOS PROCESSOS DE PROMOÇÃO À CLASSE D"));
+        atividade.setCargaHoraria(120);
+        atividade.setDataInicio("01/01/2015");
+        atividade.setDataTermino("31/12/2015");
+        expResult.add(atividade);
+        atividade = new Atividade();
+        atividade.setDescricao(ExtrairAtividades.removeAcentos("Outras Atividades Administrativas e de Representação, "
+                + "PARTICIPAÇÕES EM REUNIÕES DO CD 2015"));
+        atividade.setCargaHoraria(9);
+        atividade.setDataInicio("01/01/2015");
+        atividade.setDataTermino("30/04/2015");
+        expResult.add(atividade);
+        atividade = new Atividade();
+        atividade.setDescricao(ExtrairAtividades.removeAcentos("Atividades acadêmicas e administrativas designadas por portaria do Reitor, Pró-Reitor ou Diretor de Unidade Acadêmica com carga horária >=150 horas, "
+                + "Coordenador da Fábrica de Software do INF"));
+        atividade.setCargaHoraria(150);
+        atividade.setDataInicio("01/01/2015");
+        atividade.setDataTermino("31/12/2015");
+        expResult.add(atividade);
+        atividade = new Atividade();
+        atividade.setDescricao(ExtrairAtividades.removeAcentos("Outras Atividades Administrativas e de Representação, "
+                + "Atualização do currículo na plataforma Lattes"));
+        atividade.setCargaHoraria(8);
+        atividade.setDataInicio("01/01/2015");
+        atividade.setDataTermino("30/11/2015");
+        expResult.add(atividade);
+
+        List<Atividade> result = ExtrairAtividades.getAtividadesAdministrativas(texto);
+        int i = 0;
+        for(Atividade a : expResult){
+            assertEquals(expResult.get(i).getDescricao().toLowerCase(),
+                    result.get(i).getDescricao().toLowerCase());
+            assertEquals(expResult.get(i).getCargaHoraria(),
+                    result.get(i).getCargaHoraria());
+            assertEquals(expResult.get(i).getDataInicio(),
+                    result.get(i).getDataInicio());
+            assertEquals(expResult.get(i).getDataTermino(),
+                    result.get(i).getDataTermino());
+        }
+    }
+
     /**
      * Test of tratarPDF method, of class ExtrairAtividades.
      */

@@ -36,7 +36,7 @@ Data Termino:31/12/2014
 ID: 0
 Tipo: Extensão
 Carga Horaria: 4
-Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, palestra sobe qualidade de software com mps.br, 
+Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, palestra sobe qualidade de software com mps.br, membros da comunidade academica da universo em goiania-go
 Data Inicio: 29/04/2014
 Data Termino:29/04/2014
 -------------------------
@@ -99,42 +99,133 @@ Data Termino:17/07/2014
 ID: 0
 Tipo: Administração
 Carga Horaria: 100
-Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante - n.d.e. - engenharia de software
 Data Inicio: 01/01/2014
 Data Termino:31/12/2014
 -------------------------
 ID: 1
 Tipo: Administração
 Carga Horaria: 100
-Descricao: membros da cppd ou da comissao de avaliacao institucional ou da comissao propria de avaliacao ou da cad, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Descricao: membros da cppd ou da comissao de avaliacao institucional ou da comissao propria de avaliacao ou da cad, membro do nucleo docente estruturante - n.d.e. - engenharia de software
 Data Inicio: 01/01/2014
 Data Termino:31/12/2014
 -------------------------
 ID: 2
 Tipo: Administração
 Carga Horaria: 100
-Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante - n.d.e. - engenharia de software
 Data Inicio: 01/01/2014
 Data Termino:31/12/2014
 -------------------------
 ID: 3
 Tipo: Administração
 Carga Horaria: 100
-Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante - n.d.e. - engenharia de software
 Data Inicio: 01/01/2014
 Data Termino:31/12/2014
 -------------------------
 ID: 4
 Tipo: Administração
 Carga Horaria: 100
-Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante - n.d.e. - engenharia de software
 Data Inicio: 01/01/2014
 Data Termino:31/12/2014
 -------------------------
 ID: 5
 Tipo: Administração
 Carga Horaria: 100
-Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante - n.d.e. - engenharia de software
 Data Inicio: 01/01/2014
 Data Termino:31/12/2014
+-------------------------
+ID: 0
+Tipo: produtos
+Carga Horaria: 0
+Descricao: trabalho completo publicado em anais de congresso cientifico, a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 1
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 2
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 3
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 4
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 5
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 6
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 7
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 8
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 9
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (art) ou registro de resp. tecnica (rrt), a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 10
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer de consultoria ad hoc em comites de avaliacao de concursos e editais de publicacao de livros de editoras com corpo editorial, a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 11
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer de consultoria ad hoc para periodicos especializados com corpo editorial ou para instituicoes de fomento a pesquisa ou para livros de editoras com corpo editorial, a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
+-------------------------
+ID: 12
+Tipo: produtos
+Carga Horaria: 0
+Descricao: trabalho completo publicado em anais de congresso cientifico, a user interface stereotype to build web portals
+Data Inicio: 20/10/2014
+Data Termino:20/10/2014
 -------------------------

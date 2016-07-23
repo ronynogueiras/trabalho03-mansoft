@@ -29,14 +29,14 @@ Data Termino:02/07/2012
 ID: 0
 Tipo: Extensão
 Carga Horaria: 20
-Descricao: promocao ou producao de eventos artisticos e cientificos regionais - comissao organizadora, xii jges, 
+Descricao: promocao ou producao de eventos artisticos e cientificos regionais - comissao organizadora, xii jges, profissionais de ti da regiao centro-oeste tabela
 Data Inicio: 05/10/2012
 Data Termino:06/10/2012
 -------------------------
 ID: 1
 Tipo: Extensão
 Carga Horaria: 20
-Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, xii jges, 
+Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, xii jges, profissionais de ti da regiao centro-oeste tabela
 Data Inicio: 05/10/2012
 Data Termino:06/10/2012
 -------------------------
@@ -116,4 +116,214 @@ Carga Horaria: 150
 Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, presidente da comissao de avaliacao docente (cad) do inf
 Data Inicio: 01/01/2012
 Data Termino:31/12/2012
+-------------------------
+ID: 0
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer de consultoria ad hoc para periodicos especializados com corpo editorial ou para instituicoes de fomento a pesquisa, avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 1
+Tipo: produtos
+Carga Horaria: 0
+Descricao: trabalho completo publicado em anais de congresso cientifico qualis b4, avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 2
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 3
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 4
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 5
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 6
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 7
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 8
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 9
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 10
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 11
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 12
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 13
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 14
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 15
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 16
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 17
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 18
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 19
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 20
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 21
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 22
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 23
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 24
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 25
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 26
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 27
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 28
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
+-------------------------
+ID: 29
+Tipo: produtos
+Carga Horaria: 0
+Descricao: parecer ou relatorio tecnico emitido em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de responsabilidade tecnica (art), avaliador ad hoc do processo seletivo de bolsas de iniciacao cientifica junior
+Data Inicio: 03/11/2012
+Data Termino:03/11/2012
 -------------------------
