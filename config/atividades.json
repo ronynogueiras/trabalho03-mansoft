@@ -253,5 +253,436 @@
   },
   "tese, dissertacao e trabalho de iniciacao cientifica premiados por instituicoes de fomento": {
     "codigo": "002004007"
+  },
+  "coordenador  de  projeto  conjuntos  de  pesquisa  e  cooperação  científica e de  cursos MINTER e  DINTER aprovados por órgãos oficiais de fomento":{
+    "codigo":"003001001"
+  },
+  "Coordenador   de   projeto   de   pesquisa   aprovado   com   comprovação   de financiamento (exceto bolsas)":{
+    "codigo":"003001002"
+  },
+  "Coordenador  de  projeto  de  pesquisa  aprovado  sem  financiamento":{
+    "codigo":"003001003"
+  },
+  "Coordenador   de   projeto   de   extensão   aprovado   com   comprovação   de  financiamento (exceto bolsas)":{
+    "codigo":"003002001"
+  },
+  "Coordenador  de  projeto  ou  programa  de  extensão/cultura  cadastrado  na PROEC":{
+    "codigo":"003002002"
+  },
+  "Coordenador   de   contratos   e   de   convênios   de   cooperação   institucional internacional":{
+    "codigo":"003002003"
+  },
+  "Coordenador   de   contratos   e   de   convênios   de   cooperação   institucional nacional":{
+    "codigo":"003002004"
+  },
+  "Participante  de  projeto  de  extensão/cultura  cadastrado  na  PROEC":{
+    "codigo":"003002005"
+  },
+  "Curso  de  extensão  ministrado  com  20  ou  mais horas":{
+    "codigo":"003002006"
+  },
+  "Curso  de  extensão  ministrado  com  menos  de  20  horas":{
+    "codigo":"003002007"
+  },
+  "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - evento internacional":
+  {
+    "codigo":"003002008001"
+  },
+  "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - evento nacional":
+  {
+    "codigo":"003002008002"
+  },
+  "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - Evento  regional  ou  local":
+  {
+    "codigo":"003002008003"
+  },
+  "Promoção ou produção de eventos artísticos e científicos locais - presidente":{
+    "codigo":"003002009001"
+  },
+  "Promoção ou produção de eventos artísticos e científicos locais - comissao organizadora":{
+    "codigo":"003002009002"
+  },
+  "Promoção ou produção de eventos artísticos e científicos regionais - Presidente":{
+    "codigo":"003002010001"
+  },
+  "Promoção ou produção de eventos artísticos e científicos regionais - Comissão organizadora":{
+    "codigo":"003002010002"
+  },
+  "Promoção ou produção de eventos artísticos e científicos nacionais - Presidente":{
+    "codigo":"003002011001"
+  },
+  "Promoção ou produção de eventos artísticos e científicos nacionais - comissao organizadora":{
+    "codigo":"003002011002"
+  },
+  "Promoção ou produção de eventos artísticos e científicos internacionais - presidente":{
+    "codigo":"003002012001"
+  },
+  "Promoção ou produção de eventos artísticos e científicos internacionais - Comissão organizadora":{
+    "codigo":"003002012001"
+  },
+  "Reitor ou Vice-Reitor ou Pró-Reitor":{
+    "codigo":"004001001"
+  },
+  "Chefe de Gabinete":{
+    "codigo":"004001002"
+  },
+  "Coordenador ou assessor vinculado à Reitoria":{
+    "codigo":"004001003"
+  },
+  "Diretor de Unidade Acadêmica, de  Unidade Acadêmica Especial ou do CEPAE":
+  {
+   "codigo":"004001004"
+  },
+  "Diretor de Campus do interior":{
+    "codigo":"004001005"
+  },
+  "Vice-diretor de Campus do interior":
+  {
+    "codigo":"004001006"
+  },
+  "Diretor Geral do Hospital das Clínicas":{
+    "codigo":"004001007"
+  },
+  "Coordenador ou assessor vinculado às Pró-Reitorias ou à Direção dos Campus do Interior":
+  {
+    "codigo":"004001008"
+  },
+  "Coordenador de Programa de Pós-Graduação stricto sensu":
+  {
+    "codigo":"004001009"
+  },
+  "Coordenador de Curso de Ensino Básico ou de Graduação":
+  {
+    "codigo":"004001010"
+  },
+  "Vice-diretor de Unidade Acadêmica ou Unidade Acadêmica Especial ou do CEPAE":{
+    "codigo":"004001011"
+  },
+  "Diretor do Hospital Veterinário":{
+    "codigo":"004001012"
+  },
+  "Diretor  de  Órgão  da Administração":{
+    "codigo":"004001013"
+  },
+  "Coordenador  de  projeto  institucional  com  financiamento  ou  de  contratos  e convênio com plano de trabalho aprovado":
+  {
+    "codigo":"004002001"
+  },
+  "Coordenador de curso de especialização, residência médica ou residência multiprofissional em saúde":
+  {
+    "codigo":"004002002"
+  },
+  "Membro representante de classe da carreira docente no CONSUNI":{
+    "codigo":"004002003"
+  },
+  "Membro do Conselho de Curadores ou do Plenário do CEPEC ou de Conselho de Fundações":
+  {
+    "codigo":"004002004"
+  },
+  "Atividades  acadêmicas  e  administrativas  designadas  por  portaria  do  Reitor, Pró-Reitor ou Diretor de Unidade Acadêmica com carga horária >=150 horas":
+  {
+    "codigo":"004002005"
+  },
+  "Presidente da CPPD":
+  {
+    "codigo":"004003001"
+  },
+  "Presidente da Comissão de Avaliação Institucional ou da Comissão Própria de Avaliação":
+  {
+    "codigo":"004003002"
+  },
+  "Membros da Coordenação Permanente do Centro de Seleção":
+  {
+    "codigo":"004003003"
+  },
+  "Diretores do HC":
+  {
+    "codigo":"004003004"
+  },
+  "Presidente do Comitê de Ética em Pesquisa da UFG e do HC/UFG":{
+    "codigo":"004003005"
+  },
+  "Membros   da   CPPD   ou   da   Comissão   de   Avaliação   Institucional   ou da Comissão Própria de Avaliação ou da CAD":
+  {
+    "codidgo":"004003006"
+  },
+  "Coordenador  de  Pesquisa  ou  de  Ensino  ou  de  Extensão  ou  de  Estágio  das Unidades Acadêmicas":
+  {
+    "codigo":"004003007"
+  },
+  "Chefe de Departamento":
+  {
+   "codigo":"004003008"
+  },
+  "Chefe do Pronto Socorro ou da  Maternidade ou do CEROF do Hospital das Clínicas da UFG":
+  {
+    "codigo":"004003009"
+  },
+  "Coordenador das  Atividades de Interação com a Sociedade":
+  {
+    "codigo":"004003010"
+  },
+  "Coordenador das Atividades de Pesquisa e de Pós–Graduação lato sensu":
+  {
+    "codigo":"004003011"
+  },
+  "Membros do Comitê de Ética da UFG e do HC/UFG":
+  {
+   "codigo":"004003012"
+  },
+  "Membros do Comitê Interno e Externo do PIBIC":
+  {
+   "codigo":"004003013"
+  },
+  "Representante  titular  em  conselho  de  classe  profissional  com  carga  horária igual ou superior a 150 horas":
+  {
+    "codigo":"004004001"
+  },
+  "Presidente do Sindicato de Docentes da UFG":
+  {
+    "codigo":"004004002"
+  },
+  "Diretor do Sindicato de Docentes da UFG":
+  {
+    "codigo":"004004003"
+  },
+  "Representante sindical com carga horária igual ou superior a 150 horas":
+  {
+    "codigo":"004004004"
+  },
+  "Representante  em  entidade  científica,  artística  e  cultural  com  carga  horária igual ou superior a 150 horas":
+  {
+    "codigo":"004004005"
+  },
+  "Representante  em  comissão  de  órgão  governamental  com  carga  horária  igual ou superior a 150 horas":
+  {
+    "codigo":"004004006"
+  },
+  "Aluno orientado em tese de doutorado defendida e aprovada":
+  {
+    "codigo":"005001001"
+  },
+  "Aluno co-orientado em tese de doutorado defendida e aprovada":
+  {
+    "codigo":"005001002"
+  },
+  "Aluno orientado em tese de doutorado em andamento":
+  {
+    "codigo":"005001003"
+  },
+  "Aluno co-orientado em tese de doutorado em andamento":
+  {
+    "codigo":"005001004"
+  },
+  "Aluno orientado em dissertação de mestrado defendida e aprovada":
+  {
+    "codigo":"005001005"
+  },
+  "Aluno co-orientado em dissertação de mestrado defendida e aprovada":
+  {
+    "codigo":"005001006"
+  },
+  "Aluno orientado em dissertação de mestrado em andamento":{
+    "codigo":"005001007"
+  },
+  "Aluno co-orientado em dissertação de mestrado em andamento":
+  {
+    "codigo":"005001008"
+  },
+  "Aluno orientado em monografia de especialização aprovada":
+  {
+    "codigo":"005001009"
+  },
+  "Aluno orientado em monografia de especialização em andamento":
+  {
+    "codigo":"005001010"
+  },
+  "Aluno orientado em residência médica ou em residência multiprofissional em saúde":
+  {
+    "codigo":"005001011"
+  },
+  "Aluno orientado em estágio supervisionado":
+  {
+    "codigo":"005001012"
+  },
+  "Aluno orientado em projeto de final de curso":
+  {
+    "codigo":"005001013"
+  },
+  "Aluno de outra IFE orientado em tese de doutorado defendida e aprovada":
+  {
+    "codigo":"005001014"
+  },
+  "Aluno de outra IFE co-orientado em tese de doutorado defendida e aprovada":
+  {
+    "codigo":"005001015"
+  },
+  "Aluno de outra IFE orientado em tese de doutorado em andamento":
+  {
+    "codigo":"005001016"
+  },
+  "Aluno de outra IFE co-orientado em tese de doutorado em andamento":
+  {
+    "codigo":"005001017"
+  },
+  "Aluno de outra IFE orientado em dissertação de mestrado defendida e aprovada":
+  {
+    "codigo":"005001018"
+  },
+  "Aluno de outra IFE co-orientado em dissertação de mestrado defendida e aprovada":
+  {
+    "codigo":"005001019"
+  },
+  "Aluno de outra IFE orientado em dissertação de mestrado em andamento":
+  {
+    "codigo":"005001020"
+  },
+  "Aluno de outra IFE co-orientado em dissertação de mestrado em andamento":
+  {
+    "codigo":"005001021"
+  },
+  "Aluno orientado em programa de iniciação científica":
+  {
+    "codigo":"005001022"
+  },
+  "Aluno orientado em programa de iniciação científica júnior":
+  {
+    "codigo":"005001023"
+  },
+  "Aluno orientado em programa especial de treinamento (PET)":
+  {
+    "codigo":"005001024"
+  },
+  "Aluno orientado com bolsa de DTI, PIBIT, AT, Jovens Talentos e similares":
+  {
+    "codigo":"005001025"
+  },
+  "Aluno orientado com bolsa de licenciatura (PIBID e similares)":
+  {
+    "codigo":"005001026"
+  },
+  "Aluno orientado com bolsa extensão/cultura/ensino":
+  {
+    "codigo":"005001027"
+  },
+  "Aluno orientado em projetos de extensão/cultura/ensino sem bolsa":
+  {
+    "codigo":"005001028"
+  },
+  "Aluno orientado com bolsa PROCOM ou similar, vinculada a projeto de pesquisa/extensão/ensino":
+  {
+    "codigo":"005001029"
+  },
+  "Aluno orientado em programa de monitoria":
+  {
+    "codigo":"005001030"
+  },
+  "Aluno orientado em atividade não curricular com bolsa":
+  {
+    "codigo":"005001031"
+  },
+  "Aluno orientado em atividade não curricular sem bolsa":
+  {
+    "codigo":"005001032"
+  },
+  "Pesquisador supervisionado em estágio de pós-doutoramento":
+  {
+    "codigo":"005001033"
+  },
+  "Aluno orientado em Prática como Componente Curricular (PCC)":
+  {
+    "codigo":"005001034"
+  },
+  "Aluno com deficiência, transtornos globais do desenvolvimento e altas habilidades/superdotação orientado em programa ou projeto de apoio pedagógico":
+  {
+    "codigo":"005001035"
+  },
+  "Membro de banca de concurso para docente efetivo - Na instituição":
+  {
+    "codigo":"005002001001"
+  },
+  "Membro de banca de concurso para docente efetivo - Em outra instituição":
+  {
+    "codigo":"005002001002"
+  },
+  "Membro de banca de concurso para docente substituto":
+  {
+    "codigo":"005002002"
+  },
+  "Membro de banca de defesa de dissertação de mestrado - Na instituição":
+  {
+    "codigo":"005002003001"
+  },
+  "Membro de banca de defesa de dissertação de mestrado - Em outra instituição":
+  {
+    "codigo":"005002003002"
+  },
+  "Membro de banca de defesa de tese de doutorado - na instituicao":
+  {
+    "codigo":"005002004001"
+  },
+  "Membro de banca de defesa de tese de doutorado - em outra instituicao":
+  {
+    "codigo":"005002004002"
+  },
+  "Membro de banca de qualificação de mestrado - Na instituição":
+  {
+    "codigo":"005002005001"
+  },
+  "Membro de banca de qualificação de mestrado - em outra instituição":
+  {
+    "codigo":"005002005002"
+  },
+  "Membro de banca de qualificação de doutorado - na instituicao":
+  {
+    "codigo":"005002006001"
+  },
+  "Membro de banca de qualificação de doutorado - em outra instituicao":
+  {
+    "codigo":"005002006001"
+  },
+  "Membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas":
+  {
+    "codigo":"005002007"
+  },
+  "Membro de corpo de júri - Concursos internacionais":
+  {
+    "codigo":"005002008001"
+  },
+  "Membro de corpo de júri - Concursos nacionais":
+  {
+    "codigo":"005002008002"
+  },
+  "Cursos, palestras ou treinamento não curricular ministrados para docentes, funcionários ou alunos da UFG":
+  {
+    "codigo":"005002009"
+  },
+  "Coordenador de projeto institucional de intercâmbio internacional":
+  {
+    "codigo":"005002010"
+  },
+  "Docente regularmente matriculado em curso de doutorado com relatórios de pós-graduação aprovados":
+  {
+    "codigo":"005003001"
+  },
+  "Estágio Pós-Doutoral ou Estágio Sênior":
+  {
+    "codigo":"005003002"
+  },
+  "Docente em licença para capacitação (Artigo 87, Lei N.8112)":
+  {
+    "codigo":"005003003"
+  },
+  "Curso de aperfeiçoamento realizado com carga horária superior a 40 horas":
+  {
+    "codigo":"005003004"
+  },
+  "Curso de aperfeiçoamento realizado com carga horária inferior a 40 horas":
+  {
+    "codigo":"005003005"
+  },
+  "Participação em Congressos, Seminários, Encontros, Jornadas etc.":
+  {
+    "codigo":"005003006"
   }
 }
