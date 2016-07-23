@@ -44,4 +44,7 @@ public class Regex {
     public static final String DESCRICAO= "(?i)Descricao:"+VALOR_QUALQUER+CAMPOS;
     public static final String DESCRICAO_ATIVIDADE = "(?i)Descricao da atividade:"+VALOR_QUALQUER+CAMPOS;
     public static final String DESCRICAO_CLIENTELA = "(?i)Descricao da clientela:"+VALOR_QUALQUER+CAMPOS;
+    public static final String DESCRICAO_PRODUTO = "(?i)Descricao do produto:"+VALOR_QUALQUER+CAMPOS;
+    public static final String TITULO_PRODUTO = "(?i)Titulo do produto:"+VALOR_QUALQUER+CAMPOS;
+    public static final String DATA = "(?i)Data:"+VALOR_DATA+CAMPOS;
 }

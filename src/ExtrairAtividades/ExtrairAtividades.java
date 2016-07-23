@@ -23,16 +23,16 @@ import org.json.JSONObject;
 public class ExtrairAtividades {
 
 
-    private HashMap<String,String> atividades = new HashMap<>();
+    private static HashMap<String,String> atividadesGrupo;
 
     /**
      * @param args, arquivos passados por linha de comando
      */
     public static void main(String[] args) throws IOException {
         if(args.length>0){
-            carregaAtividades("config/atividades.json");
+            atividadesGrupo = carregaAtividades("config/atividades.json");
             for(String arquivo : args){
-                //parse(arquivo);
+                parse(arquivo);
             }
         }else{
             System.out.println("Você deve informar o nome do arquivo RADOC");
@@ -48,24 +48,35 @@ public class ExtrairAtividades {
         texto = tratarPDF(texto);
         BufferedWriter bw = criarNovoArquivo("AtividadesExtraidas_"+arquivo+".txt");
         List<Atividade> atividades = getAtividadesOrientacao(texto);
+        int id = 1;
         for(Atividade atividade : atividades){
+            atividade.setId(id);
             bw.write(atividade.toString());
+            id++;
         }
         atividades = getAtividadesExtensao(texto);
         for(Atividade atividade : atividades){
+            atividade.setId(id);
             bw.write(atividade.toString());
+            id++;
         }
         atividades = getAtividadesQualificao(texto);
         for(Atividade atividade : atividades){
+            atividade.setId(id);
             bw.write(atividade.toString());
+            id++;
         }
         atividades = getAtividadesEspeciais(texto);
         for(Atividade atividade : atividades){
+            atividade.setId(id);
             bw.write(atividade.toString());
+            id++;
         }
         atividades  = getAtividadesAdministrativas(texto);
         for(Atividade atividade : atividades){
+            atividade.setId(id);
             bw.write(atividade.toString());
+            id++;
         }
         bw.close();
     }
@@ -96,8 +107,8 @@ public class ExtrairAtividades {
      * @return List<Atividade>, lista de atividades
      */
     private static List<Atividade> getAtividades(String regex, String texto, String tipo){
-        Pattern pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
-        Matcher matcher = pattern.matcher(texto);
+        //Pattern pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
+        //Matcher matcher = pattern.matcher(texto);
         List<Atividade> atividades = new ArrayList<>();
         Atividade atividade;
         int i = 0;
@@ -123,14 +134,17 @@ public class ExtrairAtividades {
         int escopoFinal = text.indexOf("atividades administrativas");
         text = text.substring(escopoInicio,escopoFinal);
         List<Atividade> atividades = getAtividades(Regex.TABELA, text, "Acadêmicas Especiais");
+        List<String> codGrupo = getCodGrupoPontuacao(text,Regex.TABELA);
         List<String> CHA = getValores(Regex.CHA, text);
         List<String> DATA_INICIO = getValores(Regex.DATA_INICIO, text);
         List<String> DATA_TERMINO = getValores(Regex.DATA_TERMINO, text);
         int i = 0;
         for(Atividade atividade : atividades){
             atividade.setCargaHoraria(Integer.valueOf(CHA.get(i)));
+            atividade.setCodGrupoPontuacao(codGrupo.get(i));
             atividade.setDataInicio(DATA_INICIO.get(i));
             atividade.setDataTermino(DATA_TERMINO.get(i));
+            i++;
         }
         return atividades;
     }
@@ -145,6 +159,7 @@ public class ExtrairAtividades {
         int escopoFinal = text.indexOf("atividades em projetos");
         text = text.substring(escopoInicio,escopoFinal);
         List<Atividade> atividades = getAtividades(Regex.TITULO_DO_TRABALHO, text, "Orientação");
+        List<String> codGrupo = getCodGrupoPontuacao(text,Regex.TABELA);
         List<String> TABELA = getValores(Regex.TABELA, text);
         List<String> CHA = getValores(Regex.CHA, text);
         List<String> DATA_INICIO = getValores(Regex.DATA_INICIO, text);
@@ -154,8 +169,10 @@ public class ExtrairAtividades {
             String descricao = atividade.getDescricao() +", "+ TABELA.get(i);
             atividade.setCargaHoraria(Integer.valueOf(CHA.get(i)));
             atividade.setDescricao(descricao);
+            atividade.setCodGrupoPontuacao(codGrupo.get(i));
             atividade.setDataInicio(DATA_INICIO.get(i));
             atividade.setDataTermino(DATA_TERMINO.get(i));
+            i++;
         }
         return atividades;
     }
@@ -175,7 +192,7 @@ public class ExtrairAtividades {
         List<Atividade> atividades = getAtividades(Regex.TABELA, text, "Extensão");
         List<String> DESCRICAO_ATIVIDADE = getValores(Regex.DESCRICAO_ATIVIDADE, text);
         List<String> DESCRICAO_CLIENTELA = getValores(customRegex.toString() + ")", text);
-        
+        List<String> codGrupo = getCodGrupoPontuacao(text,Regex.TABELA);
         List<String> CHA = getValores(Regex.CHA, text);
         List<String> DATA_INICIO = getValores(Regex.DATA_INICIO, text);
         List<String> DATA_TERMINO = getValores(Regex.DATA_TERMINO, text);
@@ -186,8 +203,10 @@ public class ExtrairAtividades {
                     ", "+ DESCRICAO_CLIENTELA.get(i);
             atividade.setCargaHoraria(Integer.valueOf(CHA.get(i)));
             atividade.setDescricao(descricao);
+            atividade.setCodGrupoPontuacao(codGrupo.get(i));
             atividade.setDataInicio(DATA_INICIO.get(i));
             atividade.setDataTermino(DATA_TERMINO.get(i));
+            i++;
         }
         return atividades;
     }
@@ -202,6 +221,7 @@ public class ExtrairAtividades {
         int escopoFinal = text.indexOf("atividades academicas especiais");
         text = text.substring(escopoInicio,escopoFinal);
         List<Atividade> atividades = getAtividades(Regex.TABELA, text, "Qualificacao");
+        List<String> codGrupo = getCodGrupoPontuacao(text,Regex.TABELA);
         List<String> DESCRICAO = getValores(Regex.DESCRICAO, text);
         List<String> CHA = getValores(Regex.CHA, text);
         List<String> DATA_INICIO = getValores(Regex.DATA_INICIO, text);
@@ -211,8 +231,10 @@ public class ExtrairAtividades {
             String descricao = atividade.getDescricao() +", "+ DESCRICAO.get(i);
             atividade.setCargaHoraria(Integer.valueOf(CHA.get(i)));
             atividade.setDescricao(descricao);
+            atividade.setCodGrupoPontuacao(codGrupo.get(i));
             atividade.setDataInicio(DATA_INICIO.get(i));
             atividade.setDataTermino(DATA_TERMINO.get(i));
+            i++;
         }
         return atividades;
     }
@@ -227,6 +249,7 @@ public class ExtrairAtividades {
         int escopoFinal = text.toLowerCase().indexOf("produtos descricao do produto:");
         text = text.substring(escopoInicio,escopoFinal);
         List<Atividade> atividades = getAtividades(Regex.TABELA, text, "Administração");
+        List<String> codGrupo = getCodGrupoPontuacao(text,Regex.TABELA);
         List<String> DESCRICAO = getValores(Regex.DESCRICAO, text);
         List<String> CHA = getValores(Regex.CHA, text);
         List<String> DATA_INICIO = getValores(Regex.DATA_INICIO, text);
@@ -235,9 +258,11 @@ public class ExtrairAtividades {
         for(Atividade atividade : atividades){
             String descricao = atividade.getDescricao() +", "+ DESCRICAO.get(i);
             atividade.setCargaHoraria(Integer.valueOf(CHA.get(i)));
+            atividade.setCodGrupoPontuacao(codGrupo.get(i));
             atividade.setDescricao(descricao);
             atividade.setDataInicio(DATA_INICIO.get(i));
             atividade.setDataTermino(DATA_TERMINO.get(i));
+            i++;
         }
         return atividades;
     }
@@ -276,6 +301,21 @@ public class ExtrairAtividades {
         return texto.toString();
     }
 
+    private static List<String> getCodGrupoPontuacao(String text,String regex)
+    {
+        List<String> listaCodGrupos = new ArrayList<>();
+        Pattern pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(text);
+        while (matcher.find()){
+            String valor = matcher.group().replaceAll(Regex.CAMPOS,"").trim();
+            String codGrupo = atividadesGrupo.get(valor)!= null ? atividadesGrupo.get(valor) : "000000000000";
+            listaCodGrupos.add(codGrupo);
+            System.out.println(codGrupo);
+            System.out.println(valor);
+        }
+        return listaCodGrupos;
+    }
+
     /**
      * Cria novo arquivo ou escreve em cima de arquivo existente,
      * com informações adquiridas das atividades
@@ -283,7 +323,7 @@ public class ExtrairAtividades {
      * @return BufferedWriter do arquivo
      */
     private static BufferedWriter criarNovoArquivo(String caminho) throws IOException {
-        File novoArquivo = new File(caminho.replace(".pdf", ".txt"));
+        File novoArquivo = new File(caminho.replace(".pdf",""));
         if (!novoArquivo.exists()) {
             novoArquivo.createNewFile();
         }

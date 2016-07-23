@@ -1,4 +1,3 @@
-
 {
   "atividades": [
     {
@@ -62,7 +61,7 @@
       "codigo": "002001006"
     },
     {
-      "idunico": "editor ou coordenador editorial  de livro publicado com selo de editora que possua corpo editorial",
+      "idunico": "editor ou coordenador editorial de livro publicado com selo de editora que possua corpo editorial",
       "codigo": "002001007"
     },
     {
@@ -74,7 +73,7 @@
       "codigo": "002001009"
     },
     {
-      "idunico": "capitulo de livro publicado com selo de editora  que  possua  corpo  editorial",
+      "idunico": "capitulo de livro publicado com selo de editora que possua corpo editorial",
       "codigo": "002001010"
     },
     {
@@ -82,11 +81,11 @@
       "codigo": "002001011"
     },
     {
-      "idunico": "capitulo  traduzido  de  livro  publicado  com  selo  de  editora  que  possua  corpo editorial",
+      "idunico": "capitulo traduzido de livro publicado com selo de editora que possua corpo editorial",
       "codigo": "002001012"
     },
     {
-      "idunico": "traducao ou revisao cientifica de livro traduzido e publicado com selo de editora  que possua corpo editorial",
+      "idunico": "traducao ou revisao cientifica de livro traduzido e publicado com selo de editora que possua corpo editorial",
       "codigo": "002001013"
     },
     {
@@ -122,19 +121,19 @@
       "codigo": "002001019"
     },
     {
-      "idunico": "criacao,   producao   e   direcao   de   filmes,   videos,   discos,   audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em  eventos - locais ou regionais",
+      "idunico": "criacao, producao e direcao de filmes, videos, discos, audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em eventos - locais ou regionais",
       "codigo": "002002001001"
     },
     {
-      "idunico": "criacao,   producao   e   direcao   de   filmes,   videos,   discos,   audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em  eventos - nacionais",
+      "idunico": "criacao, producao e direcao de filmes, videos, discos, audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em eventos - nacionais",
       "codigo": "002002001002"
     },
     {
-      "idunico": "criacao,   producao   e   direcao   de   filmes,   videos,   discos,   audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em  eventos - internacionais",
+      "idunico": "criacao, producao e direcao de filmes, videos, discos, audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em eventos - internacionais",
       "codigo": "002002001003"
     },
     {
-      "idunico": "criacao  e  producao  do  projeto  grafico  de  livros:  concepcao  grafica  (mancha grafica, diagramacao, escolha de fonte)",
+      "idunico": "criacao e producao do projeto grafico de livros: concepcao grafica (mancha grafica, diagramacao, escolha de fonte)",
       "codigo": "002002002"
     },
     {
@@ -222,15 +221,15 @@
       "codigo": "002002015"
     },
     {
-      "idunico": "desenvolvimento  de  programa  de  computador  (software)  com  registro  no inpi ou com ampla disponibilizacao em ambientes de software livre",
+      "idunico": "desenvolvimento de programa de computador (software) com registro no inpi ou com ampla disponibilizacao em ambientes de software livre",
       "codigo": "002003001"
     },
     {
-      "idunico": "desenvolvimento  de  software  com  divulgacao  em  periodicos  indexados  e com corpo editorial ou em anais de congresso cientifico",
+      "idunico": "desenvolvimento de software com divulgacao em periodicos indexados e com corpo editorial ou em anais de congresso cientifico",
       "codigo": "002003002"
     },
     {
-      "idunico": "desenvolvimento  de  software  para  uso  institucional ",
+      "idunico": "desenvolvimento de software para uso institucional ",
       "codigo": "002003003"
     },
     {
@@ -262,27 +261,27 @@
       "codigo": "002003010"
     },
     {
-      "idunico": "parecer  de  consultoria ad  hoc para  periodicos  especializados  com  corpo editorial ou para instituicoes de fomento a pesquisa ou para livros de editoras com corpo editorial",
+      "idunico": "parecer de consultoria ad hoc para periodicos especializados com corpo editorial ou para instituicoes de fomento a pesquisa ou para livros de editoras com corpo editorial",
       "codigo": "002003011"
     },
     {
-      "idunico": "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - parecer  com  anotacao  de  responsabilidade  tecnica  (art)  ou  registro  de responsabilidade tecnica (rrt)",
+      "idunico": "projeto, parecer ou relatorio tecnico realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - parecer com anotacao de responsabilidade tecnica (art) ou registro de responsabilidade tecnica (rrt)",
       "codigo": "002003012001"
     },
     {
-      "idunico": "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - parecer  sem  anotacao  de  responsabilidade  tecnica  (art)  ou  registro  de responsabilidade tecnica (rrt)",
+      "idunico": "projeto, parecer ou relatorio tecnico realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - parecer sem anotacao de responsabilidade tecnica (art) ou registro de responsabilidade tecnica (rrt)",
       "codigo": "002003012002"
     },
     {
-      "idunico": "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - projeto  ou  relatorio  tecnico  com  ano tacao  de  responsabilidade  tecnica (art) ou registro de responsabilidade tecnica (rrt)",
+      "idunico": "projeto, parecer ou relatorio tecnico realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - projeto ou relatorio tecnico com ano tacao de responsabilidade tecnica (art) ou registro de responsabilidade tecnica (rrt)",
       "codigo": "002003012003"
     },
     {
-      "idunico": "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - projeto  ou  relatorio  tecnico  sem  anotacao  de  responsabilidade  tecnica (art) ou registro de responsabilidade tecnica (rrt)",
+      "idunico": "projeto, parecer ou relatorio tecnico realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - projeto ou relatorio tecnico sem anotacao de responsabilidade tecnica (art) ou registro de responsabilidade tecnica (rrt)",
       "codigo": "002003012004"
     },
     {
-      "idunico": "anais,  manuais,  catalogos,  boletins,  com  ficha  bibliografica  (organizador/redator)",
+      "idunico": "anais, manuais, catalogos, boletins, com ficha bibliografica (organizador/redator)",
       "codigo": "002003013"
     },
     {
@@ -318,7 +317,7 @@
       "codigo": "002004001"
     },
     {
-      "idunico": "texto  ou  material  didatico  para  uso  institucional  (nao  fracionados  e  com ampla divulgacao)",
+      "idunico": "texto ou material didatico para uso institucional (nao fracionados e com ampla divulgacao)",
       "codigo": "002004002"
     },
     {
@@ -326,11 +325,11 @@
       "codigo": "002004003"
     },
     {
-      "idunico": "apresentacao  oral  de  trabalho  publicado  em  anais  de  congresso  cientifico",
+      "idunico": "apresentacao oral de trabalho publicado em anais de congresso cientifico",
       "codigo": "002004004"
     },
     {
-      "idunico": "apresentacao   em   painel   de trabalho   publicado   em   anais   de   congresso cientifico",
+      "idunico": "apresentacao em painel de trabalho publicado em anais de congresso cientifico",
       "codigo": "002004005"
     },
     {
@@ -342,43 +341,43 @@
       "codigo": "002004007"
     },
     {
-      "idunico": "coordenador  de  projeto  conjuntos  de  pesquisa  e  cooperacao  cientifica e de  cursos minter e  dinter aprovados por orgaos oficiais de fomento",
+      "idunico": "coordenador de projeto conjuntos de pesquisa e cooperacao cientifica e de cursos minter e dinter aprovados por orgaos oficiais de fomento",
       "codigo": "003001001"
     },
     {
-      "idunico": "coordenador   de   projeto   de   pesquisa   aprovado   com   comprovacao   de financiamento (exceto bolsas)",
+      "idunico": "coordenador de projeto de pesquisa aprovado com comprovacao de financiamento (exceto bolsas)",
       "codigo": "003001002"
     },
     {
-      "idunico": "coordenador  de  projeto  de  pesquisa  aprovado  sem  financiamento",
+      "idunico": "coordenador de projeto de pesquisa aprovado sem financiamento",
       "codigo": "003001003"
     },
     {
-      "idunico": "coordenador   de   projeto   de   extensao   aprovado   com   comprovacao   de  financiamento (exceto bolsas)",
+      "idunico": "coordenador de projeto de extensao aprovado com comprovacao de financiamento (exceto bolsas)",
       "codigo": "003002001"
     },
     {
-      "idunico": "coordenador  de  projeto  ou  programa  de  extensao/cultura  cadastrado  na proec",
+      "idunico": "coordenador de projeto ou programa de extensao/cultura cadastrado na proec",
       "codigo": "003002002"
     },
     {
-      "idunico": "coordenador   de   contratos   e   de   convenios   de   cooperacao   institucional internacional",
+      "idunico": "coordenador de contratos e de convenios de cooperacao institucional internacional",
       "codigo": "003002003"
     },
     {
-      "idunico": "coordenador   de   contratos   e   de   convenios   de   cooperacao   institucional nacional",
+      "idunico": "coordenador de contratos e de convenios de cooperacao institucional nacional",
       "codigo": "003002004"
     },
     {
-      "idunico": "participante  de  projeto  de  extensao/cultura  cadastrado  na  proec",
+      "idunico": "participante de projeto de extensao/cultura cadastrado na proec",
       "codigo": "003002005"
     },
     {
-      "idunico": "curso  de  extensao  ministrado  com  20  ou  mais horas",
+      "idunico": "curso de extensao ministrado com 20 ou mais horas",
       "codigo": "003002006"
     },
     {
-      "idunico": "curso  de  extensao  ministrado  com  menos  de  20  horas",
+      "idunico": "curso de extensao ministrado com menos de 20 horas",
       "codigo": "003002007"
     },
     {
@@ -390,7 +389,7 @@
       "codigo": "003002008002"
     },
     {
-      "idunico": "palestrante, conferencista ou participante em mesa redonda em evento cientifico,cultural ou artistico - evento  regional  ou  local",
+      "idunico": "palestrante, conferencista ou participante em mesa redonda em evento cientifico,cultural ou artistico - evento regional ou local",
       "codigo": "003002008003"
     },
     {
@@ -438,7 +437,7 @@
       "codigo": "004001003"
     },
     {
-      "idunico": "diretor de unidade academica, de  unidade academica especial ou do cepae",
+      "idunico": "diretor de unidade academica, de unidade academica especial ou do cepae",
       "codigo": "004001004"
     },
     {
@@ -474,11 +473,11 @@
       "codigo": "004001012"
     },
     {
-      "idunico": "diretor  de  orgao  da administracao",
+      "idunico": "diretor de orgao da administracao",
       "codigo": "004001013"
     },
     {
-      "idunico": "coordenador  de  projeto  institucional  com  financiamento  ou  de  contratos  e convenio com plano de trabalho aprovado",
+      "idunico": "coordenador de projeto institucional com financiamento ou de contratos e convenio com plano de trabalho aprovado",
       "codigo": "004002001"
     },
     {
@@ -494,7 +493,7 @@
       "codigo": "004002004"
     },
     {
-      "idunico": "atividades  academicas  e  administrativas  designadas  por  portaria  do  reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas",
+      "idunico": "atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas",
       "codigo": "004002005"
     },
     {
@@ -518,11 +517,11 @@
       "codigo": "004003005"
     },
     {
-      "idunico": "membros   da   cppd   ou   da   comissao   de   avaliacao   institucional   ou da comissao propria de avaliacao ou da cad",
-      "codidgo": "004003006"
+      "idunico": "membros da cppd ou da comissao de avaliacao institucional ou da comissao propria de avaliacao ou da cad",
+      "codigo": "004003006"
     },
     {
-      "idunico": "coordenador  de  pesquisa  ou  de  ensino  ou  de  extensao  ou  de  estagio  das unidades academicas",
+      "idunico": "coordenador de pesquisa ou de ensino ou de extensao ou de estagio das unidades academicas",
       "codigo": "004003007"
     },
     {
@@ -530,11 +529,11 @@
       "codigo": "004003008"
     },
     {
-      "idunico": "chefe do pronto socorro ou da  maternidade ou do cerof do hospital das clinicas da ufg",
+      "idunico": "chefe do pronto socorro ou da maternidade ou do cerof do hospital das clinicas da ufg",
       "codigo": "004003009"
     },
     {
-      "idunico": "coordenador das  atividades de interacao com a sociedade",
+      "idunico": "coordenador das atividades de interacao com a sociedade",
       "codigo": "004003010"
     },
     {
@@ -550,7 +549,7 @@
       "codigo": "004003013"
     },
     {
-      "idunico": "representante  titular  em  conselho  de  classe  profissional  com  carga  horaria igual ou superior a 150 horas",
+      "idunico": "representante titular em conselho de classe profissional com carga horaria igual ou superior a 150 horas",
       "codigo": "004004001"
     },
     {
@@ -566,11 +565,11 @@
       "codigo": "004004004"
     },
     {
-      "idunico": "representante  em  entidade  cientifica,  artistica  e  cultural  com  carga  horaria igual ou superior a 150 horas",
+      "idunico": "representante em entidade cientifica, artistica e cultural com carga horaria igual ou superior a 150 horas",
       "codigo": "004004005"
     },
     {
-      "idunico": "representante  em  comissao  de  orgao  governamental  com  carga  horaria  igual ou superior a 150 horas",
+      "idunico": "representante em comissao de orgao governamental com carga horaria igual ou superior a 150 horas",
       "codigo": "004004006"
     },
     {
