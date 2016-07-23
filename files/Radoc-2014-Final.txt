@@ -1,1 +1,140 @@
-UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Dados do docente Nome:  JULIANO LOPES DE OLIVEIRA  Matricula SIAPE:  1220405 Unidade:  INSTITUTO DE INFORMATICA Titulacao:  Doutor  Regime de trabalho:  40  Associado  Nivel:  004  CH contratada:  1760  CH executada:  1760 E-mail:  juliano@inf.ufg.br  25/03/1997  Data ingresso servico no publico:  25/03/1997 Classe: Data ingresso na UFG: ____________________________________________  ______________________________________________ _______/_______/_______  Visto do Docente Visto da Chefia  Data da Aprovacao Afastamento Tabela: Processo:  23070 - 25667 - 2013 - 10 Descricao:  LICENCA PARA CAPACITACAO, POR TRES MES (ES), A PARTIR DE 15/03/2014, COM FUNDAMENTO NO ARTIGO 87, DA LEI Nº 9527, DE 10/12/97. Motivo:  Licenca capacitacao CHA: Data de inicio:  15/03/2014  Data de termino:  14/06/2014 Atividades de ensino RGCG - Regime de Graduacao Semestral Curso  Disciplina  CHA  Ano  Sem  Turma  Sub  Nº alunos  Nº sub  CHT  CHP  CHAC  Conjug SISTEMAS DE INFORMACAO  PROJETO FINAL DE CURSO 1  32  2014  1  H 1  0  32  0  0  NAO CIENCIAS DA COMPUTACAO  PROJETO FINAL DE CURSO 1 NC  64  2014  2  B 1  0  0  64 NAO ENGENHARIA DE SOFTWARE EXPERIMENTACAO EM ENGENHARIA DE SOFTWARE  64  2014  2  A 44  0  32  32  90  NAO ENGENHARIA DE SOFTWARE  INTEGRACAO 2  64  2014  2  A 38  0  0  64  90  NAO SISTEMAS DE INFORMACAO  PROJETO FINAL DE CURSO 1  32  2014  2  C 3  0  32  0  0  SIM LEGENDA: CHA - Carga horaria da atividade | Sem - Semestre | Sub - Subturma | CHT, CHP e CHAC - Carga horaria teorica, pratica e acessoria | Conjug - Disciplina conjugada Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA Pagina 1 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Atividades de orientacao Titulo do trabalho:  ESTUDO DE CASO: IMPLANTACAO DE PROCESSOS DA ITIL EM UMA MICROEMPRESA Tabela:  Aluno orientado em projeto de final de curso Orientando:  ARIEL SOUZA SILVA Matricula:  100353  Orientador Nivel:  Graduacao  SISTEMAS DE INFORMACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  1  Data inicio:  01/08/2014  Data termino:  31/12/2014  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  UM ESTUDO DE CASO SOBRE ENGENHARIA DE REQUISITOS EM DESENVOLVIMENTO DE SOFTWARE BASEADO NO SCRUM Tabela:  Aluno orientado em projeto de final de curso Orientando:  IGOR ALVES DE OLIVEIRA Matricula:  096532  Orientador Nivel:  Graduacao  SISTEMAS DE INFORMACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  1  Data inicio:  01/01/2014  Data termino:  31/12/2014  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  UM ESTUDO DE CASO SOBRE IMPLANTACAO DE COBIT EM UMA MICROEMPRESA Tabela:  Aluno orientado em projeto de final de curso Orientando:  FARID IBRAIM CHAUD JUNIOR Matricula:  100358  Orientador Nivel:  Graduacao  SISTEMAS DE INFORMACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  1  Data inicio:  01/08/2014  Data termino:  31/12/2014  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  DEFINICAO DE PROCESSOS NA FABRICA DE SOFTWARE DO INSTITUTO DE INFORMATICA DA UFG Tabela:  Aluno orientado em projeto de final de curso Funcao do docente: Curso: Funcao do docente: Curso: Funcao do docente: Curso: Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA Pagina 2 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Orientando:  DEBORAH SANTANA ULACIA Matricula:  110977  Orientador Nivel:  Graduacao  CIENCIAS DA COMPUTACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  1  Data inicio:  01/08/2014  Data termino:  31/12/2014  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  UM ESTUDO DE CASO SOBRE A INFLUENCIA DA REVISAO DE CODIGO NA SEGURANCA DE SOFTWARE Tabela:  Aluno orientado em programa de iniciacao cientifica(PIBIC/PIVIC/PROLICEN/PICME-OBMEP) Orientando:  VINICIUS ASSUNCAO MABONI Matricula:  110267  Orientador Nivel:  Graduacao  ENGENHARIA DE SOFTWARE IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  32  01/01/2014  Data termino:  30/08/2014  Tipo Orientacao:  PRESENCIAL Funcao do docente: Curso: Funcao do docente: Curso: Data inicio: Atividades em projetos Titulo do Projeto:  ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Tabela:  Coordenador de projeto de pesquisa aprovado sem financiamento Unidade Responsavel:  INF - Instituto de Informatica Tipo:  Projeto de Pesquisa  Em andamento  Funcao:  Coordenador  Financiado:  Nao CHA:  400  04/01/2010  Data Termino:  31/12/2015 Titulo do Projeto:  Simposio Brasileiro de Sistemas de Informacao Tabela:  Participante de projeto de extensao/cultura cadastrado na PROEC Unidade Responsavel:  INF - Instituto de Informatica Tipo:  Projeto de Extensao  Em andamento  Funcao:  Participante  Financiado:  Nao CHA:  Data Termino:  18/08/2014 Situacao: Data Inicio: Situacao: 100 Data Inicio: 30/06/2014 Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA Pagina 3 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Atividades de extensao Tabela:  Palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - Evento regional ou local CHA:  4  Data inicio:  29/04/2014  Data termino:  29/04/2014 Descricao da atividade:  Palestra sobe Qualidade de Software com MPS.BR Descricao da clientela:  Membros da comunidade academica da Universo em Goiania-GO Atividades de qualificacao Tabela:  Docente em licenca para capacitacao (Artigo 87, Lei N.8112) Descricao:  Licenca para Capacitacao na area de Gestao de Servicos de Tecnologia da Informacao, com fundamento no Artigo 87, da Lei nº 9527, de 10/12/97. CHA:  440  Data de inicio:  15/03/2014  Data de termino:  14/06/2014 Tabela:  Participacao em Congressos, Seminarios, Encontros, Jornadas etc. Descricao:  CNPq - 5º Encontro Tecnico do RHAE Pesquisador na Empresa Brasilia-DF CHA:  16  Data de inicio:  11/11/2014  Data de termino:  12/11/2014 Atividades academicas especiais Tabela:  Membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas CHA:  4  Data inicio:  17/07/2014  Data termino:  17/07/2014 Descricao Complementar:  Banca de PFC de Amanda Lira - Experiencia de Implantacao de Processos numa Fabrica de Software Descricao da Clientela:  INF Tabela:  Membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas CHA:  4  Data inicio:  16/12/2014  Data termino:  16/12/2014 Descricao Complementar:  Banca de PFC de Igor Alves - Um estudo de caso sobre Engenharia de Requisitos em desenvolvimento de software baseado no Scrum Descricao da Clientela:  INF Tabela:  Membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas CHA:  4  Data inicio:  16/12/2014  16/12/2014Data termino: Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA Pagina 4 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Descricao Complementar:  Banca de PFC de Farid Junior - Um estudo de caso sobre implantacao de Cobit em uma microempresa Descricao da Clientela:  INF Tabela:  Membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas CHA:  4  Data inicio:  16/12/2014  Data termino:  16/12/2014 Descricao Complementar:  Banca de PFC de Ariel Souza - Estudo de Caso: Implantacao de Processos da ITIL em uma Microempresa Descricao da Clientela:  INF Tabela:  Membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas CHA:  4  Data inicio:  16/12/2014  Data termino:  16/12/2014 Descricao Complementar:  Banca de PFC de Deborah Ulacia - Definicao de Processos na Fabrica de Software do INF Descricao da Clientela:  INF Tabela:  Membro de corpo de juri - Concursos nacionais CHA:  12  Data inicio:  03/07/2014  Data termino:  03/08/2014 Descricao Complementar:  Membro do Comite Julgador do Concurso Nacional de Teses e Dissertacoes em Qualidade de Software Descricao da Clientela:  SBC Atividades administrativas Tabela:  Atividades academicas e administrativas designadas por portaria do Reitor, Pro-Reitor ou Diretor de Unidade Academica com carga horaria >=150 horas Descricao:  MEMBRO DO NUCLEO DOCENTE ESTRUTURANTE - N.D.E. - ENGENHARIA DE SOFTWARE Orgao emissor  INF  Orgao servido  INF Portaria  19  CHA:  100  Data inicio:  01/01/2014  Data termino:  31/12/2014 Tabela:  Membros da CPPD ou da Comissao de Avaliacao Institucional ou da Comissao Propria de Avaliacao ou da CAD Descricao: PRESIDENTE DA COMISSAO DE AVALIACAO DOCENTE - CAD - PARA TRATAR PRIORITARIAMENTE DOS PROCESSOS DE PROMOCAO A CLASSE D Orgao emissor  INF  Orgao servido  INF Portaria  005  CHA:  100  Data inicio:  01/01/2014  Data termino:  31/12/2014 Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA Pagina 5 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Tabela:  Atividades academicas e administrativas designadas por portaria do Reitor, Pro-Reitor ou Diretor de Unidade Academica com carga horaria >=150 horas Descricao:  COORDENADOR DA FABRICA DE SOFTWARE Orgao emissor  INF  Orgao servido  INF Portaria  011  CHA:  100  Data inicio:  01/01/2014  Data termino:  31/12/2014 Tabela:  Outras Atividades Administrativas e de Representacao Descricao:  Preenchimento de RADOC Orgao emissor  INF  Orgao servido  INF Portaria  NA  CHA: 8  Data inicio:  01/01/2014  Data termino:  12/11/2014 Tabela:  Outras Atividades Administrativas e de Representacao Descricao:  Preenchimento de CV Lattes Orgao emissor  INF  Orgao servido  INF Portaria  NA  CHA: 8  Data inicio:  01/01/2014  Data termino:  12/11/2014 Tabela:  Outras Atividades Administrativas e de Representacao Descricao:  PARTICIPACOES EM REUNIOES DO CD 2014 Orgao emissor  INF  Orgao servido  INF Portaria  NA  CHA:  12  Data inicio:  01/01/2014  Data termino:  31/12/2014 Produtos Descricao do produto:  Trabalho completo publicado em anais de congresso cientifico Titulo do produto:  A User Interface Stereotype to build Web Portals Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  LA-WEB 2014 - Latin American Web Congress Local:  Ouro Preto - MG Data:  20/10/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  :9 Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA Pagina 6 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Nº da patente: Editora:  SBC Descricao do produto: Parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (ART) ou registro de resp. tecnica (RRT) Titulo do produto:  Avaliacao do Trabalho: Implantacao dos Processos de Verificacao e Validacao do CMMI utilizando o Framework Gaia Vero Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  SBSI 2014 - Simposio Brasileiro de Sistemas de Informacao Local:  Londrina - PR Data:  27/05/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: Parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (ART) ou registro de resp. tecnica (RRT) Titulo do produto:  Avaliacao do Trabalho: Inspecao por Tecnicas de Leitura: Uma Proposta para Incluir Requisitos de Acessibilidade Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  SBSI 2014 - Simposio Brasileiro de Sistemas de Informacao Local:  Londrina - PR Data:  27/05/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: Parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (ART) ou registro de resp. tecnica (RRT) Titulo do produto:  Avaliacao do Trabalho: M3: Definindo um Modelo de Maturidade para apoio a Governanca Agil em TIC Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  SBSI 2014 - Simposio Brasileiro de Sistemas de Informacao Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA Pagina 7 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Local:  Londrina - PR Data:  27/05/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: Parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (ART) ou registro de resp. tecnica (RRT) Titulo do produto:  Avaliacao do Trabalho: Proposta de uma Ferramenta de Avaliacao e Implantacao da Sustentabilidade nas Fabricas de Software Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  SBSI 2014 - Simposio Brasileiro de Sistemas de Informacao Local:  Londrina - PR Data:  27/05/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: Parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (ART) ou registro de resp. tecnica (RRT) Titulo do produto:  Avaliacao do Trabalho: Proposta para Teste de Usabilidade para Aplicacoes Moveis no Contexto de Computacao Ubiqua Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  XII Workshop de Teses e Dissertacoes em Qualidade de Software Local:  Blumenau - SC Data:  04/08/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: Parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (ART) ou registro de resp. tecnica (RRT) Titulo do produto:  Avaliacao do Trabalho: TDQM: Analise das Principais Dimensoes no Contexto de Um Setor de Cadastro, Credito e Cobranca Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA Pagina 8 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  SBSI 2014 - Simposio Brasileiro de Sistemas de Informacao Local:  Londrina - PR Data:  27/05/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: Parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (ART) ou registro de resp. tecnica (RRT) Titulo do produto:  Avaliacao do trabalho: Estendendo a linguagem XACML para o suporte ao Calculo de Risco Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  Simposio Brasileiro de Sistemas de Informacao - SBSI 2014 Local:  Londrina - PR Data:  27/05/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: Parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (ART) ou registro de resp. tecnica (RRT) Titulo do produto:  Avaliacao do trabalho: Um Mapeamento para Apoio ao Processo de Gerencia de Portfolio de Projetos no Contexto do MR-MPS-SW adotando Praticas Ageis Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  XII Workshop de Teses e Dissertacoes em Qualidade de Software Local:  Blumenau - SC Data:  04/08/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: Parecer realizado em consultoria ou assessoria oficializada por convite, convenio, contrato ou designacao - sem anotacao de resp. tecnica (ART) ou registro de resp. tecnica (RRT) Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA Pagina 9 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Titulo do produto: Avaliacao do trabalho: Uma Abordagem para Implementacao do Processo de Projeto e Construcao do Produto a partir da Adocao das Metodos Ageis Crystal, XP , FDD , TDD e LEAN Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  XII Workshop de Teses e Dissertacoes em Qualidade de Software Local:  Blumenau - SC Data:  04/08/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto:  Parecer de consultoria ad hoc em comites de avaliacao de concursos e editais de publicacao de livros de editoras com corpo editorial Titulo do produto:  Membro do Comite Julgador do Concurso de Teses e Dissertacoes em Qualidade de Software Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  Simposio Brasileiro de Qualidade de Software - SQBS 2014 Local:  Blumenau - SC Data:  04/08/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: Parecer de consultoria ad hoc para periodicos especializados com corpo editorial ou para instituicoes de fomento a pesquisa ou para livros de editoras com corpo editorial Titulo do produto:  Revisor da Revista de Sistemas de Informacao da Faculdade Salesiana Maria Auxiliadora (ISSN 1983-5604) na edicao nº 14 de Julho - Dezembro de 2014. Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  Revista de Sistemas de Informacao - Faculdade Salesiana Maria Auxiliadora - FSMA Local:  Macae - RJ Data:  01/07/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  : Nº da patente: Editora:  Faculdade Salesiana Maria Auxiliadora - FSMA Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA  Pagina 10 / 11  UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES  EXTRATO DAS ATIVIDADES - ANO BASE: 2014 Descricao do produto:  Trabalho completo publicado em anais de congresso cientifico Titulo do produto:  User Interface Stereotypes: A Model-Based Approach for Information Systems User Interfaces Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : ESTRATEGIAS E METODOS PARA MELHORIA DE SOFTWARE Veiculacao:  SBSI 2014 - Simposio Brasileiro de Sistemas de Informacao Local:  Londrina - PR Data:  27/05/2014  Ano de publicacao:  2014  Pagina inicial:  NULL  Pagina final:  NULL  Numero de paginas  :12 Nº da patente: Editora:  SBC Data: 28/05/2015 23:27:40 JULIANO LOPES DE OLIVEIRA  Pagina 11 / 11
+ID: 0
+Tipo: Orientação
+Carga Horaria: 1
+Descricao: estudo de caso: implantacao de processos da itil em uma microempresa, aluno orientado em projeto de final de curso
+Data Inicio: 01/08/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 1
+Tipo: Orientação
+Carga Horaria: 1
+Descricao: um estudo de caso sobre engenharia de requisitos em desenvolvimento de software baseado no scrum, aluno orientado em projeto de final de curso
+Data Inicio: 01/08/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 2
+Tipo: Orientação
+Carga Horaria: 1
+Descricao: um estudo de caso sobre implantacao de cobit em uma microempresa, aluno orientado em projeto de final de curso
+Data Inicio: 01/08/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 3
+Tipo: Orientação
+Carga Horaria: 1
+Descricao: definicao de processos na fabrica de software do instituto de informatica da ufg, aluno orientado em projeto de final de curso
+Data Inicio: 01/08/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 4
+Tipo: Orientação
+Carga Horaria: 1
+Descricao: um estudo de caso sobre a influencia da revisao de codigo na seguranca de software, aluno orientado em projeto de final de curso
+Data Inicio: 01/08/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 0
+Tipo: Extensão
+Carga Horaria: 4
+Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, palestra sobe qualidade de software com mps.br, 
+Data Inicio: 29/04/2014
+Data Termino:29/04/2014
+-------------------------
+ID: 0
+Tipo: Qualificacao
+Carga Horaria: 440
+Descricao: docente em licenca para capacitacao (artigo 87, lei n.8112), licenca para capacitacao na area de gestao de servicos de tecnologia da informacao, com fundamento no artigo 87, da lei nº 9527, de 10/12/97.
+Data Inicio: 15/03/2014
+Data Termino:14/06/2014
+-------------------------
+ID: 1
+Tipo: Qualificacao
+Carga Horaria: 440
+Descricao: participacao em congressos, seminarios, encontros, jornadas etc., licenca para capacitacao na area de gestao de servicos de tecnologia da informacao, com fundamento no artigo 87, da lei nº 9527, de 10/12/97.
+Data Inicio: 15/03/2014
+Data Termino:14/06/2014
+-------------------------
+ID: 0
+Tipo: Acadêmicas Especiais
+Carga Horaria: 4
+Descricao: membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas
+Data Inicio: 17/07/2014
+Data Termino:17/07/2014
+-------------------------
+ID: 1
+Tipo: Acadêmicas Especiais
+Carga Horaria: 4
+Descricao: membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas
+Data Inicio: 17/07/2014
+Data Termino:17/07/2014
+-------------------------
+ID: 2
+Tipo: Acadêmicas Especiais
+Carga Horaria: 4
+Descricao: membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas
+Data Inicio: 17/07/2014
+Data Termino:17/07/2014
+-------------------------
+ID: 3
+Tipo: Acadêmicas Especiais
+Carga Horaria: 4
+Descricao: membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas
+Data Inicio: 17/07/2014
+Data Termino:17/07/2014
+-------------------------
+ID: 4
+Tipo: Acadêmicas Especiais
+Carga Horaria: 4
+Descricao: membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas
+Data Inicio: 17/07/2014
+Data Termino:17/07/2014
+-------------------------
+ID: 5
+Tipo: Acadêmicas Especiais
+Carga Horaria: 4
+Descricao: membro de corpo de juri - concursos nacionais
+Data Inicio: 17/07/2014
+Data Termino:17/07/2014
+-------------------------
+ID: 0
+Tipo: Administração
+Carga Horaria: 100
+Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Data Inicio: 01/01/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 1
+Tipo: Administração
+Carga Horaria: 100
+Descricao: membros da cppd ou da comissao de avaliacao institucional ou da comissao propria de avaliacao ou da cad, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Data Inicio: 01/01/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 2
+Tipo: Administração
+Carga Horaria: 100
+Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Data Inicio: 01/01/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 3
+Tipo: Administração
+Carga Horaria: 100
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Data Inicio: 01/01/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 4
+Tipo: Administração
+Carga Horaria: 100
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Data Inicio: 01/01/2014
+Data Termino:31/12/2014
+-------------------------
+ID: 5
+Tipo: Administração
+Carga Horaria: 100
+Descricao: outras atividades administrativas e de representacao, membro do nucleo docente estruturante - n.d.e. - engenharia de software orgao emissor  inf  orgao servido  inf portaria  19
+Data Inicio: 01/01/2014
+Data Termino:31/12/2014
+-------------------------
