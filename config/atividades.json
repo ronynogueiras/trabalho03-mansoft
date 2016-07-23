@@ -1,3 +1,4 @@
+
 {
   "atividades": [
     {
@@ -341,463 +342,463 @@
       "codigo": "002004007"
     },
     {
-      "idunico": "coordenador  de  projeto  conjuntos  de  pesquisa  e  cooperação  científica e de  cursos MINTER e  DINTER aprovados por órgãos oficiais de fomento",
+      "idunico": "coordenador  de  projeto  conjuntos  de  pesquisa  e  cooperacao  cientifica e de  cursos minter e  dinter aprovados por orgaos oficiais de fomento",
       "codigo": "003001001"
     },
     {
-      "idunico": "Coordenador   de   projeto   de   pesquisa   aprovado   com   comprovação   de financiamento (exceto bolsas)",
+      "idunico": "coordenador   de   projeto   de   pesquisa   aprovado   com   comprovacao   de financiamento (exceto bolsas)",
       "codigo": "003001002"
     },
     {
-      "idunico": "Coordenador  de  projeto  de  pesquisa  aprovado  sem  financiamento",
+      "idunico": "coordenador  de  projeto  de  pesquisa  aprovado  sem  financiamento",
       "codigo": "003001003"
     },
     {
-      "idunico": "Coordenador   de   projeto   de   extensão   aprovado   com   comprovação   de  financiamento (exceto bolsas)",
+      "idunico": "coordenador   de   projeto   de   extensao   aprovado   com   comprovacao   de  financiamento (exceto bolsas)",
       "codigo": "003002001"
     },
     {
-      "idunico": "Coordenador  de  projeto  ou  programa  de  extensão/cultura  cadastrado  na PROEC",
+      "idunico": "coordenador  de  projeto  ou  programa  de  extensao/cultura  cadastrado  na proec",
       "codigo": "003002002"
     },
     {
-      "idunico": "Coordenador   de   contratos   e   de   convênios   de   cooperação   institucional internacional",
+      "idunico": "coordenador   de   contratos   e   de   convenios   de   cooperacao   institucional internacional",
       "codigo": "003002003"
     },
     {
-      "idunico": "Coordenador   de   contratos   e   de   convênios   de   cooperação   institucional nacional",
+      "idunico": "coordenador   de   contratos   e   de   convenios   de   cooperacao   institucional nacional",
       "codigo": "003002004"
     },
     {
-      "idunico": "Participante  de  projeto  de  extensão/cultura  cadastrado  na  PROEC",
+      "idunico": "participante  de  projeto  de  extensao/cultura  cadastrado  na  proec",
       "codigo": "003002005"
     },
     {
-      "idunico": "Curso  de  extensão  ministrado  com  20  ou  mais horas",
+      "idunico": "curso  de  extensao  ministrado  com  20  ou  mais horas",
       "codigo": "003002006"
     },
     {
-      "idunico": "Curso  de  extensão  ministrado  com  menos  de  20  horas",
+      "idunico": "curso  de  extensao  ministrado  com  menos  de  20  horas",
       "codigo": "003002007"
     },
     {
-      "idunico": "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - evento internacional",
+      "idunico": "palestrante, conferencista ou participante em mesa redonda em evento cientifico,cultural ou artistico - evento internacional",
       "codigo": "003002008001"
     },
     {
-      "idunico": "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - evento nacional",
+      "idunico": "palestrante, conferencista ou participante em mesa redonda em evento cientifico,cultural ou artistico - evento nacional",
       "codigo": "003002008002"
     },
     {
-      "idunico": "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - Evento  regional  ou  local",
+      "idunico": "palestrante, conferencista ou participante em mesa redonda em evento cientifico,cultural ou artistico - evento  regional  ou  local",
       "codigo": "003002008003"
     },
     {
-      "idunico": "Promoção ou produção de eventos artísticos e científicos locais - presidente",
+      "idunico": "promocao ou producao de eventos artisticos e cientificos locais - presidente",
       "codigo": "003002009001"
     },
     {
-      "idunico": "Promoção ou produção de eventos artísticos e científicos locais - comissao organizadora",
+      "idunico": "promocao ou producao de eventos artisticos e cientificos locais - comissao organizadora",
       "codigo": "003002009002"
     },
     {
-      "idunico": "Promoção ou produção de eventos artísticos e científicos regionais - Presidente",
+      "idunico": "promocao ou producao de eventos artisticos e cientificos regionais - presidente",
       "codigo": "003002010001"
     },
     {
-      "idunico": "Promoção ou produção de eventos artísticos e científicos regionais - Comissão organizadora",
+      "idunico": "promocao ou producao de eventos artisticos e cientificos regionais - comissao organizadora",
       "codigo": "003002010002"
     },
     {
-      "idunico": "Promoção ou produção de eventos artísticos e científicos nacionais - Presidente",
+      "idunico": "promocao ou producao de eventos artisticos e cientificos nacionais - presidente",
       "codigo": "003002011001"
     },
     {
-      "idunico": "Promoção ou produção de eventos artísticos e científicos nacionais - comissao organizadora",
+      "idunico": "promocao ou producao de eventos artisticos e cientificos nacionais - comissao organizadora",
       "codigo": "003002011002"
     },
     {
-      "idunico": "Promoção ou produção de eventos artísticos e científicos internacionais - presidente",
+      "idunico": "promocao ou producao de eventos artisticos e cientificos internacionais - presidente",
       "codigo": "003002012001"
     },
     {
-      "idunico": "Promoção ou produção de eventos artísticos e científicos internacionais - Comissão organizadora",
+      "idunico": "promocao ou producao de eventos artisticos e cientificos internacionais - comissao organizadora",
       "codigo": "003002012001"
     },
     {
-      "idunico": "Reitor ou Vice-Reitor ou Pró-Reitor",
+      "idunico": "reitor ou vice-reitor ou pro-reitor",
       "codigo": "004001001"
     },
     {
-      "idunico": "Chefe de Gabinete",
+      "idunico": "chefe de gabinete",
       "codigo": "004001002"
     },
     {
-      "idunico": "Coordenador ou assessor vinculado à Reitoria",
+      "idunico": "coordenador ou assessor vinculado a reitoria",
       "codigo": "004001003"
     },
     {
-      "idunico": "Diretor de Unidade Acadêmica, de  Unidade Acadêmica Especial ou do CEPAE",
+      "idunico": "diretor de unidade academica, de  unidade academica especial ou do cepae",
       "codigo": "004001004"
     },
     {
-      "idunico": "Diretor de Campus do interior",
+      "idunico": "diretor de campus do interior",
       "codigo": "004001005"
     },
     {
-      "idunico": "Vice-diretor de Campus do interior",
+      "idunico": "vice-diretor de campus do interior",
       "codigo": "004001006"
     },
     {
-      "idunico": "Diretor Geral do Hospital das Clínicas",
+      "idunico": "diretor geral do hospital das clinicas",
       "codigo": "004001007"
     },
     {
-      "idunico": "Coordenador ou assessor vinculado às Pró-Reitorias ou à Direção dos Campus do Interior",
+      "idunico": "coordenador ou assessor vinculado as pro-reitorias ou a direcao dos campus do interior",
       "codigo": "004001008"
     },
     {
-      "idunico": "Coordenador de Programa de Pós-Graduação stricto sensu",
+      "idunico": "coordenador de programa de pos-graduacao stricto sensu",
       "codigo": "004001009"
     },
     {
-      "idunico": "Coordenador de Curso de Ensino Básico ou de Graduação",
+      "idunico": "coordenador de curso de ensino basico ou de graduacao",
       "codigo": "004001010"
     },
     {
-      "idunico": "Vice-diretor de Unidade Acadêmica ou Unidade Acadêmica Especial ou do CEPAE",
+      "idunico": "vice-diretor de unidade academica ou unidade academica especial ou do cepae",
       "codigo": "004001011"
     },
     {
-      "idunico": "Diretor do Hospital Veterinário",
+      "idunico": "diretor do hospital veterinario",
       "codigo": "004001012"
     },
     {
-      "idunico": "Diretor  de  Órgão  da Administração",
+      "idunico": "diretor  de  orgao  da administracao",
       "codigo": "004001013"
     },
     {
-      "idunico": "Coordenador  de  projeto  institucional  com  financiamento  ou  de  contratos  e convênio com plano de trabalho aprovado",
+      "idunico": "coordenador  de  projeto  institucional  com  financiamento  ou  de  contratos  e convenio com plano de trabalho aprovado",
       "codigo": "004002001"
     },
     {
-      "idunico": "Coordenador de curso de especialização, residência médica ou residência multiprofissional em saúde",
+      "idunico": "coordenador de curso de especializacao, residencia medica ou residencia multiprofissional em saude",
       "codigo": "004002002"
     },
     {
-      "idunico": "Membro representante de classe da carreira docente no CONSUNI",
+      "idunico": "membro representante de classe da carreira docente no consuni",
       "codigo": "004002003"
     },
     {
-      "idunico": "Membro do Conselho de Curadores ou do Plenário do CEPEC ou de Conselho de Fundações",
+      "idunico": "membro do conselho de curadores ou do plenario do cepec ou de conselho de fundacoes",
       "codigo": "004002004"
     },
     {
-      "idunico": "Atividades  acadêmicas  e  administrativas  designadas  por  portaria  do  Reitor, Pró-Reitor ou Diretor de Unidade Acadêmica com carga horária >=150 horas",
+      "idunico": "atividades  academicas  e  administrativas  designadas  por  portaria  do  reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas",
       "codigo": "004002005"
     },
     {
-      "idunico": "Presidente da CPPD",
+      "idunico": "presidente da cppd",
       "codigo": "004003001"
     },
     {
-      "idunico": "Presidente da Comissão de Avaliação Institucional ou da Comissão Própria de Avaliação",
+      "idunico": "presidente da comissao de avaliacao institucional ou da comissao propria de avaliacao",
       "codigo": "004003002"
     },
     {
-      "idunico": "Membros da Coordenação Permanente do Centro de Seleção",
+      "idunico": "membros da coordenacao permanente do centro de selecao",
       "codigo": "004003003"
     },
     {
-      "idunico": "Diretores do HC",
+      "idunico": "diretores do hc",
       "codigo": "004003004"
     },
     {
-      "idunico": "Presidente do Comitê de Ética em Pesquisa da UFG e do HC/UFG",
+      "idunico": "presidente do comite de etica em pesquisa da ufg e do hc/ufg",
       "codigo": "004003005"
     },
     {
-      "idunico": "Membros   da   CPPD   ou   da   Comissão   de   Avaliação   Institucional   ou da Comissão Própria de Avaliação ou da CAD",
+      "idunico": "membros   da   cppd   ou   da   comissao   de   avaliacao   institucional   ou da comissao propria de avaliacao ou da cad",
       "codidgo": "004003006"
     },
     {
-      "idunico": "Coordenador  de  Pesquisa  ou  de  Ensino  ou  de  Extensão  ou  de  Estágio  das Unidades Acadêmicas",
+      "idunico": "coordenador  de  pesquisa  ou  de  ensino  ou  de  extensao  ou  de  estagio  das unidades academicas",
       "codigo": "004003007"
     },
     {
-      "idunico": "Chefe de Departamento",
+      "idunico": "chefe de departamento",
       "codigo": "004003008"
     },
     {
-      "idunico": "Chefe do Pronto Socorro ou da  Maternidade ou do CEROF do Hospital das Clínicas da UFG",
+      "idunico": "chefe do pronto socorro ou da  maternidade ou do cerof do hospital das clinicas da ufg",
       "codigo": "004003009"
     },
     {
-      "idunico": "Coordenador das  Atividades de Interação com a Sociedade",
+      "idunico": "coordenador das  atividades de interacao com a sociedade",
       "codigo": "004003010"
     },
     {
-      "idunico": "Coordenador das Atividades de Pesquisa e de Pós–Graduação lato sensu",
+      "idunico": "coordenador das atividades de pesquisa e de pos?graduacao lato sensu",
       "codigo": "004003011"
     },
     {
-      "idunico": "Membros do Comitê de Ética da UFG e do HC/UFG",
+      "idunico": "membros do comite de etica da ufg e do hc/ufg",
       "codigo": "004003012"
     },
     {
-      "idunico": "Membros do Comitê Interno e Externo do PIBIC",
+      "idunico": "membros do comite interno e externo do pibic",
       "codigo": "004003013"
     },
     {
-      "idunico": "Representante  titular  em  conselho  de  classe  profissional  com  carga  horária igual ou superior a 150 horas",
+      "idunico": "representante  titular  em  conselho  de  classe  profissional  com  carga  horaria igual ou superior a 150 horas",
       "codigo": "004004001"
     },
     {
-      "idunico": "Presidente do Sindicato de Docentes da UFG",
+      "idunico": "presidente do sindicato de docentes da ufg",
       "codigo": "004004002"
     },
     {
-      "idunico": "Diretor do Sindicato de Docentes da UFG",
+      "idunico": "diretor do sindicato de docentes da ufg",
       "codigo": "004004003"
     },
     {
-      "idunico": "Representante sindical com carga horária igual ou superior a 150 horas",
+      "idunico": "representante sindical com carga horaria igual ou superior a 150 horas",
       "codigo": "004004004"
     },
     {
-      "idunico": "Representante  em  entidade  científica,  artística  e  cultural  com  carga  horária igual ou superior a 150 horas",
+      "idunico": "representante  em  entidade  cientifica,  artistica  e  cultural  com  carga  horaria igual ou superior a 150 horas",
       "codigo": "004004005"
     },
     {
-      "idunico": "Representante  em  comissão  de  órgão  governamental  com  carga  horária  igual ou superior a 150 horas",
+      "idunico": "representante  em  comissao  de  orgao  governamental  com  carga  horaria  igual ou superior a 150 horas",
       "codigo": "004004006"
     },
     {
-      "idunico": "Aluno orientado em tese de doutorado defendida e aprovada",
+      "idunico": "aluno orientado em tese de doutorado defendida e aprovada",
       "codigo": "005001001"
     },
     {
-      "idunico": "Aluno co-orientado em tese de doutorado defendida e aprovada",
+      "idunico": "aluno co-orientado em tese de doutorado defendida e aprovada",
       "codigo": "005001002"
     },
     {
-      "idunico": "Aluno orientado em tese de doutorado em andamento",
+      "idunico": "aluno orientado em tese de doutorado em andamento",
       "codigo": "005001003"
     },
     {
-      "idunico": "Aluno co-orientado em tese de doutorado em andamento",
+      "idunico": "aluno co-orientado em tese de doutorado em andamento",
       "codigo": "005001004"
     },
     {
-      "idunico": "Aluno orientado em dissertação de mestrado defendida e aprovada",
+      "idunico": "aluno orientado em dissertacao de mestrado defendida e aprovada",
       "codigo": "005001005"
     },
     {
-      "idunico": "Aluno co-orientado em dissertação de mestrado defendida e aprovada",
+      "idunico": "aluno co-orientado em dissertacao de mestrado defendida e aprovada",
       "codigo": "005001006"
     },
     {
-      "idunico": "Aluno orientado em dissertação de mestrado em andamento",
+      "idunico": "aluno orientado em dissertacao de mestrado em andamento",
       "codigo": "005001007"
     },
     {
-      "idunico": "Aluno co-orientado em dissertação de mestrado em andamento",
+      "idunico": "aluno co-orientado em dissertacao de mestrado em andamento",
       "codigo": "005001008"
     },
     {
-      "idunico": "Aluno orientado em monografia de especialização aprovada",
+      "idunico": "aluno orientado em monografia de especializacao aprovada",
       "codigo": "005001009"
     },
     {
-      "idunico": "Aluno orientado em monografia de especialização em andamento",
+      "idunico": "aluno orientado em monografia de especializacao em andamento",
       "codigo": "005001010"
     },
     {
-      "idunico": "Aluno orientado em residência médica ou em residência multiprofissional em saúde",
+      "idunico": "aluno orientado em residencia medica ou em residencia multiprofissional em saude",
       "codigo": "005001011"
     },
     {
-      "idunico": "Aluno orientado em estágio supervisionado",
+      "idunico": "aluno orientado em estagio supervisionado",
       "codigo": "005001012"
     },
     {
-      "idunico": "Aluno orientado em projeto de final de curso",
+      "idunico": "aluno orientado em projeto de final de curso",
       "codigo": "005001013"
     },
     {
-      "idunico": "Aluno de outra IFE orientado em tese de doutorado defendida e aprovada",
+      "idunico": "aluno de outra ife orientado em tese de doutorado defendida e aprovada",
       "codigo": "005001014"
     },
     {
-      "idunico": "Aluno de outra IFE co-orientado em tese de doutorado defendida e aprovada",
+      "idunico": "aluno de outra ife co-orientado em tese de doutorado defendida e aprovada",
       "codigo": "005001015"
     },
     {
-      "idunico": "Aluno de outra IFE orientado em tese de doutorado em andamento",
+      "idunico": "aluno de outra ife orientado em tese de doutorado em andamento",
       "codigo": "005001016"
     },
     {
-      "idunico": "Aluno de outra IFE co-orientado em tese de doutorado em andamento",
+      "idunico": "aluno de outra ife co-orientado em tese de doutorado em andamento",
       "codigo": "005001017"
     },
     {
-      "idunico": "Aluno de outra IFE orientado em dissertação de mestrado defendida e aprovada",
+      "idunico": "aluno de outra ife orientado em dissertacao de mestrado defendida e aprovada",
       "codigo": "005001018"
     },
     {
-      "idunico": "Aluno de outra IFE co-orientado em dissertação de mestrado defendida e aprovada",
+      "idunico": "aluno de outra ife co-orientado em dissertacao de mestrado defendida e aprovada",
       "codigo": "005001019"
     },
     {
-      "idunico": "Aluno de outra IFE orientado em dissertação de mestrado em andamento",
+      "idunico": "aluno de outra ife orientado em dissertacao de mestrado em andamento",
       "codigo": "005001020"
     },
     {
-      "idunico": "Aluno de outra IFE co-orientado em dissertação de mestrado em andamento",
+      "idunico": "aluno de outra ife co-orientado em dissertacao de mestrado em andamento",
       "codigo": "005001021"
     },
     {
-      "idunico": "Aluno orientado em programa de iniciação científica",
+      "idunico": "aluno orientado em programa de iniciacao cientifica",
       "codigo": "005001022"
     },
     {
-      "idunico": "Aluno orientado em programa de iniciação científica júnior",
+      "idunico": "aluno orientado em programa de iniciacao cientifica junior",
       "codigo": "005001023"
     },
     {
-      "idunico": "Aluno orientado em programa especial de treinamento (PET)",
+      "idunico": "aluno orientado em programa especial de treinamento (pet)",
       "codigo": "005001024"
     },
     {
-      "idunico": "Aluno orientado com bolsa de DTI, PIBIT, AT, Jovens Talentos e similares",
+      "idunico": "aluno orientado com bolsa de dti, pibit, at, jovens talentos e similares",
       "codigo": "005001025"
     },
     {
-      "idunico": "Aluno orientado com bolsa de licenciatura (PIBID e similares)",
+      "idunico": "aluno orientado com bolsa de licenciatura (pibid e similares)",
       "codigo": "005001026"
     },
     {
-      "idunico": "Aluno orientado com bolsa extensão/cultura/ensino",
+      "idunico": "aluno orientado com bolsa extensao/cultura/ensino",
       "codigo": "005001027"
     },
     {
-      "idunico": "Aluno orientado em projetos de extensão/cultura/ensino sem bolsa",
+      "idunico": "aluno orientado em projetos de extensao/cultura/ensino sem bolsa",
       "codigo": "005001028"
     },
     {
-      "idunico": "Aluno orientado com bolsa PROCOM ou similar, vinculada a projeto de pesquisa/extensão/ensino",
+      "idunico": "aluno orientado com bolsa procom ou similar, vinculada a projeto de pesquisa/extensao/ensino",
       "codigo": "005001029"
     },
     {
-      "idunico": "Aluno orientado em programa de monitoria",
+      "idunico": "aluno orientado em programa de monitoria",
       "codigo": "005001030"
     },
     {
-      "idunico": "Aluno orientado em atividade não curricular com bolsa",
+      "idunico": "aluno orientado em atividade nao curricular com bolsa",
       "codigo": "005001031"
     },
     {
-      "idunico": "Aluno orientado em atividade não curricular sem bolsa",
+      "idunico": "aluno orientado em atividade nao curricular sem bolsa",
       "codigo": "005001032"
     },
     {
-      "idunico": "Pesquisador supervisionado em estágio de pós-doutoramento",
+      "idunico": "pesquisador supervisionado em estagio de pos-doutoramento",
       "codigo": "005001033"
     },
     {
-      "idunico": "Aluno orientado em Prática como Componente Curricular (PCC)",
+      "idunico": "aluno orientado em pratica como componente curricular (pcc)",
       "codigo": "005001034"
     },
     {
-      "idunico": "Aluno com deficiência, transtornos globais do desenvolvimento e altas habilidades/superdotação orientado em programa ou projeto de apoio pedagógico",
+      "idunico": "aluno com deficiencia, transtornos globais do desenvolvimento e altas habilidades/superdotacao orientado em programa ou projeto de apoio pedagogico",
       "codigo": "005001035"
     },
     {
-      "idunico": "Membro de banca de concurso para docente efetivo - Na instituição",
+      "idunico": "membro de banca de concurso para docente efetivo - na instituicao",
       "codigo": "005002001001"
     },
     {
-      "idunico": "Membro de banca de concurso para docente efetivo - Em outra instituição",
+      "idunico": "membro de banca de concurso para docente efetivo - em outra instituicao",
       "codigo": "005002001002"
     },
     {
-      "idunico": "Membro de banca de concurso para docente substituto",
+      "idunico": "membro de banca de concurso para docente substituto",
       "codigo": "005002002"
     },
     {
-      "idunico": "Membro de banca de defesa de dissertação de mestrado - Na instituição",
+      "idunico": "membro de banca de defesa de dissertacao de mestrado - na instituicao",
       "codigo": "005002003001"
     },
     {
-      "idunico": "Membro de banca de defesa de dissertação de mestrado - Em outra instituição",
+      "idunico": "membro de banca de defesa de dissertacao de mestrado - em outra instituicao",
       "codigo": "005002003002"
     },
     {
-      "idunico": "Membro de banca de defesa de tese de doutorado - na instituicao",
+      "idunico": "membro de banca de defesa de tese de doutorado - na instituicao",
       "codigo": "005002004001"
     },
     {
-      "idunico": "Membro de banca de defesa de tese de doutorado - em outra instituicao",
+      "idunico": "membro de banca de defesa de tese de doutorado - em outra instituicao",
       "codigo": "005002004002"
     },
     {
-      "idunico": "Membro de banca de qualificação de mestrado - Na instituição",
+      "idunico": "membro de banca de qualificacao de mestrado - na instituicao",
       "codigo": "005002005001"
     },
     {
-      "idunico": "Membro de banca de qualificação de mestrado - em outra instituição",
+      "idunico": "membro de banca de qualificacao de mestrado - em outra instituicao",
       "codigo": "005002005002"
     },
     {
-      "idunico": "Membro de banca de qualificação de doutorado - na instituicao",
+      "idunico": "membro de banca de qualificacao de doutorado - na instituicao",
       "codigo": "005002006001"
     },
     {
-      "idunico": "Membro de banca de qualificação de doutorado - em outra instituicao",
+      "idunico": "membro de banca de qualificacao de doutorado - em outra instituicao",
       "codigo": "005002006001"
     },
     {
-      "idunico": "Membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas",
+      "idunico": "membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas",
       "codigo": "005002007"
     },
     {
-      "idunico": "Membro de corpo de júri - Concursos internacionais",
+      "idunico": "membro de corpo de juri - concursos internacionais",
       "codigo": "005002008001"
     },
     {
-      "idunico": "Membro de corpo de júri - Concursos nacionais",
+      "idunico": "membro de corpo de juri - concursos nacionais",
       "codigo": "005002008002"
     },
     {
-      "idunico": "Cursos, palestras ou treinamento não curricular ministrados para docentes, funcionários ou alunos da UFG",
+      "idunico": "cursos, palestras ou treinamento nao curricular ministrados para docentes, funcionarios ou alunos da ufg",
       "codigo": "005002009"
     },
     {
-      "idunico": "Coordenador de projeto institucional de intercâmbio internacional",
+      "idunico": "coordenador de projeto institucional de intercambio internacional",
       "codigo": "005002010"
     },
     {
-      "idunico": "Docente regularmente matriculado em curso de doutorado com relatórios de pós-graduação aprovados",
+      "idunico": "docente regularmente matriculado em curso de doutorado com relatorios de pos-graduacao aprovados",
       "codigo": "005003001"
     },
     {
-      "idunico": "Estágio Pós-Doutoral ou Estágio Sênior",
+      "idunico": "estagio pos-doutoral ou estagio senior",
       "codigo": "005003002"
     },
     {
-      "idunico": "Docente em licença para capacitação (Artigo 87, Lei N.8112)",
+      "idunico": "docente em licenca para capacitacao (artigo 87, lei n.8112)",
       "codigo": "005003003"
     },
     {
-      "idunico": "Curso de aperfeiçoamento realizado com carga horária superior a 40 horas",
+      "idunico": "curso de aperfeicoamento realizado com carga horaria superior a 40 horas",
       "codigo": "005003004"
     },
     {
-      "idunico": "Curso de aperfeiçoamento realizado com carga horária inferior a 40 horas",
+      "idunico": "curso de aperfeicoamento realizado com carga horaria inferior a 40 horas",
       "codigo": "005003005"
     },
     {
-      "idunico": "Participação em Congressos, Seminários, Encontros, Jornadas etc.",
+      "idunico": "participacao em congressos, seminarios, encontros, jornadas etc.",
       "codigo": "005003006"
     }
   ]

@@ -17,6 +17,7 @@ public class Atividade {
     private String descricao;
     private String dataInicio;
     private String dataTermino;
+    private String codGrupoPontuacao;
 
     /**
      * @return the id
@@ -101,10 +102,19 @@ public class Atividade {
     public void setDataTermino(String dataTermino) {
         this.dataTermino = dataTermino;
     }
+
+    public String getCodGrupoPontuacao() {
+        return codGrupoPontuacao;
+    }
+
+    public void setCodGrupoPontuacao(String codGrupoPontuacao) {
+        this.codGrupoPontuacao = codGrupoPontuacao;
+    }
     @Override
     public String toString(){
         String str = "ID: "+this.id+"\n";
         str += "Tipo: "+this.tipo+"\n";
+        str += "Codigo Grupo: "+this.codGrupoPontuacao+"\n";
         str += "Carga Horaria: "+this.cargaHoraria+"\n";
         str += "Descricao: "+this.descricao+"\n";
         str += "Data Inicio: "+this.dataInicio+"\n";
@@ -112,5 +122,5 @@ public class Atividade {
         str += "-------------------------\n";
         return str;
     }
-    
+
 }

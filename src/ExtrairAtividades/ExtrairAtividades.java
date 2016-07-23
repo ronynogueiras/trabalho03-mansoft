@@ -4,68 +4,70 @@ import com.snowtide.pdf.OutputTarget;
 import com.snowtide.pdf.Document;
 import com.snowtide.PDF;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javafx.beans.binding.StringBinding;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /**
  * Extrai atividades de arquivo RADOC
  */
 public class ExtrairAtividades {
 
+
+    private HashMap<String,String> atividades = new HashMap<>();
+
     /**
      * @param args, arquivos passados por linha de comando
      */
     public static void main(String[] args) throws IOException {
-        parse(args.length != 0 ? args[0] : null);
+        if(args.length>0){
+            carregaAtividades("config/atividades.json");
+            for(String arquivo : args){
+                //parse(arquivo);
+            }
+        }else{
+            System.out.println("Você deve informar o nome do arquivo RADOC");
+        }
     }
 
     /**
      * Inicia parser no arquivo Radoc.pdf
-     * @param path, caminho para arquivo radoc.pdf
+     * @param arquivo, caminho para arquivo radoc.pdf
      */
-    public static void parse(String path) throws IOException{
-        String[] files;
-        if(path != null){
-                files = new String[]{path};
+    private static void parse(String arquivo) throws IOException{
+        String texto = getPdfTexto(arquivo);
+        texto = tratarPDF(texto);
+        BufferedWriter bw = criarNovoArquivo("AtividadesExtraidas_"+arquivo+".txt");
+        List<Atividade> atividades = getAtividadesOrientacao(texto);
+        for(Atividade atividade : atividades){
+            bw.write(atividade.toString());
         }
-        else {
-                files = new String[]{
-                    "files/Radoc-2011-Final.pdf",
-                    "files/Radoc-2012-Final.pdf",
-                    "files/Radoc-2013-Final.pdf",
-                    "files/Radoc-2014-Final.pdf",
-                    "files/Radoc-2015-Final.pdf"
-            };
+        atividades = getAtividadesExtensao(texto);
+        for(Atividade atividade : atividades){
+            bw.write(atividade.toString());
         }
-        for(String file : files){
-            String texto = tratarPDF(getPdfTexto(file));
-            BufferedWriter bw = criarNovoArquivo(file);
-            for(Atividade atividade : getAtividadesOrientacao(texto)){
-                bw.write(atividade.toString());
-            }
-            for(Atividade atividade : getAtividadesExtensao(texto)){
-                bw.write(atividade.toString());
-            }
-            for(Atividade atividade : getAtividadesQualificao(texto)){
-                bw.write(atividade.toString());
-            }
-            for(Atividade atividade : getAtividadesEspeciais(texto)){
-                bw.write(atividade.toString());
-            }
-            for(Atividade atividade : getAtividadesAdministrativas(texto)){
-                bw.write(atividade.toString());
-            }
-            bw.close();
+        atividades = getAtividadesQualificao(texto);
+        for(Atividade atividade : atividades){
+            bw.write(atividade.toString());
         }
+        atividades = getAtividadesEspeciais(texto);
+        for(Atividade atividade : atividades){
+            bw.write(atividade.toString());
+        }
+        atividades  = getAtividadesAdministrativas(texto);
+        for(Atividade atividade : atividades){
+            bw.write(atividade.toString());
+        }
+        bw.close();
     }
 
     /**
@@ -116,7 +118,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    public static List<Atividade> getAtividadesEspeciais(String text){
+    private static List<Atividade> getAtividadesEspeciais(String text){
         int escopoInicio = text.indexOf("atividades academicas especiais");
         int escopoFinal = text.indexOf("atividades administrativas");
         text = text.substring(escopoInicio,escopoFinal);
@@ -138,7 +140,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    public static List<Atividade> getAtividadesOrientacao(String text){
+    private static List<Atividade> getAtividadesOrientacao(String text){
         int escopoInicio = text.indexOf("atividades de orientacao");
         int escopoFinal = text.indexOf("atividades em projetos");
         text = text.substring(escopoInicio,escopoFinal);
@@ -163,7 +165,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    public static List<Atividade> getAtividadesExtensao(String text) {
+    private static List<Atividade> getAtividadesExtensao(String text) {
         int escopoInicio = text.indexOf("atividades de extensao");
         int escopoFinal = text.indexOf("atividades de qualificacao");
         StringBuilder customRegex = new StringBuilder(Regex.DESCRICAO_CLIENTELA
@@ -195,7 +197,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    public static List<Atividade> getAtividadesQualificao(String text){
+    private static List<Atividade> getAtividadesQualificao(String text){
         int escopoInicio = text.indexOf("atividades de qualificacao");
         int escopoFinal = text.indexOf("atividades academicas especiais");
         text = text.substring(escopoInicio,escopoFinal);
@@ -220,7 +222,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    public static List<Atividade> getAtividadesAdministrativas(String text){
+    private static List<Atividade> getAtividadesAdministrativas(String text){
         int escopoInicio = text.toLowerCase().indexOf("atividades administrativas");
         int escopoFinal = text.toLowerCase().indexOf("produtos descricao do produto:");
         text = text.substring(escopoInicio,escopoFinal);
@@ -245,7 +247,7 @@ public class ExtrairAtividades {
      * @param texto, texto do pdf
      * @return texto devidamente tratado
      */
-    public static String tratarPDF(String texto) {
+    private static String tratarPDF(String texto) {
         return removeAcentos(texto.trim().replaceAll("(\\s{2})+|([\n\r])+"," ")) //Remove espaços extras e quebras de linhas
                 .replaceAll("(?i)Data:[ 0-9/: a-zA-Z]*(Pagina[ 0-9/]*)", "") //Remove footer
                 .replaceAll("(?i)UNIVERSIDADE(\\s+)FEDERAL(\\s+)DE(\\s+)GOIAS(\\s+)SISTEMA(\\s+)DE(\\s+)CADASTRO(\\s+)DE(\\s+)ATIVIDADES(\\s+)DOCENTES(\\s+)EXTRATO(\\s+)DAS(\\s+)ATIVIDADES(\\s+)-(\\s+)ANO(\\s+)BASE:(\\s+)[0-9]{4}","") // Remove cabeçario
@@ -257,7 +259,7 @@ public class ExtrairAtividades {
      * @param string, texto com acentos
      * @return string sem acentos
      */
-    public static String removeAcentos(String string) {
+    private static String removeAcentos(String string) {
         return Normalizer.normalize(string, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
     }
 
@@ -266,7 +268,7 @@ public class ExtrairAtividades {
      * @param caminho, do arquivo
      * @return texto do arquivo
      */
-    public static String getPdfTexto(String caminho) throws IOException {
+    private static String getPdfTexto(String caminho) throws IOException {
         Document pdf = PDF.open(caminho);
         StringBuilder texto = new StringBuilder(1024);
         pdf.pipe(new OutputTarget(texto));
@@ -280,7 +282,7 @@ public class ExtrairAtividades {
      * @param caminho, do arquivo
      * @return BufferedWriter do arquivo
      */
-    public static BufferedWriter criarNovoArquivo(String caminho) throws IOException {
+    private static BufferedWriter criarNovoArquivo(String caminho) throws IOException {
         File novoArquivo = new File(caminho.replace(".pdf", ".txt"));
         if (!novoArquivo.exists()) {
             novoArquivo.createNewFile();
@@ -288,5 +290,36 @@ public class ExtrairAtividades {
         FileWriter fw = new FileWriter(novoArquivo.getAbsoluteFile());
         BufferedWriter bw = new BufferedWriter(fw);
         return bw;
+    }
+
+    private static HashMap<String,String> carregaAtividades(String caminho) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(caminho));
+        HashMap<String, String> atividades = null;
+        try {
+            StringBuilder stringBuilder = new StringBuilder();
+            String linha = br.readLine();
+
+            while (linha != null) {
+                stringBuilder.append(linha);
+                stringBuilder.append(System.lineSeparator());
+                linha = br.readLine();
+            }
+            String leitura = stringBuilder.toString();
+            JSONObject config = new JSONObject(leitura);
+            JSONArray itens = config.getJSONArray("atividades");
+            int idx;
+            atividades = new HashMap<>(itens.length());
+            for (idx = 0; idx < itens.length(); idx++) {
+                JSONObject item = itens.getJSONObject(idx);
+                String chave = item.getString("idunico");
+                String valor = item.getString("codigo");
+                atividades.put(chave, valor);
+            }
+        } catch (JSONException | IOException e) {
+            e.printStackTrace();
+        } finally {
+            br.close();
+        }
+        return atividades;
     }
 }
