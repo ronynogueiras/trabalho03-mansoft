@@ -1,688 +1,804 @@
 {
-  "aulas presenciais na graduacao": {
-    "codigo": "001001001"
-  },
-  "aulas do ensino a distancia na graduacao": {
-    "codigo": "001001002"
-  },
-  "aulas presenciais na pos-graduacao": {
-    "codigo": "001002001"
-  },
-  "aulas do ensino a distancia na pos-graduacao": {
-    "codigo": "001002002"
-  },
-  "artigo completo ou texto literario publicado em periodico - com classificacao no qualis/capes": {
-    "codigo": "002001001001"
-  },
-  "artigo completo ou texto literario publicado em periodico - nao sujeito a classificacao no qualis/capes": {
-    "codigo": "002001001002"
-  },
-  "resumo de artigo em periodicos especializados nacional ou internacional com corpo editorial": {
-    "codigo": "002001002"
-  },
-  "artigos ou textos literarios em repositorios de publicacao eletronica ligados a editoras ou universidades": {
-    "codigo": "002001003"
-  },
-  "resumo expandido publicado em anais - internacional": {
-    "codigo": "002001004001"
-  },
-  "resumo expandido publicado em anais - nacional": {
-    "codigo": "002001004002"
-  },
-  "resumo expandido publicado em anais - regional ou local": {
-    "codigo": "002001004003"
-  },
-  "resumo simples publicado em anais de congresso - internacional": {
-    "codigo": "002001005001"
-  },
-  "resumo simples publicado em anais de congresso - nacional": {
-    "codigo": "002001005002"
-  },
-  "resumo simples publicado em anais de congresso - regional ou local": {
-    "codigo": "002001005003"
-  },
-  "trabalho completo publicado em anais de congresso cientifico": {
-    "codigo": "002001006"
-  },
-  "editor ou coordenador editorial  de livro publicado com selo de editora que possua corpo editorial": {
-    "codigo": "002001007"
-  },
-  "livro publicado com selo de editora que possua corpo editorial": {
-    "codigo": "002001008"
-  },
-  "livro publicado com selo de editora que nao possua corpo editorial": {
-    "codigo": "002001009"
-  },
-  "capitulo de livro publicado com selo de editora  que  possua  corpo  editorial": {
-    "codigo": "002001010"
-  },
-  "edicao ou organizacao de livro (coletanea) publicado com selo de editora que possua corpo editorial": {
-    "codigo": "002001011"
-  },
-  "capitulo  traduzido  de  livro  publicado  com  selo  de  editora  que  possua  corpo editorial": {
-    "codigo": "002001012"
-  },
-  "traducao ou revisao cientifica de livro traduzido e publicado com selo de editora  que possua corpo editorial": {
-    "codigo": "002001013"
-  },
-  "resenhas, prefacios ou verbetes": {
-    "codigo": "002001014"
-  },
-  "livro didatico desenvolvido para projetos institucionais/governamentais": {
-    "codigo": "002001015"
-  },
-  "editor de periodicos especializados indexados com corpo editorial": {
-    "codigo": "002001016"
-  },
-  "editor de jornais ou revistas com distribuicao - local ou regional": {
-    "codigo": "002001017001"
-  },
-  "editor de jornais ou revistas com distribuicao - nacional": {
-    "codigo": "002001017002"
-  },
-  "editor de jornais ou revistas com distribuicao - internacional": {
-    "codigo": "002001017003"
-  },
-  "dissertacao de mestrado defendida de aprovada (sendo o docente o autor da dissertacao)": {
-    "codigo": "002001018"
-  },
-  "tese de doutorado defendida e aprovada": {
-    "codigo": "002001019"
-  },
-  "criacao,   producao   e   direcao   de   filmes,   videos,   discos,   audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em  eventos - locais ou regionais": {
-    "codigo": "002002001001"
-  },
-  "criacao,   producao   e   direcao   de   filmes,   videos,   discos,   audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em  eventos - nacionais": {
-    "codigo": "002002001002"
-  },
-  "criacao,   producao   e   direcao   de   filmes,   videos,   discos,   audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em  eventos - internacionais": {
-    "codigo": "002002001003"
-  },
-  "criacao  e  producao  do  projeto  grafico  de  livros:  concepcao  grafica  (mancha grafica, diagramacao, escolha de fonte)": {
-    "codigo": "002002002"
-  },
-  "design (grafico, de luz, de figurino e formas animadas, cenografico e similares)": {
-    "codigo": "002002003"
-  },
-  "design de impressos por peca (limitados a 20 pontos)": {
-    "codigo": "002002004"
-  },
-  "design de interfaces digitais": {
-    "codigo": "002002005"
-  },
-  "design de interfaces digitais com inovacao tecnologica": {
-    "codigo": "002002006"
-  },
-  "produtos com inovacao tecnologica": {
-    "codigo": "002002007"
-  },
-  "exposicoes e apresentacoes artisticas locais ou regionais - participacao individual, camerista, solista ou ator principal": {
-    "codigo": "002002008001"
-  },
-  "exposicoes e apresentacoes artisticas locais ou regionais - participacao coletiva ou coadjuvante": {
-    "codigo": "002002008002"
-  },
-  "exposicoes e apresentacoes artisticas nacionais - participacao individual, camerista, solista ou ator principal": {
-    "codigo": "002002009001"
-  },
-  "exposicoes e apresentacoes artisticas nacionais - participacao coletiva ou coadjuvante": {
-    "codigo": "002002009002"
-  },
-  "exposicoes e apresentacoes artisticas internacionais - participacao individual, camerista, solista ou ator principal": {
-    "codigo": "002002010001"
-  },
-  "exposicoes e apresentacoes artisticas internacionais - participacao coletiva ou coadjuvante": {
-    "codigo": "002002010001"
-  },
-  "composicoes musicais - editadas": {
-    "codigo": "002002011001"
-  },
-  "composicoes musicais - publicadas em revistas cientificas": {
-    "codigo": "002002011002"
-  },
-  "composicoes musicais - gravadas": {
-    "codigo": "002002011003"
-  },
-  "composicoes musicais - executadas em apresentacoes publicas": {
-    "codigo": "002002011003"
-  },
-  "producao artistica, arquitetonica ou de design premiada em evento - local ou regional": {
-    "codigo": "002002012001"
-  },
-  "producao artistica, arquitetonica ou de design premiada em evento - nacional": {
-    "codigo": "002002012002"
-  },
-  "producao artistica, arquitetonica ou de design premiada em evento - internacional": {
-    "codigo": "002002012003"
-  },
-  "arranjos musicais (canto, coral e orquestral)": {
-    "codigo": "002002013"
-  },
-  "apresentacao artistica ou cultural em radio ou tv": {
-    "codigo": "002002014"
-  },
-  "sonoplastia (cinema, musica, radio, televisao, teatro)": {
-    "codigo": "002002015"
-  },
-  "desenvolvimento  de  programa  de  computador  (software)  com  registro  no inpi ou com ampla disponibilizacao em ambientes de software livre": {
-    "codigo": "002003001"
-  },
-  "desenvolvimento  de  software  com  divulgacao  em  periodicos  indexados  e com corpo editorial ou em anais de congresso cientifico": {
-    "codigo": "002003002"
-  },
-  "desenvolvimento  de  software  para  uso  institucional ": {
-    "codigo": "002003003"
-  },
-  "desenvolvimento e registro no inpi de topografia de circuito integrado": {
-    "codigo": "002003004"
-  },
-  "desenvolvimento de produto, processo ou tecnica com registro de patente no inpi ou modelo de utilidade": {
-    "codigo": "002003005"
-  },
-  "desenvolvimento e registro no inpi de desenho industrial": {
-    "codigo": "002003006"
-  },
-  "desenvolvimento e registro no inpi de processo de indicacao geografica": {
-    "codigo": "002003007"
-  },
-  "desenvolvimento e registro no inpi de marcas": {
-    "codigo": "002003008"
-  },
-  "participacao em comite editorial de periodicos especializados indexados e de editoras universitarias": {
-    "codigo": "002003009"
-  },
-  "parecer de consultoria ad hoc em comites de avaliacao de concursos e editais de publicacao de livros de editoras com corpo editorial": {
-    "codigo": "002003010"
-  },
-  "parecer  de  consultoria ad  hoc para  periodicos  especializados  com  corpo editorial ou para instituicoes de fomento a pesquisa ou para livros de editoras com corpo editorial": {
-    "codigo": "002003011"
-  },
-  "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - parecer  com  anotacao  de  responsabilidade  tecnica  (art)  ou  registro  de responsabilidade tecnica (rrt)": {
-    "codigo": "002003012001"
-  },
-  "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - parecer  sem  anotacao  de  responsabilidade  tecnica  (art)  ou  registro  de responsabilidade tecnica (rrt)": {
-    "codigo": "002003012002"
-  },
-  "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - projeto  ou  relatorio  tecnico  com  ano tacao  de  responsabilidade  tecnica (art) ou registro de responsabilidade tecnica (rrt)": {
-    "codigo": "002003012003"
-  },
-  "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - projeto  ou  relatorio  tecnico  sem  anotacao  de  responsabilidade  tecnica (art) ou registro de responsabilidade tecnica (rrt)": {
-    "codigo": "002003012004"
-  },
-  "anais,  manuais,  catalogos,  boletins,  com  ficha  bibliografica  (organizador/redator)": {
-    "codigo": "002003013"
-  },
-  "producao e publicacao de mapas, cartas ou similares": {
-    "codigo": "002003014"
-  },
-  "desenvolvimento de maquete": {
-    "codigo": "002003015"
-  },
-  "manutencao de obra artistica - restauracao de obra artistica": {
-    "codigo": "002003016001"
-  },
-  "manutencao de obra artistica - conservacao de obra artistica": {
-    "codigo": "002003016002"
-  },
-  "curadoria de exposicoes": {
-    "codigo": "002003017"
-  },
-  "producao de cinema, video, radio, tv ou midias digitais - editor": {
-    "codigo": "002003018001"
-  },
-  "producao de cinema, video, radio, tv ou midias digitais - participante": {
-    "codigo": "002003018001"
-  },
-  "artigos de opiniao veiculados em jornais e revistas (eletronico ou impresso)": {
-    "codigo": "002004001"
-  },
-  "texto  ou  material  didatico  para  uso  institucional  (nao  fracionados  e  com ampla divulgacao)": {
-    "codigo": "002004002"
-  },
-  "artigos de divulgacao cientifica, tecnologica e artistica veiculados em jornais e revistas (eletronico ou impresso)": {
-    "codigo": "002004003"
-  },
-  "apresentacao  oral  de  trabalho  publicado  em  anais  de  congresso  cientifico": {
-    "codigo": "002004004"
-  },
-  "apresentacao   em   painel   de trabalho   publicado   em   anais   de   congresso cientifico": {
-    "codigo": "002004005"
-  },
-  "trabalho premiado em evento cientifico nacional ou internacional": {
-    "codigo": "002004006"
-  },
-  "tese, dissertacao e trabalho de iniciacao cientifica premiados por instituicoes de fomento": {
-    "codigo": "002004007"
-  },
-  "coordenador  de  projeto  conjuntos  de  pesquisa  e  cooperação  científica e de  cursos MINTER e  DINTER aprovados por órgãos oficiais de fomento":{
-    "codigo":"003001001"
-  },
-  "Coordenador   de   projeto   de   pesquisa   aprovado   com   comprovação   de financiamento (exceto bolsas)":{
-    "codigo":"003001002"
-  },
-  "Coordenador  de  projeto  de  pesquisa  aprovado  sem  financiamento":{
-    "codigo":"003001003"
-  },
-  "Coordenador   de   projeto   de   extensão   aprovado   com   comprovação   de  financiamento (exceto bolsas)":{
-    "codigo":"003002001"
-  },
-  "Coordenador  de  projeto  ou  programa  de  extensão/cultura  cadastrado  na PROEC":{
-    "codigo":"003002002"
-  },
-  "Coordenador   de   contratos   e   de   convênios   de   cooperação   institucional internacional":{
-    "codigo":"003002003"
-  },
-  "Coordenador   de   contratos   e   de   convênios   de   cooperação   institucional nacional":{
-    "codigo":"003002004"
-  },
-  "Participante  de  projeto  de  extensão/cultura  cadastrado  na  PROEC":{
-    "codigo":"003002005"
-  },
-  "Curso  de  extensão  ministrado  com  20  ou  mais horas":{
-    "codigo":"003002006"
-  },
-  "Curso  de  extensão  ministrado  com  menos  de  20  horas":{
-    "codigo":"003002007"
-  },
-  "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - evento internacional":
-  {
-    "codigo":"003002008001"
-  },
-  "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - evento nacional":
-  {
-    "codigo":"003002008002"
-  },
-  "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - Evento  regional  ou  local":
-  {
-    "codigo":"003002008003"
-  },
-  "Promoção ou produção de eventos artísticos e científicos locais - presidente":{
-    "codigo":"003002009001"
-  },
-  "Promoção ou produção de eventos artísticos e científicos locais - comissao organizadora":{
-    "codigo":"003002009002"
-  },
-  "Promoção ou produção de eventos artísticos e científicos regionais - Presidente":{
-    "codigo":"003002010001"
-  },
-  "Promoção ou produção de eventos artísticos e científicos regionais - Comissão organizadora":{
-    "codigo":"003002010002"
-  },
-  "Promoção ou produção de eventos artísticos e científicos nacionais - Presidente":{
-    "codigo":"003002011001"
-  },
-  "Promoção ou produção de eventos artísticos e científicos nacionais - comissao organizadora":{
-    "codigo":"003002011002"
-  },
-  "Promoção ou produção de eventos artísticos e científicos internacionais - presidente":{
-    "codigo":"003002012001"
-  },
-  "Promoção ou produção de eventos artísticos e científicos internacionais - Comissão organizadora":{
-    "codigo":"003002012001"
-  },
-  "Reitor ou Vice-Reitor ou Pró-Reitor":{
-    "codigo":"004001001"
-  },
-  "Chefe de Gabinete":{
-    "codigo":"004001002"
-  },
-  "Coordenador ou assessor vinculado à Reitoria":{
-    "codigo":"004001003"
-  },
-  "Diretor de Unidade Acadêmica, de  Unidade Acadêmica Especial ou do CEPAE":
-  {
-   "codigo":"004001004"
-  },
-  "Diretor de Campus do interior":{
-    "codigo":"004001005"
-  },
-  "Vice-diretor de Campus do interior":
-  {
-    "codigo":"004001006"
-  },
-  "Diretor Geral do Hospital das Clínicas":{
-    "codigo":"004001007"
-  },
-  "Coordenador ou assessor vinculado às Pró-Reitorias ou à Direção dos Campus do Interior":
-  {
-    "codigo":"004001008"
-  },
-  "Coordenador de Programa de Pós-Graduação stricto sensu":
-  {
-    "codigo":"004001009"
-  },
-  "Coordenador de Curso de Ensino Básico ou de Graduação":
-  {
-    "codigo":"004001010"
-  },
-  "Vice-diretor de Unidade Acadêmica ou Unidade Acadêmica Especial ou do CEPAE":{
-    "codigo":"004001011"
-  },
-  "Diretor do Hospital Veterinário":{
-    "codigo":"004001012"
-  },
-  "Diretor  de  Órgão  da Administração":{
-    "codigo":"004001013"
-  },
-  "Coordenador  de  projeto  institucional  com  financiamento  ou  de  contratos  e convênio com plano de trabalho aprovado":
-  {
-    "codigo":"004002001"
-  },
-  "Coordenador de curso de especialização, residência médica ou residência multiprofissional em saúde":
-  {
-    "codigo":"004002002"
-  },
-  "Membro representante de classe da carreira docente no CONSUNI":{
-    "codigo":"004002003"
-  },
-  "Membro do Conselho de Curadores ou do Plenário do CEPEC ou de Conselho de Fundações":
-  {
-    "codigo":"004002004"
-  },
-  "Atividades  acadêmicas  e  administrativas  designadas  por  portaria  do  Reitor, Pró-Reitor ou Diretor de Unidade Acadêmica com carga horária >=150 horas":
-  {
-    "codigo":"004002005"
-  },
-  "Presidente da CPPD":
-  {
-    "codigo":"004003001"
-  },
-  "Presidente da Comissão de Avaliação Institucional ou da Comissão Própria de Avaliação":
-  {
-    "codigo":"004003002"
-  },
-  "Membros da Coordenação Permanente do Centro de Seleção":
-  {
-    "codigo":"004003003"
-  },
-  "Diretores do HC":
-  {
-    "codigo":"004003004"
-  },
-  "Presidente do Comitê de Ética em Pesquisa da UFG e do HC/UFG":{
-    "codigo":"004003005"
-  },
-  "Membros   da   CPPD   ou   da   Comissão   de   Avaliação   Institucional   ou da Comissão Própria de Avaliação ou da CAD":
-  {
-    "codidgo":"004003006"
-  },
-  "Coordenador  de  Pesquisa  ou  de  Ensino  ou  de  Extensão  ou  de  Estágio  das Unidades Acadêmicas":
-  {
-    "codigo":"004003007"
-  },
-  "Chefe de Departamento":
-  {
-   "codigo":"004003008"
-  },
-  "Chefe do Pronto Socorro ou da  Maternidade ou do CEROF do Hospital das Clínicas da UFG":
-  {
-    "codigo":"004003009"
-  },
-  "Coordenador das  Atividades de Interação com a Sociedade":
-  {
-    "codigo":"004003010"
-  },
-  "Coordenador das Atividades de Pesquisa e de Pós–Graduação lato sensu":
-  {
-    "codigo":"004003011"
-  },
-  "Membros do Comitê de Ética da UFG e do HC/UFG":
-  {
-   "codigo":"004003012"
-  },
-  "Membros do Comitê Interno e Externo do PIBIC":
-  {
-   "codigo":"004003013"
-  },
-  "Representante  titular  em  conselho  de  classe  profissional  com  carga  horária igual ou superior a 150 horas":
-  {
-    "codigo":"004004001"
-  },
-  "Presidente do Sindicato de Docentes da UFG":
-  {
-    "codigo":"004004002"
-  },
-  "Diretor do Sindicato de Docentes da UFG":
-  {
-    "codigo":"004004003"
-  },
-  "Representante sindical com carga horária igual ou superior a 150 horas":
-  {
-    "codigo":"004004004"
-  },
-  "Representante  em  entidade  científica,  artística  e  cultural  com  carga  horária igual ou superior a 150 horas":
-  {
-    "codigo":"004004005"
-  },
-  "Representante  em  comissão  de  órgão  governamental  com  carga  horária  igual ou superior a 150 horas":
-  {
-    "codigo":"004004006"
-  },
-  "Aluno orientado em tese de doutorado defendida e aprovada":
-  {
-    "codigo":"005001001"
-  },
-  "Aluno co-orientado em tese de doutorado defendida e aprovada":
-  {
-    "codigo":"005001002"
-  },
-  "Aluno orientado em tese de doutorado em andamento":
-  {
-    "codigo":"005001003"
-  },
-  "Aluno co-orientado em tese de doutorado em andamento":
-  {
-    "codigo":"005001004"
-  },
-  "Aluno orientado em dissertação de mestrado defendida e aprovada":
-  {
-    "codigo":"005001005"
-  },
-  "Aluno co-orientado em dissertação de mestrado defendida e aprovada":
-  {
-    "codigo":"005001006"
-  },
-  "Aluno orientado em dissertação de mestrado em andamento":{
-    "codigo":"005001007"
-  },
-  "Aluno co-orientado em dissertação de mestrado em andamento":
-  {
-    "codigo":"005001008"
-  },
-  "Aluno orientado em monografia de especialização aprovada":
-  {
-    "codigo":"005001009"
-  },
-  "Aluno orientado em monografia de especialização em andamento":
-  {
-    "codigo":"005001010"
-  },
-  "Aluno orientado em residência médica ou em residência multiprofissional em saúde":
-  {
-    "codigo":"005001011"
-  },
-  "Aluno orientado em estágio supervisionado":
-  {
-    "codigo":"005001012"
-  },
-  "Aluno orientado em projeto de final de curso":
-  {
-    "codigo":"005001013"
-  },
-  "Aluno de outra IFE orientado em tese de doutorado defendida e aprovada":
-  {
-    "codigo":"005001014"
-  },
-  "Aluno de outra IFE co-orientado em tese de doutorado defendida e aprovada":
-  {
-    "codigo":"005001015"
-  },
-  "Aluno de outra IFE orientado em tese de doutorado em andamento":
-  {
-    "codigo":"005001016"
-  },
-  "Aluno de outra IFE co-orientado em tese de doutorado em andamento":
-  {
-    "codigo":"005001017"
-  },
-  "Aluno de outra IFE orientado em dissertação de mestrado defendida e aprovada":
-  {
-    "codigo":"005001018"
-  },
-  "Aluno de outra IFE co-orientado em dissertação de mestrado defendida e aprovada":
-  {
-    "codigo":"005001019"
-  },
-  "Aluno de outra IFE orientado em dissertação de mestrado em andamento":
-  {
-    "codigo":"005001020"
-  },
-  "Aluno de outra IFE co-orientado em dissertação de mestrado em andamento":
-  {
-    "codigo":"005001021"
-  },
-  "Aluno orientado em programa de iniciação científica":
-  {
-    "codigo":"005001022"
-  },
-  "Aluno orientado em programa de iniciação científica júnior":
-  {
-    "codigo":"005001023"
-  },
-  "Aluno orientado em programa especial de treinamento (PET)":
-  {
-    "codigo":"005001024"
-  },
-  "Aluno orientado com bolsa de DTI, PIBIT, AT, Jovens Talentos e similares":
-  {
-    "codigo":"005001025"
-  },
-  "Aluno orientado com bolsa de licenciatura (PIBID e similares)":
-  {
-    "codigo":"005001026"
-  },
-  "Aluno orientado com bolsa extensão/cultura/ensino":
-  {
-    "codigo":"005001027"
-  },
-  "Aluno orientado em projetos de extensão/cultura/ensino sem bolsa":
-  {
-    "codigo":"005001028"
-  },
-  "Aluno orientado com bolsa PROCOM ou similar, vinculada a projeto de pesquisa/extensão/ensino":
-  {
-    "codigo":"005001029"
-  },
-  "Aluno orientado em programa de monitoria":
-  {
-    "codigo":"005001030"
-  },
-  "Aluno orientado em atividade não curricular com bolsa":
-  {
-    "codigo":"005001031"
-  },
-  "Aluno orientado em atividade não curricular sem bolsa":
-  {
-    "codigo":"005001032"
-  },
-  "Pesquisador supervisionado em estágio de pós-doutoramento":
-  {
-    "codigo":"005001033"
-  },
-  "Aluno orientado em Prática como Componente Curricular (PCC)":
-  {
-    "codigo":"005001034"
-  },
-  "Aluno com deficiência, transtornos globais do desenvolvimento e altas habilidades/superdotação orientado em programa ou projeto de apoio pedagógico":
-  {
-    "codigo":"005001035"
-  },
-  "Membro de banca de concurso para docente efetivo - Na instituição":
-  {
-    "codigo":"005002001001"
-  },
-  "Membro de banca de concurso para docente efetivo - Em outra instituição":
-  {
-    "codigo":"005002001002"
-  },
-  "Membro de banca de concurso para docente substituto":
-  {
-    "codigo":"005002002"
-  },
-  "Membro de banca de defesa de dissertação de mestrado - Na instituição":
-  {
-    "codigo":"005002003001"
-  },
-  "Membro de banca de defesa de dissertação de mestrado - Em outra instituição":
-  {
-    "codigo":"005002003002"
-  },
-  "Membro de banca de defesa de tese de doutorado - na instituicao":
-  {
-    "codigo":"005002004001"
-  },
-  "Membro de banca de defesa de tese de doutorado - em outra instituicao":
-  {
-    "codigo":"005002004002"
-  },
-  "Membro de banca de qualificação de mestrado - Na instituição":
-  {
-    "codigo":"005002005001"
-  },
-  "Membro de banca de qualificação de mestrado - em outra instituição":
-  {
-    "codigo":"005002005002"
-  },
-  "Membro de banca de qualificação de doutorado - na instituicao":
-  {
-    "codigo":"005002006001"
-  },
-  "Membro de banca de qualificação de doutorado - em outra instituicao":
-  {
-    "codigo":"005002006001"
-  },
-  "Membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas":
-  {
-    "codigo":"005002007"
-  },
-  "Membro de corpo de júri - Concursos internacionais":
-  {
-    "codigo":"005002008001"
-  },
-  "Membro de corpo de júri - Concursos nacionais":
-  {
-    "codigo":"005002008002"
-  },
-  "Cursos, palestras ou treinamento não curricular ministrados para docentes, funcionários ou alunos da UFG":
-  {
-    "codigo":"005002009"
-  },
-  "Coordenador de projeto institucional de intercâmbio internacional":
-  {
-    "codigo":"005002010"
-  },
-  "Docente regularmente matriculado em curso de doutorado com relatórios de pós-graduação aprovados":
-  {
-    "codigo":"005003001"
-  },
-  "Estágio Pós-Doutoral ou Estágio Sênior":
-  {
-    "codigo":"005003002"
-  },
-  "Docente em licença para capacitação (Artigo 87, Lei N.8112)":
-  {
-    "codigo":"005003003"
-  },
-  "Curso de aperfeiçoamento realizado com carga horária superior a 40 horas":
-  {
-    "codigo":"005003004"
-  },
-  "Curso de aperfeiçoamento realizado com carga horária inferior a 40 horas":
-  {
-    "codigo":"005003005"
-  },
-  "Participação em Congressos, Seminários, Encontros, Jornadas etc.":
-  {
-    "codigo":"005003006"
-  }
+  "atividades": [
+    {
+      "idunico": "aulas presenciais na graduacao",
+      "codigo": "001001001"
+    },
+    {
+      "idunico": "aulas do ensino a distancia na graduacao",
+      "codigo": "001001002"
+    },
+    {
+      "idunico": "aulas presenciais na pos-graduacao",
+      "codigo": "001002001"
+    },
+    {
+      "idunico": "aulas do ensino a distancia na pos-graduacao",
+      "codigo": "001002002"
+    },
+    {
+      "idunico": "artigo completo ou texto literario publicado em periodico - com classificacao no qualis/capes",
+      "codigo": "002001001001"
+    },
+    {
+      "idunico": "artigo completo ou texto literario publicado em periodico - nao sujeito a classificacao no qualis/capes",
+      "codigo": "002001001002"
+    },
+    {
+      "idunico": "resumo de artigo em periodicos especializados nacional ou internacional com corpo editorial",
+      "codigo": "002001002"
+    },
+    {
+      "idunico": "artigos ou textos literarios em repositorios de publicacao eletronica ligados a editoras ou universidades",
+      "codigo": "002001003"
+    },
+    {
+      "idunico": "resumo expandido publicado em anais - internacional",
+      "codigo": "002001004001"
+    },
+    {
+      "idunico": "resumo expandido publicado em anais - nacional",
+      "codigo": "002001004002"
+    },
+    {
+      "idunico": "resumo expandido publicado em anais - regional ou local",
+      "codigo": "002001004003"
+    },
+    {
+      "idunico": "resumo simples publicado em anais de congresso - internacional",
+      "codigo": "002001005001"
+    },
+    {
+      "idunico": "resumo simples publicado em anais de congresso - nacional",
+      "codigo": "002001005002"
+    },
+    {
+      "idunico": "resumo simples publicado em anais de congresso - regional ou local",
+      "codigo": "002001005003"
+    },
+    {
+      "idunico": "trabalho completo publicado em anais de congresso cientifico",
+      "codigo": "002001006"
+    },
+    {
+      "idunico": "editor ou coordenador editorial  de livro publicado com selo de editora que possua corpo editorial",
+      "codigo": "002001007"
+    },
+    {
+      "idunico": "livro publicado com selo de editora que possua corpo editorial",
+      "codigo": "002001008"
+    },
+    {
+      "idunico": "livro publicado com selo de editora que nao possua corpo editorial",
+      "codigo": "002001009"
+    },
+    {
+      "idunico": "capitulo de livro publicado com selo de editora  que  possua  corpo  editorial",
+      "codigo": "002001010"
+    },
+    {
+      "idunico": "edicao ou organizacao de livro (coletanea) publicado com selo de editora que possua corpo editorial",
+      "codigo": "002001011"
+    },
+    {
+      "idunico": "capitulo  traduzido  de  livro  publicado  com  selo  de  editora  que  possua  corpo editorial",
+      "codigo": "002001012"
+    },
+    {
+      "idunico": "traducao ou revisao cientifica de livro traduzido e publicado com selo de editora  que possua corpo editorial",
+      "codigo": "002001013"
+    },
+    {
+      "idunico": "resenhas, prefacios ou verbetes",
+      "codigo": "002001014"
+    },
+    {
+      "idunico": "livro didatico desenvolvido para projetos institucionais/governamentais",
+      "codigo": "002001015"
+    },
+    {
+      "idunico": "editor de periodicos especializados indexados com corpo editorial",
+      "codigo": "002001016"
+    },
+    {
+      "idunico": "editor de jornais ou revistas com distribuicao - local ou regional",
+      "codigo": "002001017001"
+    },
+    {
+      "idunico": "editor de jornais ou revistas com distribuicao - nacional",
+      "codigo": "002001017002"
+    },
+    {
+      "idunico": "editor de jornais ou revistas com distribuicao - internacional",
+      "codigo": "002001017003"
+    },
+    {
+      "idunico": "dissertacao de mestrado defendida de aprovada (sendo o docente o autor da dissertacao)",
+      "codigo": "002001018"
+    },
+    {
+      "idunico": "tese de doutorado defendida e aprovada",
+      "codigo": "002001019"
+    },
+    {
+      "idunico": "criacao,   producao   e   direcao   de   filmes,   videos,   discos,   audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em  eventos - locais ou regionais",
+      "codigo": "002002001001"
+    },
+    {
+      "idunico": "criacao,   producao   e   direcao   de   filmes,   videos,   discos,   audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em  eventos - nacionais",
+      "codigo": "002002001002"
+    },
+    {
+      "idunico": "criacao,   producao   e   direcao   de   filmes,   videos,   discos,   audiovisuais, coreografias, pecas teatrais, operas ou musicais, ou musicais apresentados em  eventos - internacionais",
+      "codigo": "002002001003"
+    },
+    {
+      "idunico": "criacao  e  producao  do  projeto  grafico  de  livros:  concepcao  grafica  (mancha grafica, diagramacao, escolha de fonte)",
+      "codigo": "002002002"
+    },
+    {
+      "idunico": "design (grafico, de luz, de figurino e formas animadas, cenografico e similares)",
+      "codigo": "002002003"
+    },
+    {
+      "idunico": "design de impressos por peca (limitados a 20 pontos)",
+      "codigo": "002002004"
+    },
+    {
+      "idunico": "design de interfaces digitais",
+      "codigo": "002002005"
+    },
+    {
+      "idunico": "design de interfaces digitais com inovacao tecnologica",
+      "codigo": "002002006"
+    },
+    {
+      "idunico": "produtos com inovacao tecnologica",
+      "codigo": "002002007"
+    },
+    {
+      "idunico": "exposicoes e apresentacoes artisticas locais ou regionais - participacao individual, camerista, solista ou ator principal",
+      "codigo": "002002008001"
+    },
+    {
+      "idunico": "exposicoes e apresentacoes artisticas locais ou regionais - participacao coletiva ou coadjuvante",
+      "codigo": "002002008002"
+    },
+    {
+      "idunico": "exposicoes e apresentacoes artisticas nacionais - participacao individual, camerista, solista ou ator principal",
+      "codigo": "002002009001"
+    },
+    {
+      "idunico": "exposicoes e apresentacoes artisticas nacionais - participacao coletiva ou coadjuvante",
+      "codigo": "002002009002"
+    },
+    {
+      "idunico": "exposicoes e apresentacoes artisticas internacionais - participacao individual, camerista, solista ou ator principal",
+      "codigo": "002002010001"
+    },
+    {
+      "idunico": "exposicoes e apresentacoes artisticas internacionais - participacao coletiva ou coadjuvante",
+      "codigo": "002002010001"
+    },
+    {
+      "idunico": "composicoes musicais - editadas",
+      "codigo": "002002011001"
+    },
+    {
+      "idunico": "composicoes musicais - publicadas em revistas cientificas",
+      "codigo": "002002011002"
+    },
+    {
+      "idunico": "composicoes musicais - gravadas",
+      "codigo": "002002011003"
+    },
+    {
+      "idunico": "composicoes musicais - executadas em apresentacoes publicas",
+      "codigo": "002002011003"
+    },
+    {
+      "idunico": "producao artistica, arquitetonica ou de design premiada em evento - local ou regional",
+      "codigo": "002002012001"
+    },
+    {
+      "idunico": "producao artistica, arquitetonica ou de design premiada em evento - nacional",
+      "codigo": "002002012002"
+    },
+    {
+      "idunico": "producao artistica, arquitetonica ou de design premiada em evento - internacional",
+      "codigo": "002002012003"
+    },
+    {
+      "idunico": "arranjos musicais (canto, coral e orquestral)",
+      "codigo": "002002013"
+    },
+    {
+      "idunico": "apresentacao artistica ou cultural em radio ou tv",
+      "codigo": "002002014"
+    },
+    {
+      "idunico": "sonoplastia (cinema, musica, radio, televisao, teatro)",
+      "codigo": "002002015"
+    },
+    {
+      "idunico": "desenvolvimento  de  programa  de  computador  (software)  com  registro  no inpi ou com ampla disponibilizacao em ambientes de software livre",
+      "codigo": "002003001"
+    },
+    {
+      "idunico": "desenvolvimento  de  software  com  divulgacao  em  periodicos  indexados  e com corpo editorial ou em anais de congresso cientifico",
+      "codigo": "002003002"
+    },
+    {
+      "idunico": "desenvolvimento  de  software  para  uso  institucional ",
+      "codigo": "002003003"
+    },
+    {
+      "idunico": "desenvolvimento e registro no inpi de topografia de circuito integrado",
+      "codigo": "002003004"
+    },
+    {
+      "idunico": "desenvolvimento de produto, processo ou tecnica com registro de patente no inpi ou modelo de utilidade",
+      "codigo": "002003005"
+    },
+    {
+      "idunico": "desenvolvimento e registro no inpi de desenho industrial",
+      "codigo": "002003006"
+    },
+    {
+      "idunico": "desenvolvimento e registro no inpi de processo de indicacao geografica",
+      "codigo": "002003007"
+    },
+    {
+      "idunico": "desenvolvimento e registro no inpi de marcas",
+      "codigo": "002003008"
+    },
+    {
+      "idunico": "participacao em comite editorial de periodicos especializados indexados e de editoras universitarias",
+      "codigo": "002003009"
+    },
+    {
+      "idunico": "parecer de consultoria ad hoc em comites de avaliacao de concursos e editais de publicacao de livros de editoras com corpo editorial",
+      "codigo": "002003010"
+    },
+    {
+      "idunico": "parecer  de  consultoria ad  hoc para  periodicos  especializados  com  corpo editorial ou para instituicoes de fomento a pesquisa ou para livros de editoras com corpo editorial",
+      "codigo": "002003011"
+    },
+    {
+      "idunico": "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - parecer  com  anotacao  de  responsabilidade  tecnica  (art)  ou  registro  de responsabilidade tecnica (rrt)",
+      "codigo": "002003012001"
+    },
+    {
+      "idunico": "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - parecer  sem  anotacao  de  responsabilidade  tecnica  (art)  ou  registro  de responsabilidade tecnica (rrt)",
+      "codigo": "002003012002"
+    },
+    {
+      "idunico": "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - projeto  ou  relatorio  tecnico  com  ano tacao  de  responsabilidade  tecnica (art) ou registro de responsabilidade tecnica (rrt)",
+      "codigo": "002003012003"
+    },
+    {
+      "idunico": "projeto,  parecer  ou  relatorio  tecnico  realizado  em  consultoria  ou  assessoria oficializada por convite, convenio, contrato ou designacao - projeto  ou  relatorio  tecnico  sem  anotacao  de  responsabilidade  tecnica (art) ou registro de responsabilidade tecnica (rrt)",
+      "codigo": "002003012004"
+    },
+    {
+      "idunico": "anais,  manuais,  catalogos,  boletins,  com  ficha  bibliografica  (organizador/redator)",
+      "codigo": "002003013"
+    },
+    {
+      "idunico": "producao e publicacao de mapas, cartas ou similares",
+      "codigo": "002003014"
+    },
+    {
+      "idunico": "desenvolvimento de maquete",
+      "codigo": "002003015"
+    },
+    {
+      "idunico": "manutencao de obra artistica - restauracao de obra artistica",
+      "codigo": "002003016001"
+    },
+    {
+      "idunico": "manutencao de obra artistica - conservacao de obra artistica",
+      "codigo": "002003016002"
+    },
+    {
+      "idunico": "curadoria de exposicoes",
+      "codigo": "002003017"
+    },
+    {
+      "idunico": "producao de cinema, video, radio, tv ou midias digitais - editor",
+      "codigo": "002003018001"
+    },
+    {
+      "idunico": "producao de cinema, video, radio, tv ou midias digitais - participante",
+      "codigo": "002003018001"
+    },
+    {
+      "idunico": "artigos de opiniao veiculados em jornais e revistas (eletronico ou impresso)",
+      "codigo": "002004001"
+    },
+    {
+      "idunico": "texto  ou  material  didatico  para  uso  institucional  (nao  fracionados  e  com ampla divulgacao)",
+      "codigo": "002004002"
+    },
+    {
+      "idunico": "artigos de divulgacao cientifica, tecnologica e artistica veiculados em jornais e revistas (eletronico ou impresso)",
+      "codigo": "002004003"
+    },
+    {
+      "idunico": "apresentacao  oral  de  trabalho  publicado  em  anais  de  congresso  cientifico",
+      "codigo": "002004004"
+    },
+    {
+      "idunico": "apresentacao   em   painel   de trabalho   publicado   em   anais   de   congresso cientifico",
+      "codigo": "002004005"
+    },
+    {
+      "idunico": "trabalho premiado em evento cientifico nacional ou internacional",
+      "codigo": "002004006"
+    },
+    {
+      "idunico": "tese, dissertacao e trabalho de iniciacao cientifica premiados por instituicoes de fomento",
+      "codigo": "002004007"
+    },
+    {
+      "idunico": "coordenador  de  projeto  conjuntos  de  pesquisa  e  cooperação  científica e de  cursos MINTER e  DINTER aprovados por órgãos oficiais de fomento",
+      "codigo": "003001001"
+    },
+    {
+      "idunico": "Coordenador   de   projeto   de   pesquisa   aprovado   com   comprovação   de financiamento (exceto bolsas)",
+      "codigo": "003001002"
+    },
+    {
+      "idunico": "Coordenador  de  projeto  de  pesquisa  aprovado  sem  financiamento",
+      "codigo": "003001003"
+    },
+    {
+      "idunico": "Coordenador   de   projeto   de   extensão   aprovado   com   comprovação   de  financiamento (exceto bolsas)",
+      "codigo": "003002001"
+    },
+    {
+      "idunico": "Coordenador  de  projeto  ou  programa  de  extensão/cultura  cadastrado  na PROEC",
+      "codigo": "003002002"
+    },
+    {
+      "idunico": "Coordenador   de   contratos   e   de   convênios   de   cooperação   institucional internacional",
+      "codigo": "003002003"
+    },
+    {
+      "idunico": "Coordenador   de   contratos   e   de   convênios   de   cooperação   institucional nacional",
+      "codigo": "003002004"
+    },
+    {
+      "idunico": "Participante  de  projeto  de  extensão/cultura  cadastrado  na  PROEC",
+      "codigo": "003002005"
+    },
+    {
+      "idunico": "Curso  de  extensão  ministrado  com  20  ou  mais horas",
+      "codigo": "003002006"
+    },
+    {
+      "idunico": "Curso  de  extensão  ministrado  com  menos  de  20  horas",
+      "codigo": "003002007"
+    },
+    {
+      "idunico": "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - evento internacional",
+      "codigo": "003002008001"
+    },
+    {
+      "idunico": "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - evento nacional",
+      "codigo": "003002008002"
+    },
+    {
+      "idunico": "Palestrante, conferencista ou participante em mesa redonda em evento científico,cultural ou artístico - Evento  regional  ou  local",
+      "codigo": "003002008003"
+    },
+    {
+      "idunico": "Promoção ou produção de eventos artísticos e científicos locais - presidente",
+      "codigo": "003002009001"
+    },
+    {
+      "idunico": "Promoção ou produção de eventos artísticos e científicos locais - comissao organizadora",
+      "codigo": "003002009002"
+    },
+    {
+      "idunico": "Promoção ou produção de eventos artísticos e científicos regionais - Presidente",
+      "codigo": "003002010001"
+    },
+    {
+      "idunico": "Promoção ou produção de eventos artísticos e científicos regionais - Comissão organizadora",
+      "codigo": "003002010002"
+    },
+    {
+      "idunico": "Promoção ou produção de eventos artísticos e científicos nacionais - Presidente",
+      "codigo": "003002011001"
+    },
+    {
+      "idunico": "Promoção ou produção de eventos artísticos e científicos nacionais - comissao organizadora",
+      "codigo": "003002011002"
+    },
+    {
+      "idunico": "Promoção ou produção de eventos artísticos e científicos internacionais - presidente",
+      "codigo": "003002012001"
+    },
+    {
+      "idunico": "Promoção ou produção de eventos artísticos e científicos internacionais - Comissão organizadora",
+      "codigo": "003002012001"
+    },
+    {
+      "idunico": "Reitor ou Vice-Reitor ou Pró-Reitor",
+      "codigo": "004001001"
+    },
+    {
+      "idunico": "Chefe de Gabinete",
+      "codigo": "004001002"
+    },
+    {
+      "idunico": "Coordenador ou assessor vinculado à Reitoria",
+      "codigo": "004001003"
+    },
+    {
+      "idunico": "Diretor de Unidade Acadêmica, de  Unidade Acadêmica Especial ou do CEPAE",
+      "codigo": "004001004"
+    },
+    {
+      "idunico": "Diretor de Campus do interior",
+      "codigo": "004001005"
+    },
+    {
+      "idunico": "Vice-diretor de Campus do interior",
+      "codigo": "004001006"
+    },
+    {
+      "idunico": "Diretor Geral do Hospital das Clínicas",
+      "codigo": "004001007"
+    },
+    {
+      "idunico": "Coordenador ou assessor vinculado às Pró-Reitorias ou à Direção dos Campus do Interior",
+      "codigo": "004001008"
+    },
+    {
+      "idunico": "Coordenador de Programa de Pós-Graduação stricto sensu",
+      "codigo": "004001009"
+    },
+    {
+      "idunico": "Coordenador de Curso de Ensino Básico ou de Graduação",
+      "codigo": "004001010"
+    },
+    {
+      "idunico": "Vice-diretor de Unidade Acadêmica ou Unidade Acadêmica Especial ou do CEPAE",
+      "codigo": "004001011"
+    },
+    {
+      "idunico": "Diretor do Hospital Veterinário",
+      "codigo": "004001012"
+    },
+    {
+      "idunico": "Diretor  de  Órgão  da Administração",
+      "codigo": "004001013"
+    },
+    {
+      "idunico": "Coordenador  de  projeto  institucional  com  financiamento  ou  de  contratos  e convênio com plano de trabalho aprovado",
+      "codigo": "004002001"
+    },
+    {
+      "idunico": "Coordenador de curso de especialização, residência médica ou residência multiprofissional em saúde",
+      "codigo": "004002002"
+    },
+    {
+      "idunico": "Membro representante de classe da carreira docente no CONSUNI",
+      "codigo": "004002003"
+    },
+    {
+      "idunico": "Membro do Conselho de Curadores ou do Plenário do CEPEC ou de Conselho de Fundações",
+      "codigo": "004002004"
+    },
+    {
+      "idunico": "Atividades  acadêmicas  e  administrativas  designadas  por  portaria  do  Reitor, Pró-Reitor ou Diretor de Unidade Acadêmica com carga horária >=150 horas",
+      "codigo": "004002005"
+    },
+    {
+      "idunico": "Presidente da CPPD",
+      "codigo": "004003001"
+    },
+    {
+      "idunico": "Presidente da Comissão de Avaliação Institucional ou da Comissão Própria de Avaliação",
+      "codigo": "004003002"
+    },
+    {
+      "idunico": "Membros da Coordenação Permanente do Centro de Seleção",
+      "codigo": "004003003"
+    },
+    {
+      "idunico": "Diretores do HC",
+      "codigo": "004003004"
+    },
+    {
+      "idunico": "Presidente do Comitê de Ética em Pesquisa da UFG e do HC/UFG",
+      "codigo": "004003005"
+    },
+    {
+      "idunico": "Membros   da   CPPD   ou   da   Comissão   de   Avaliação   Institucional   ou da Comissão Própria de Avaliação ou da CAD",
+      "codidgo": "004003006"
+    },
+    {
+      "idunico": "Coordenador  de  Pesquisa  ou  de  Ensino  ou  de  Extensão  ou  de  Estágio  das Unidades Acadêmicas",
+      "codigo": "004003007"
+    },
+    {
+      "idunico": "Chefe de Departamento",
+      "codigo": "004003008"
+    },
+    {
+      "idunico": "Chefe do Pronto Socorro ou da  Maternidade ou do CEROF do Hospital das Clínicas da UFG",
+      "codigo": "004003009"
+    },
+    {
+      "idunico": "Coordenador das  Atividades de Interação com a Sociedade",
+      "codigo": "004003010"
+    },
+    {
+      "idunico": "Coordenador das Atividades de Pesquisa e de Pós–Graduação lato sensu",
+      "codigo": "004003011"
+    },
+    {
+      "idunico": "Membros do Comitê de Ética da UFG e do HC/UFG",
+      "codigo": "004003012"
+    },
+    {
+      "idunico": "Membros do Comitê Interno e Externo do PIBIC",
+      "codigo": "004003013"
+    },
+    {
+      "idunico": "Representante  titular  em  conselho  de  classe  profissional  com  carga  horária igual ou superior a 150 horas",
+      "codigo": "004004001"
+    },
+    {
+      "idunico": "Presidente do Sindicato de Docentes da UFG",
+      "codigo": "004004002"
+    },
+    {
+      "idunico": "Diretor do Sindicato de Docentes da UFG",
+      "codigo": "004004003"
+    },
+    {
+      "idunico": "Representante sindical com carga horária igual ou superior a 150 horas",
+      "codigo": "004004004"
+    },
+    {
+      "idunico": "Representante  em  entidade  científica,  artística  e  cultural  com  carga  horária igual ou superior a 150 horas",
+      "codigo": "004004005"
+    },
+    {
+      "idunico": "Representante  em  comissão  de  órgão  governamental  com  carga  horária  igual ou superior a 150 horas",
+      "codigo": "004004006"
+    },
+    {
+      "idunico": "Aluno orientado em tese de doutorado defendida e aprovada",
+      "codigo": "005001001"
+    },
+    {
+      "idunico": "Aluno co-orientado em tese de doutorado defendida e aprovada",
+      "codigo": "005001002"
+    },
+    {
+      "idunico": "Aluno orientado em tese de doutorado em andamento",
+      "codigo": "005001003"
+    },
+    {
+      "idunico": "Aluno co-orientado em tese de doutorado em andamento",
+      "codigo": "005001004"
+    },
+    {
+      "idunico": "Aluno orientado em dissertação de mestrado defendida e aprovada",
+      "codigo": "005001005"
+    },
+    {
+      "idunico": "Aluno co-orientado em dissertação de mestrado defendida e aprovada",
+      "codigo": "005001006"
+    },
+    {
+      "idunico": "Aluno orientado em dissertação de mestrado em andamento",
+      "codigo": "005001007"
+    },
+    {
+      "idunico": "Aluno co-orientado em dissertação de mestrado em andamento",
+      "codigo": "005001008"
+    },
+    {
+      "idunico": "Aluno orientado em monografia de especialização aprovada",
+      "codigo": "005001009"
+    },
+    {
+      "idunico": "Aluno orientado em monografia de especialização em andamento",
+      "codigo": "005001010"
+    },
+    {
+      "idunico": "Aluno orientado em residência médica ou em residência multiprofissional em saúde",
+      "codigo": "005001011"
+    },
+    {
+      "idunico": "Aluno orientado em estágio supervisionado",
+      "codigo": "005001012"
+    },
+    {
+      "idunico": "Aluno orientado em projeto de final de curso",
+      "codigo": "005001013"
+    },
+    {
+      "idunico": "Aluno de outra IFE orientado em tese de doutorado defendida e aprovada",
+      "codigo": "005001014"
+    },
+    {
+      "idunico": "Aluno de outra IFE co-orientado em tese de doutorado defendida e aprovada",
+      "codigo": "005001015"
+    },
+    {
+      "idunico": "Aluno de outra IFE orientado em tese de doutorado em andamento",
+      "codigo": "005001016"
+    },
+    {
+      "idunico": "Aluno de outra IFE co-orientado em tese de doutorado em andamento",
+      "codigo": "005001017"
+    },
+    {
+      "idunico": "Aluno de outra IFE orientado em dissertação de mestrado defendida e aprovada",
+      "codigo": "005001018"
+    },
+    {
+      "idunico": "Aluno de outra IFE co-orientado em dissertação de mestrado defendida e aprovada",
+      "codigo": "005001019"
+    },
+    {
+      "idunico": "Aluno de outra IFE orientado em dissertação de mestrado em andamento",
+      "codigo": "005001020"
+    },
+    {
+      "idunico": "Aluno de outra IFE co-orientado em dissertação de mestrado em andamento",
+      "codigo": "005001021"
+    },
+    {
+      "idunico": "Aluno orientado em programa de iniciação científica",
+      "codigo": "005001022"
+    },
+    {
+      "idunico": "Aluno orientado em programa de iniciação científica júnior",
+      "codigo": "005001023"
+    },
+    {
+      "idunico": "Aluno orientado em programa especial de treinamento (PET)",
+      "codigo": "005001024"
+    },
+    {
+      "idunico": "Aluno orientado com bolsa de DTI, PIBIT, AT, Jovens Talentos e similares",
+      "codigo": "005001025"
+    },
+    {
+      "idunico": "Aluno orientado com bolsa de licenciatura (PIBID e similares)",
+      "codigo": "005001026"
+    },
+    {
+      "idunico": "Aluno orientado com bolsa extensão/cultura/ensino",
+      "codigo": "005001027"
+    },
+    {
+      "idunico": "Aluno orientado em projetos de extensão/cultura/ensino sem bolsa",
+      "codigo": "005001028"
+    },
+    {
+      "idunico": "Aluno orientado com bolsa PROCOM ou similar, vinculada a projeto de pesquisa/extensão/ensino",
+      "codigo": "005001029"
+    },
+    {
+      "idunico": "Aluno orientado em programa de monitoria",
+      "codigo": "005001030"
+    },
+    {
+      "idunico": "Aluno orientado em atividade não curricular com bolsa",
+      "codigo": "005001031"
+    },
+    {
+      "idunico": "Aluno orientado em atividade não curricular sem bolsa",
+      "codigo": "005001032"
+    },
+    {
+      "idunico": "Pesquisador supervisionado em estágio de pós-doutoramento",
+      "codigo": "005001033"
+    },
+    {
+      "idunico": "Aluno orientado em Prática como Componente Curricular (PCC)",
+      "codigo": "005001034"
+    },
+    {
+      "idunico": "Aluno com deficiência, transtornos globais do desenvolvimento e altas habilidades/superdotação orientado em programa ou projeto de apoio pedagógico",
+      "codigo": "005001035"
+    },
+    {
+      "idunico": "Membro de banca de concurso para docente efetivo - Na instituição",
+      "codigo": "005002001001"
+    },
+    {
+      "idunico": "Membro de banca de concurso para docente efetivo - Em outra instituição",
+      "codigo": "005002001002"
+    },
+    {
+      "idunico": "Membro de banca de concurso para docente substituto",
+      "codigo": "005002002"
+    },
+    {
+      "idunico": "Membro de banca de defesa de dissertação de mestrado - Na instituição",
+      "codigo": "005002003001"
+    },
+    {
+      "idunico": "Membro de banca de defesa de dissertação de mestrado - Em outra instituição",
+      "codigo": "005002003002"
+    },
+    {
+      "idunico": "Membro de banca de defesa de tese de doutorado - na instituicao",
+      "codigo": "005002004001"
+    },
+    {
+      "idunico": "Membro de banca de defesa de tese de doutorado - em outra instituicao",
+      "codigo": "005002004002"
+    },
+    {
+      "idunico": "Membro de banca de qualificação de mestrado - Na instituição",
+      "codigo": "005002005001"
+    },
+    {
+      "idunico": "Membro de banca de qualificação de mestrado - em outra instituição",
+      "codigo": "005002005002"
+    },
+    {
+      "idunico": "Membro de banca de qualificação de doutorado - na instituicao",
+      "codigo": "005002006001"
+    },
+    {
+      "idunico": "Membro de banca de qualificação de doutorado - em outra instituicao",
+      "codigo": "005002006001"
+    },
+    {
+      "idunico": "Membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas",
+      "codigo": "005002007"
+    },
+    {
+      "idunico": "Membro de corpo de júri - Concursos internacionais",
+      "codigo": "005002008001"
+    },
+    {
+      "idunico": "Membro de corpo de júri - Concursos nacionais",
+      "codigo": "005002008002"
+    },
+    {
+      "idunico": "Cursos, palestras ou treinamento não curricular ministrados para docentes, funcionários ou alunos da UFG",
+      "codigo": "005002009"
+    },
+    {
+      "idunico": "Coordenador de projeto institucional de intercâmbio internacional",
+      "codigo": "005002010"
+    },
+    {
+      "idunico": "Docente regularmente matriculado em curso de doutorado com relatórios de pós-graduação aprovados",
+      "codigo": "005003001"
+    },
+    {
+      "idunico": "Estágio Pós-Doutoral ou Estágio Sênior",
+      "codigo": "005003002"
+    },
+    {
+      "idunico": "Docente em licença para capacitação (Artigo 87, Lei N.8112)",
+      "codigo": "005003003"
+    },
+    {
+      "idunico": "Curso de aperfeiçoamento realizado com carga horária superior a 40 horas",
+      "codigo": "005003004"
+    },
+    {
+      "idunico": "Curso de aperfeiçoamento realizado com carga horária inferior a 40 horas",
+      "codigo": "005003005"
+    },
+    {
+      "idunico": "Participação em Congressos, Seminários, Encontros, Jornadas etc.",
+      "codigo": "005003006"
+    }
+  ]
 }
