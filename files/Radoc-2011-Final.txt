@@ -1,1 +1,175 @@
- Dados do docente Nome:  JULIANO LOPES DE OLIVEIRA  Matricula SIAPE:  1220405 Unidade:  INSTITUTO DE INFORMATICA Titulacao:  Doutor  Regime de trabalho:  40  Associado  Nivel:  3  CH contratada:  1760  CH executada:  1776 E-mail:  juliano@inf.ufg.br  25/03/1997  Data ingresso servico no publico:  25/03/1997 Classe: Data ingresso na UFG: ____________________________________________  ______________________________________________ _______/_______/_______ Visto do Docente Visto da Chefia  Data da Aprovacao Afastamento Nao ha afastamentos registrados!!! Atividades de ensino RGCG - Regime de Graduacao Semestral Curso  Disciplina  CHA  Ano  Sem  Turma  Sub  Nº alunos  Nº sub  CHT  CHP  CHAC  Conjug ENGENHARIA DE COMPUTACAO  ENGENHARIA DE SOFTWARE 1  60  2011  1  A 33  0  60  0  60  NAO ENGENHARIA DE SOFTWARE  INTRODUCAO A ENGENHARIA DE SOFTWARE  64  2011  1  A 68  0  64  0  64  NAO CIENCIAS DA COMPUTACAO  PROJETO FINAL DE CURSO 1 NC  64  2011  1  C 2  0  64  0  1  NAO ENGENHARIA DE SOFTWARE  INTEGRACAO 1  64  2011  2  A 47  0  64  0  64  NAO GESTAO DA INFORMACAO  GERENCIA DE PROJETOS I  64  2011  2  A 21  0  64  0  64  NAO ENGENHARIA DE SOFTWARE EXPERIMENTACAO EM ENGENHARIA DE SOFTWARE  64  2011  2  A 45  0  64  0  64  NAO CIENCIAS DA COMPUTACAO  PROJETO FINAL DE CURSO 1 NC  64  2011  2  F 1  0  64  0  1  NAO CIENCIAS DA COMPUTACAO  PROJETO FINAL DE CURSO 2 NC  64  2011  2  A8 2  0  63  0  1  NAO LEGENDA: CHA - Carga horaria da atividade | Sem - Semestre | Sub - Subturma | CHT, CHP e CHAC - Carga horaria teorica, pratica e acessoria | Conjug - Disciplina conjugada   Atividades de orientacao Titulo do trabalho:  Sinfonia: Uma abordagem Colaborativa e Flexivel para Modelagem e Execucao de Processos de Negocio Tabela:  ALUNO ORIENTADO EM DISSERTACAO DE MESTRADO DEFENDIDA E APROVADA Orientando:  LUIZ FERNANDO BATISTA LOJA Matricula:  2008831  Orientador Nivel:  Mestrado  CIENCIA DA COMPUTACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  20  Data inicio:  11/08/2008  Data termino:  10/02/2011  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  Uma Abordagem Baseada em Modelos para Construcao Automatica de Interfaces de Usuario para Sistemas de Informacao. Tabela:  ALUNO ORIENTADO EM DISSERTACAO DE MESTRADO DEFENDIDA E APROVADA Orientando:  SOFIA LARISSA DA COSTA Matricula:  2009435  Orientador Nivel:  Mestrado  CIENCIA DA COMPUTACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  48  Data inicio:  03/03/2009  Data termino:  15/06/2011  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  TRABALHO SEM TITULO Tabela:  ALUNO ORIENTADO EM DISSERTACAO DE MESTRADO EM ANDAMENTO Orientando:  VALDEMAR VICENTE GRACIANO NETO Matricula:  2010554  Orientador Nivel:  Mestrado  CIENCIA DA COMPUTACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  96  Data inicio:  03/03/2010  Data termino:  30/12/2011  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  TRABALHO SEM TITULO Tabela:  ALUNO ORIENTADO EM DISSERTACAO DE MESTRADO EM ANDAMENTO Orientando:  PAULO HENRIQUE ROCHA FALEIRO Funcao do docente: Curso: Funcao do docente: Curso: Funcao do docente: Curso:   Matricula:  2009444  Orientador Nivel:  CIENCIA DA COMPUTACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  20  Data inicio:  03/03/2009  Data termino:  03/03/2011  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  UM ESTUDO SOBRE GOVERNANCA DE TI: ASPECTOS DE CONTROLE FINANCEIRO Tabela:  ALUNO ORIENTADO EM PROJETO DE FINAL DE CURSO Orientando:  LUILA MORAES DE OLIVEIRA Matricula:  094860  Orientador Nivel:  Graduacao  CIENCIAS DA COMPUTACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  1  Data inicio:  01/07/2011  Data termino:  31/12/2011  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  USO DE ESTEREOTIPOS NA CONSTRUCAO DE INTERFACES DE USUARIO: O ESTEREOTIPO QUESTIONARIO Tabela:  ALUNO ORIENTADO EM PROJETO DE FINAL DE CURSO Orientando:  BRUNO DOS REIS CALCADO Matricula:  080196  Orientador Nivel:  Graduacao  CIENCIAS DA COMPUTACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  1  Data inicio:  01/02/2011  Data termino:  19/12/2011  Tipo Orientacao:  PRESENCIAL Titulo do trabalho:  UM ESTUDO SOBRE GOVERNANCA DE TI: ASPECTOS DE DESEMPENHO E MUDANCAS Tabela:  ALUNO ORIENTADO EM PROJETO DE FINAL DE CURSO Orientando:  ERIKA DEMACHKI Matricula:  080130  Orientador Nivel:  Graduacao  CIENCIAS DA COMPUTACAO IES:  UNIVERSIDADE FEDERAL DE GOIAS CHA:  1  01/02/2011  Data termino:  19/12/2011  Tipo Orientacao:  PRESENCIAL Funcao do docente: Mestrado Curso: Funcao do docente: Curso: Funcao do docente: Curso: Funcao do docente: Curso: Data inicio:  Atividades em projetos Tipo  Situacao  Funcao  Titulo do Projeto  Unidade Responsavel  CHA  Data Inicio  Data Termino Projeto de Pesquisa Em andamento  Coordenador  Estrategias e Metodos para Melhoria de Software  INF - Instituto de Informatica  400  04/01/2010  31/12/2012 Atividades de extensao Tabela:  OUTRAS ATIVIDADES DE EXTENSAO CHA:  5  Data inicio:  28/04/2011  Data termino:  29/04/2011 Descricao da atividade:  Espaco das Profissoes 2011 Descricao da clientela:  Comunidade interessada nos cursos da area de Computacao Tabela: PALESTRANTE, CONFERENCISTA OU PARTICIPANTE EM MESA REDONDA EM EVENTO CIENTIFICO, CULTURAL OU ARTISTICO - EVENTO REGIONAL OU LOCAL CHA:  2  Data inicio:  07/10/2011  Data termino:  07/10/2011 Descricao da atividade:  Mesa-Redonda na XI JGES sobre Metodos Ageis e Qualidade de Software Descricao da clientela:  Comunidade de Engenharia de Software do Centro-Oeste Tabela:  PROMOCAO OU PRODUCAO DE EVENTOS ARTISTICOS E CIENTIFICOS REGIONAIS - COMISSAO ORGANIZADORA CHA:  16  Data inicio:  07/10/2011  Data termino:  08/10/2011 Descricao da atividade:  XI Jornada Goiana em Engenharia de Software (JGES) Descricao da clientela:  Comunidade de Engenharia de Software do Centro-Oeste do Brasil Atividades de qualificacao Tabela:  PARTICIPACAO EM CONGRESSOS, SEMINARIOS, ENCONTROS, JORNADAS ETC. Descricao:  Participacao na XI JGES CHA:  12  Data de inicio:  07/10/2011  Data de termino:  08/10/2011 Tabela:  PARTICIPACAO EM CONGRESSOS, SEMINARIOS, ENCONTROS, JORNADAS ETC.  Descricao:  Participacao no Wamps 2011 - Workshop Anual de Melhoria de Processo de Software CHA:  20  Data de inicio:  24/10/2011  Data de termino:  26/10/2011 Atividades academicas especiais Tabela:  MEMBRO DE BANCA DE DEFESA DE DISSERTACAO DE MESTRADO - NA INSTITUICAO CHA:  12  Data inicio:  01/02/2011  Data termino:  10/02/2011 Descricao Complementar:  INF-UFG Descricao da Clientela:  Banca de Luiz Fernando B. Loja Tabela:  MEMBRO DE BANCA DE DEFESA DE DISSERTACAO DE MESTRADO - NA INSTITUICAO CHA:  12  Data inicio:  01/06/2011  Data termino:  15/06/2011 Descricao Complementar:  Inf-UFG Descricao da Clientela:  Banca de Sofia Larissa da Costa Tabela:  MEMBRO DE BANCA DE DEFESA DE DISSERTACAO DE MESTRADO - EM OUTRA INSTITUICAO CHA:  12  Data inicio:  01/11/2011  Data termino:  22/11/2011 Descricao Complementar:  Univali - Florianopolis-SC Descricao da Clientela:  Banca de Kristiane Silva V. de Pina Adorno Tabela:  MEMBRO DE BANCA DE DEFESA DE DISSERTACAO DE MESTRADO - EM OUTRA INSTITUICAO CHA:  12  Data inicio:  01/08/2011  Data termino:  26/08/2011 Descricao Complementar:  UFES - Vitoria-ES Descricao da Clientela:  Banca de Rodrigo Fernandes Calhau Tabela:  MEMBRO DE BANCA DE DEFESA DE MONOGRAFIA, PROJETO FINAL DE CURSO E OUTROS TIPOS DE BANCAS CHA:  4  Data inicio:  19/12/2011  Data termino:  19/12/2011 Descricao Complementar:  INF-UFG Descricao da Clientela:  Banca de Bruno dos Reis Calcado Tabela:  MEMBRO DE BANCA DE DEFESA DE MONOGRAFIA, PROJETO FINAL DE CURSO E OUTROS TIPOS DE BANCAS  CHA:  4  Data inicio:  19/12/2011  19/12/2011 Descricao Complementar:  INF-UFG Descricao da Clientela:  Banca de Erika Demacki Tabela:  MEMBRO DE BANCA DE DEFESA DE MONOGRAFIA, PROJETO FINAL DE CURSO E OUTROS TIPOS DE BANCAS CHA:  4  Data inicio:  19/12/2011  Data termino:  19/12/2011 Descricao Complementar:  INF-UFG Descricao da Clientela:  Banca de Douglas Macedo Tabela:  MEMBRO DE BANCA DE DEFESA DE MONOGRAFIA, PROJETO FINAL DE CURSO E OUTROS TIPOS DE BANCAS CHA:  4  Data inicio:  19/12/2011  Data termino:  19/12/2011 Descricao Complementar:  INF-UFG Descricao da Clientela:  Banca de Arthur Henrique Guimaraes de Oliveira Tabela:  MEMBRO DE CORPO DE JURI - CONCURSOS NACIONAIS CHA:  12  Data inicio:  06/06/2011  Data termino:  10/10/2011 Descricao Complementar:  Concurso de Teses e Dissertacoes em Qualidade de Software (CTDQS 2011) Descricao da Clientela:  Comunidade de pesquisa em Qualidade de Software Tabela:  MEMBRO DE CORPO DE JURI - CONCURSOS NACIONAIS CHA:  12  Data inicio:  19/07/2011  Data termino:  23/07/2011 Descricao Complementar:  XXX Concurso de Trabalhos de Iniciacao Cientifica (CSBC 2011 - CTIC) Descricao da Clientela:  Comunidade cientifica em Computacao Data termino: Atividades administrativas Tabela: ATIVIDADES ACADEMICAS E ADMINISTRATIVAS DESIGNADAS POR PORTARIA DO REITOR, PRO-REITOR OU DIRETOR DE UNIDADE ACADEMICA COM CARGA HORARIA >=150 HORAS Descricao:  Membro do Nucleo Docente Estruturante do curso de Engenharia de Software Orgao emissor  INF-UFG  Orgao servido  INF-UFG  Portaria  019/2010  CHA:  40  Data inicio:  01/01/2011  Data termino:  31/12/2011 Tabela: ATIVIDADES ACADEMICAS E ADMINISTRATIVAS DESIGNADAS POR PORTARIA DO REITOR, PRO-REITOR OU DIRETOR DE UNIDADE ACADEMICA COM CARGA HORARIA >=150 HORAS Descricao:  Comissao de Avaliacao Docente do INF Orgao emissor  Reitoria  Orgao servido  INF Portaria  898  CHA:  150  Data inicio:  01/01/2011  Data termino:  31/12/2011 Tabela:  OUTRAS ATIVIDADES ADMINISTRATIVAS E/OU DE REPRESENTACAO Descricao:  Reunioes do CD do INF Orgao emissor  INF  Orgao servido  INF Portaria  Data inicio:  01/01/2011  Data termino:  31/12/2011NA  CHA: 30 Produtos Descricao do produto:  TRABALHO COMPLETO PUBLICADO EM ANAIS DE CONGRESSO CIENTIFICO QUALIS B3 Titulo do produto:  An early aspect for model-driven transformers engineering Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao:  Proceedings of International Workshop on Early Aspects 2011 Local:  Porto de Galinhas, Pernambuco, Brasil final:  11  Numero de paginas  :5 Nº da patente: Editora:  ACM Descricao do produto: PARECER DE CONSULTORIA AD HOC PARA PERIODICOS ESPECIALIZADOS COM CORPO EDITORIAL OU PARA INSTITUICOES DE FOMENTO A PESQUISA Titulo do produto:  CLEI Electronic Journal (CLEIej, ISSN 0717- 5000) Autoria:  Primeiro autor  Associacao do produto:  Produto isolado Projeto associado:  -  Veiculacao:  www.clei.cl/cleiej - Edicao Especial - ESELAW 2010. Local:  Montevideo, Uruguay final:  NULL  Numero de paginas  : Nº da patente: Editora:  Latin-american Center for Informatics Studies Descricao do produto: DESENVOLVIMENTO DE SOFTWARE COM DIVULGACAO EM PERIODICOS INDEXADOS E COM CORPO EDITORIAL OU EM ANAIS DE CONGRESSO Titulo do produto:  Componente Gerenciador de Processos de Negocio em SI Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao:  Anais do SBSI 2011 Local:  Salvador-BA final:  261  Numero de paginas  :12 Nº da patente: Editora:  SBC Descricao do produto:  TRABALHO COMPLETO PUBLICADO EM ANAIS DE CONGRESSO CIENTIFICO QUALIS B5 Titulo do produto:  Cultura Organizacional como Apoio a Institucionalizacao de Processos de Software Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao:  Anais do X SBQS Local:  Curitiba-PR final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: TESE, DISSERTACAO E TRABALHO DE INICIACAO CIENTIFICA PREMIADOS POR INSTITUICOES DE FOMENTO (AUTOR E ORIENTADOR) Titulo do produto:  Cultura Organizacional como Apoio a Institucionalizacao de Processos de Software Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa  Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao:  Terceiro Lugar no Concurso de Teses e Dissertacoes em Qualidade de Software - Anais do X SBQS Local:  Curitiba-PR final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto:  RESUMO EXPANDIDO PUBLICADO EM ANAIS DE CONGRESSOS CIENTIFICOS - CONGRESSO NACIONAL Titulo do produto:  Em Busca de uma Arquitetura de Referencia para Frameworks de Aplicacao Dirigidos por Modelos para Sistemas de Informacao Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao:  Seminario da Pos-Graduacao da UFG no contexto da 63a. Reuniao Anual da Sociedade Brasileira para o Progresso da Ciencia (SBPC) Local:  Goiania-GO final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBPC Descricao do produto:  ARTIGOS EM REPOSITORIOS DE PUBLICACAO ELETRONICA LIGADOS A EDITORAS OU UNIVERSIDADES Titulo do produto:  Revisao Sistematica Sobre a Comunicacao Dentro do Processo de Desenvolvimento de Software Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao: Biblioteca Digital - Instituto de Informatica da UFG - www.inf.ufg.br RT-INF-004/2011 Local:  Goiania-GO final:  48  Numero de paginas  :48 Nº da patente: Editora:  INF-UFG Descricao do produto:  TRABALHO COMPLETO PUBLICADO EM ANAIS DE CONGRESSO NAO SUJEITOS A CLASSIFICACAO NO QUALIS Titulo do produto:  Revisao Sistematica Sobre a Comunicacao Dentro do Processo de Desenvolvimento de Software Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa  Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao:  Wamps 2011 Local:  Campinas-SP final:  135  Numero de paginas  :12 Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto:  SBSI 2011 - Minicursos - Desenvolvimento de Programas de Gestao da Seguranca da Informacao com foco na Sustentabilidade Autoria:  Co-autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do SBSI 2011 Local:  Salvador-BA final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto:  SBSI 2011 - Minicursos - Gestao de Testes de Software com a ferramenta Testlink Autoria:  Primeiro autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do SBSI Local:  Salvador-BA final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART)  Titulo do produto: Simposio Brasileiro de Sistemas de Informacao (SBSI 2011) - Estudo de Caso de um Processo de Gerenciamento de Projetos de Software baseado em Metodos Ageis e no Modelo MPS.br Autoria:  Co-autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do SBSI 2011 Local:  Salvador-BA final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto:  Simposio Brasileiro de Sistemas de Informacao (SBSI 2011) - Uma Caracterizacao dos Impactos Gerados pela Implantacao de Sistemas ERP Autoria:  Primeiro autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do SBSI 2011 Local:  Salvador-BA final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto:  Simposio Brasileiro de Sistemas de Informacao (SBSI 2011) - Uma extensao do BPMN para modelagem de Processos de Desenvolvimento de Software: BPMNt Autoria:  Primeiro autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do SBSI 2011 Local:  Salvador-BA  Nº da patente: Editora:  SBC Descricao do produto:  TRABALHO COMPLETO PUBLICADO EM ANAIS DE CONGRESSO CIENTIFICO QUALIS B5 Titulo do produto:  Um Componente para Gerencia de Processos de Negocio em Sistemas de Informacao Autoria:  Primeiro autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao:  Anais do SBSI 2011 Local:  Salvador, Bahia, Brasil final:  261  Numero de paginas  :12 Nº da patente: Editora:  UFBA Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto:  WAMPS 2011 - Artigos Tecnicos (WAMPS 2011 - Artigos Tecnicos) Autoria:  Co-autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do Wamps 2011 Local:  Campinas-SP final:  NULL  Numero de paginas  : Nº da patente: Editora:  Softex Descricao do produto:  TRABALHO COMPLETO PUBLICADO EM ANAIS DE CONGRESSO NAO SUJEITOS A CLASSIFICACAO NO QUALIS Titulo do produto:  Web Accessibility using Model-Driven Development Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao: II Brazilian Workshop on Model-Driven Development Anais do II Congresso Brasileiro de Software: Teoria e Pratica Local:  Sao Paulo-SP  final:  25  Numero de paginas  :8 Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto:  Workshop Olhar Socio-Tecnico sobre a Engenharia de Software (WOSES) Autoria:  Co-autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  X Simposio Brasileiro de Qualidade de Software (SBQS 2011 WOSES) Local:  Curitiba-PR final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto:  Workshop de Teses e Dissertacoes em Qualidade de Software - AgileCCPM Otimizacao de cronogramas ageis Autoria:  Primeiro autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  X Simposio Brasileiro de Qualidade de Software (SBQS 2011 WTDQS) Local:  Curitiba-PR final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto:  Workshop de Teses e Dissertacoes em Qualidade de Software - Definicao de Processos atraves de Linhas de Processos de Software para Projetos com Aquisicao Autoria:  Co-autor  Associacao do produto:  Produto isolado Projeto associado:  -  Veiculacao:  X Simposio Brasileiro de Qualidade de Software (SBQS 2011 WTDQS) Local:  Curitiba-PR final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto:  X Simposio Brasileiro de Qualidade de Software (SBQS 2011 Trilha de Trabalhos Tecnicos) - Atributos de qualidade em ambiente de software livre Autoria:  Primeiro autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do X SBQS Local:  Curitiba-PR final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto: X Simposio Brasileiro de Qualidade de Software (SBQS 2011 Trilha de Trabalhos Tecnicos) - Avaliacao da Aprendizagem em Experimentos com Jogo Educativo de Teste de Software Autoria:  Primeiro autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do X SBQS Local:  Curitiba-PR final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART)  Titulo do produto: X Simposio Brasileiro de Qualidade de Software (SBQS 2011 Trilha de Trabalhos Tecnicos) - DESIGMPS: Um Jogo de Apoio ao Ensino de Modelos de Qualidade para Processos de Software baseado em Mapas Conceituais Autoria:  Primeiro autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do X SBQS Local:  Curitiba-PR final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto: PARECER OU RELATORIO TECNICO EMITIDO EM CONSULTORIA OU ASSESSORIA OFICIALIZADA POR CONVITE, CONVENIO, CONTRATO OU DESIGNACAO - SEM ANOTACAO DE RESPONSABILIDADE TECNICA (ART) Titulo do produto: X Simposio Brasileiro de Qualidade de Software (SBQS 2011 Trilha de Trabalhos Tecnicos) - Uma Analise Comparativa entre Processos de Engenharia de Requisitos sob a Perspectiva da Qualidade Autoria:  Co-autor  Associacao do produto:  Produto isolado Projeto associado:  - Veiculacao:  Anais do X SBQS Local:  Curitiba-PR final:  NULL  Numero de paginas  : Nº da patente: Editora:  SBC Descricao do produto:  OUTROS TIPOS DE PRODUCAO Titulo do produto:  XI JGES Autoria:  Co-autor  Associacao do produto:  Projeto de pesquisa Projeto associado:  35828 : Estrategias e Metodos para Melhoria de Software Veiculacao:  www.lgo.com.br/jges Local:  Goiania-GO  Nº da patente: Editora:  NA  
+ID: 0
+Tipo: Orientação
+Carga Horaria: 20
+Descricao: sinfonia: uma abordagem colaborativa e flexivel para modelagem e execucao de processos de negocio, aluno orientado em dissertacao de mestrado defendida e aprovada
+Data Inicio: 11/08/2008
+Data Termino:10/02/2011
+-------------------------
+ID: 1
+Tipo: Orientação
+Carga Horaria: 20
+Descricao: uma abordagem baseada em modelos para construcao automatica de interfaces de usuario para sistemas de informacao., aluno orientado em dissertacao de mestrado defendida e aprovada
+Data Inicio: 11/08/2008
+Data Termino:10/02/2011
+-------------------------
+ID: 2
+Tipo: Orientação
+Carga Horaria: 20
+Descricao: trabalho sem titulo, aluno orientado em dissertacao de mestrado defendida e aprovada
+Data Inicio: 11/08/2008
+Data Termino:10/02/2011
+-------------------------
+ID: 3
+Tipo: Orientação
+Carga Horaria: 20
+Descricao: trabalho sem titulo, aluno orientado em dissertacao de mestrado defendida e aprovada
+Data Inicio: 11/08/2008
+Data Termino:10/02/2011
+-------------------------
+ID: 4
+Tipo: Orientação
+Carga Horaria: 20
+Descricao: um estudo sobre governanca de ti: aspectos de controle financeiro, aluno orientado em dissertacao de mestrado defendida e aprovada
+Data Inicio: 11/08/2008
+Data Termino:10/02/2011
+-------------------------
+ID: 5
+Tipo: Orientação
+Carga Horaria: 20
+Descricao: uso de estereotipos na construcao de interfaces de usuario: o estereotipo questionario, aluno orientado em dissertacao de mestrado defendida e aprovada
+Data Inicio: 11/08/2008
+Data Termino:10/02/2011
+-------------------------
+ID: 6
+Tipo: Orientação
+Carga Horaria: 20
+Descricao: um estudo sobre governanca de ti: aspectos de desempenho e mudancas, aluno orientado em dissertacao de mestrado defendida e aprovada
+Data Inicio: 11/08/2008
+Data Termino:10/02/2011
+-------------------------
+ID: 0
+Tipo: Extensão
+Carga Horaria: 5
+Descricao: outras atividades de extensao, espaco das profissoes 2011, comunidade interessada nos cursos da area de computacao tabela
+Data Inicio: 28/04/2011
+Data Termino:29/04/2011
+-------------------------
+ID: 1
+Tipo: Extensão
+Carga Horaria: 5
+Descricao: palestrante, conferencista ou participante em mesa redonda em evento cientifico, cultural ou artistico - evento regional ou local, espaco das profissoes 2011, comunidade interessada nos cursos da area de computacao tabela
+Data Inicio: 28/04/2011
+Data Termino:29/04/2011
+-------------------------
+ID: 2
+Tipo: Extensão
+Carga Horaria: 5
+Descricao: promocao ou producao de eventos artisticos e cientificos regionais - comissao organizadora, espaco das profissoes 2011, comunidade interessada nos cursos da area de computacao tabela
+Data Inicio: 28/04/2011
+Data Termino:29/04/2011
+-------------------------
+ID: 0
+Tipo: Qualificacao
+Carga Horaria: 12
+Descricao: participacao em congressos, seminarios, encontros, jornadas etc., participacao na xi jges
+Data Inicio: 07/10/2011
+Data Termino:08/10/2011
+-------------------------
+ID: 1
+Tipo: Qualificacao
+Carga Horaria: 12
+Descricao: participacao em congressos, seminarios, encontros, jornadas etc., participacao na xi jges
+Data Inicio: 07/10/2011
+Data Termino:08/10/2011
+-------------------------
+ID: 0
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de banca de defesa de dissertacao de mestrado - na instituicao
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 1
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de banca de defesa de dissertacao de mestrado - na instituicao
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 2
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de banca de defesa de dissertacao de mestrado - em outra instituicao
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 3
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de banca de defesa de dissertacao de mestrado - em outra instituicao
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 4
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 5
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 6
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 7
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de banca de defesa de monografia, projeto final de curso e outros tipos de bancas
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 8
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de corpo de juri - concursos nacionais
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 9
+Tipo: Acadêmicas Especiais
+Carga Horaria: 12
+Descricao: membro de corpo de juri - concursos nacionais
+Data Inicio: 01/02/2011
+Data Termino:10/02/2011
+-------------------------
+ID: 0
+Tipo: Administração
+Carga Horaria: 40
+Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante do curso de engenharia de software
+Data Inicio: 01/01/2011
+Data Termino:31/12/2011
+-------------------------
+ID: 1
+Tipo: Administração
+Carga Horaria: 40
+Descricao: atividades academicas e administrativas designadas por portaria do reitor, pro-reitor ou diretor de unidade academica com carga horaria >=150 horas, membro do nucleo docente estruturante do curso de engenharia de software
+Data Inicio: 01/01/2011
+Data Termino:31/12/2011
+-------------------------
+ID: 2
+Tipo: Administração
+Carga Horaria: 40
+Descricao: outras atividades administrativas e/ou de representacao, membro do nucleo docente estruturante do curso de engenharia de software
+Data Inicio: 01/01/2011
+Data Termino:31/12/2011
+-------------------------
