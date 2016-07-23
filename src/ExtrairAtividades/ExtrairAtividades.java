@@ -23,7 +23,7 @@ import org.json.JSONObject;
 public class ExtrairAtividades {
 
 
-    private static HashMap<String,String> atividadesGrupo;
+    public static HashMap<String,String[]> atividadesGrupo;
 
     /**
      * @param args, arquivos passados por linha de comando
@@ -43,7 +43,7 @@ public class ExtrairAtividades {
      * Inicia parser no arquivo Radoc.pdf
      * @param arquivo, caminho para arquivo radoc.pdf
      */
-    private static void parse(String arquivo) throws IOException{
+    public static void parse(String arquivo) throws IOException{
         String texto = getPdfTexto(arquivo);
         texto = tratarPDF(texto);
         BufferedWriter bw = criarNovoArquivo("AtividadesExtraidas_"+arquivo+".txt");
@@ -88,7 +88,7 @@ public class ExtrairAtividades {
      * @param texto, para ser analisado
      * @return List<String>, lista de valores
      */
-    private static List<String> getValores(String regex, String texto){
+    public static List<String> getValores(String regex, String texto){
         Pattern pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(texto);
         List<String> valores = new ArrayList<>();
@@ -106,7 +106,7 @@ public class ExtrairAtividades {
      * @param tipo, das atividades
      * @return List<Atividade>, lista de atividades
      */
-    private static List<Atividade> getAtividades(String regex, String texto, String tipo){
+    public static List<Atividade> getAtividades(String regex, String texto, String tipo){
         //Pattern pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
         //Matcher matcher = pattern.matcher(texto);
         List<Atividade> atividades = new ArrayList<>();
@@ -129,7 +129,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    private static List<Atividade> getAtividadesEspeciais(String text){
+    public static List<Atividade> getAtividadesEspeciais(String text){
         int escopoInicio = text.indexOf("atividades academicas especiais");
         int escopoFinal = text.indexOf("atividades administrativas");
         text = text.substring(escopoInicio,escopoFinal);
@@ -154,7 +154,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    private static List<Atividade> getAtividadesOrientacao(String text){
+    public static List<Atividade> getAtividadesOrientacao(String text){
         int escopoInicio = text.indexOf("atividades de orientacao");
         int escopoFinal = text.indexOf("atividades em projetos");
         text = text.substring(escopoInicio,escopoFinal);
@@ -182,7 +182,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    private static List<Atividade> getAtividadesExtensao(String text) {
+    public static List<Atividade> getAtividadesExtensao(String text) {
         int escopoInicio = text.indexOf("atividades de extensao");
         int escopoFinal = text.indexOf("atividades de qualificacao");
         StringBuilder customRegex = new StringBuilder(Regex.DESCRICAO_CLIENTELA
@@ -216,7 +216,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    private static List<Atividade> getAtividadesQualificao(String text){
+    public static List<Atividade> getAtividadesQualificao(String text){
         int escopoInicio = text.indexOf("atividades de qualificacao");
         int escopoFinal = text.indexOf("atividades academicas especiais");
         text = text.substring(escopoInicio,escopoFinal);
@@ -244,7 +244,7 @@ public class ExtrairAtividades {
      * @param text, texto do arquivo pdf
      * @return List<Atividade>
      */
-    private static List<Atividade> getAtividadesAdministrativas(String text){
+    public static List<Atividade> getAtividadesAdministrativas(String text){
         int escopoInicio = text.toLowerCase().indexOf("atividades administrativas");
         int escopoFinal = text.toLowerCase().indexOf("produtos descricao do produto:");
         text = text.substring(escopoInicio,escopoFinal);
@@ -272,7 +272,7 @@ public class ExtrairAtividades {
      * @param texto, texto do pdf
      * @return texto devidamente tratado
      */
-    private static String tratarPDF(String texto) {
+    public static String tratarPDF(String texto) {
         return removeAcentos(texto.trim().replaceAll("(\\s{2})+|([\n\r])+"," ")) //Remove espaços extras e quebras de linhas
                 .replaceAll("(?i)Data:[ 0-9/: a-zA-Z]*(Pagina[ 0-9/]*)", "") //Remove footer
                 .replaceAll("(?i)UNIVERSIDADE(\\s+)FEDERAL(\\s+)DE(\\s+)GOIAS(\\s+)SISTEMA(\\s+)DE(\\s+)CADASTRO(\\s+)DE(\\s+)ATIVIDADES(\\s+)DOCENTES(\\s+)EXTRATO(\\s+)DAS(\\s+)ATIVIDADES(\\s+)-(\\s+)ANO(\\s+)BASE:(\\s+)[0-9]{4}","") // Remove cabeçario
@@ -284,7 +284,7 @@ public class ExtrairAtividades {
      * @param string, texto com acentos
      * @return string sem acentos
      */
-    private static String removeAcentos(String string) {
+    public static String removeAcentos(String string) {
         return Normalizer.normalize(string, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
     }
 
@@ -293,27 +293,12 @@ public class ExtrairAtividades {
      * @param caminho, do arquivo
      * @return texto do arquivo
      */
-    private static String getPdfTexto(String caminho) throws IOException {
+    public static String getPdfTexto(String caminho) throws IOException {
         Document pdf = PDF.open(caminho);
         StringBuilder texto = new StringBuilder(1024);
         pdf.pipe(new OutputTarget(texto));
         pdf.close();
         return texto.toString();
-    }
-
-    private static List<String> getCodGrupoPontuacao(String text,String regex)
-    {
-        List<String> listaCodGrupos = new ArrayList<>();
-        Pattern pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
-        Matcher matcher = pattern.matcher(text);
-        while (matcher.find()){
-            String valor = matcher.group().replaceAll(Regex.CAMPOS,"").trim();
-            String codGrupo = atividadesGrupo.get(valor)!= null ? atividadesGrupo.get(valor) : "000000000000";
-            listaCodGrupos.add(codGrupo);
-            System.out.println(codGrupo);
-            System.out.println(valor);
-        }
-        return listaCodGrupos;
     }
 
     /**
@@ -322,7 +307,7 @@ public class ExtrairAtividades {
      * @param caminho, do arquivo
      * @return BufferedWriter do arquivo
      */
-    private static BufferedWriter criarNovoArquivo(String caminho) throws IOException {
+    public static BufferedWriter criarNovoArquivo(String caminho) throws IOException {
         File novoArquivo = new File(caminho.replace(".pdf",""));
         if (!novoArquivo.exists()) {
             novoArquivo.createNewFile();
@@ -332,9 +317,9 @@ public class ExtrairAtividades {
         return bw;
     }
 
-    private static HashMap<String,String> carregaAtividades(String caminho) throws IOException {
+    public static HashMap<String,String[]> carregaAtividades(String caminho) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(caminho));
-        HashMap<String, String> atividades = null;
+        HashMap<String, String[]> atividades = null;
         try {
             StringBuilder stringBuilder = new StringBuilder();
             String linha = br.readLine();
@@ -352,8 +337,10 @@ public class ExtrairAtividades {
             for (idx = 0; idx < itens.length(); idx++) {
                 JSONObject item = itens.getJSONObject(idx);
                 String chave = item.getString("idunico");
-                String valor = item.getString("codigo");
-                atividades.put(chave, valor);
+                String codigo = item.getString("codigo");
+                String pontos = item.getString("pontos");
+                String[] dados = new String[]{codigo,pontos};
+                atividades.put(chave, dados);
             }
         } catch (JSONException | IOException e) {
             e.printStackTrace();
@@ -361,5 +348,20 @@ public class ExtrairAtividades {
             br.close();
         }
         return atividades;
+    }
+
+    public static List<String> getCodGrupoPontuacao(String text,String regex)
+    {
+        List<String> listaCodGrupos = new ArrayList<>();
+        Pattern pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(text);
+        while (matcher.find()){
+            String valor = matcher.group().replaceAll(Regex.CAMPOS,"").trim();
+            String codGrupo = atividadesGrupo.get(valor)[0]!= null ? atividadesGrupo.get(valor)[0] : "000000000000";
+            listaCodGrupos.add(codGrupo);
+            System.out.println(codGrupo);
+            System.out.println(valor);
+        }
+        return listaCodGrupos;
     }
 }
