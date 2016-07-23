@@ -29,12 +29,13 @@ public class ExtrairAtividades {
      * @param args, arquivos passados por linha de comando
      */
     public static void main(String[] args) throws IOException {
+        atividadesGrupo = carregaAtividades("config/atividades.json");
         if(args.length>0){
-            atividadesGrupo = carregaAtividades("config/atividades.json");
             for(String arquivo : args){
                 parse(arquivo);
             }
         }else{
+            parse(null);
             System.out.println("Você deve informar o nome do arquivo RADOC");
         }
     }
@@ -302,7 +303,7 @@ public class ExtrairAtividades {
      */
     public static String tratarPDF(String texto) {
         return removeAcentos(texto.trim().replaceAll("(\\s{2})+|([\n\r])+"," ")) //Remove espaços extras e quebras de linhas
-                .replaceAll("(?i)Data:[ 0-9/: a-zA-Z]*(Pagina[ 0-9/]*)", "") //Remove footer
+                .replaceAll("(?i)(data:(\\s*)?([0-9]{2}\\/)([0-9]{2}\\/)([0-9]{4})(\\s*)?([0-9]{2}:){2}([0-9]{2})(.*?)(pagina)(\\s*)?([0-9]*(\\s*)?\\/(\\s*)?[0-9]*))", "") //Remove footer
                 .replaceAll("(?i)UNIVERSIDADE(\\s+)FEDERAL(\\s+)DE(\\s+)GOIAS(\\s+)SISTEMA(\\s+)DE(\\s+)CADASTRO(\\s+)DE(\\s+)ATIVIDADES(\\s+)DOCENTES(\\s+)EXTRATO(\\s+)DAS(\\s+)ATIVIDADES(\\s+)-(\\s+)ANO(\\s+)BASE:(\\s+)[0-9]{4}","") // Remove cabeçario
                 .toLowerCase();
     }
