@@ -246,9 +246,9 @@ public class ExtrairAtividades {
      * @return texto devidamente tratado
      */
     public static String tratarPDF(String texto) {
-        return removeAcentos(texto.trim().replaceAll("(\\s{2})+|([\n\r])+"," ")) //Remove espaços extras e quebras de linhas             
-                .replaceAll("Data:[ 0-9/: a-zA-Z]*(Pagina[ 0-9/]*)", "") //Remove footer
-                .replaceAll("UNIVERSIDADE FEDERAL DE GOIAS SISTEMA DE CADASTRO DE ATIVIDADES DOCENTES EXTRATO DAS ATIVIDADES - ANO BASE: [0-9]{4}","") // Remove cabeçario
+        return removeAcentos(texto.trim().replaceAll("(\\s{2})+|([\n\r])+"," ")) //Remove espaços extras e quebras de linhas
+                .replaceAll("(?i)Data:[ 0-9/: a-zA-Z]*(Pagina[ 0-9/]*)", "") //Remove footer
+                .replaceAll("(?i)UNIVERSIDADE(\\s+)FEDERAL(\\s+)DE(\\s+)GOIAS(\\s+)SISTEMA(\\s+)DE(\\s+)CADASTRO(\\s+)DE(\\s+)ATIVIDADES(\\s+)DOCENTES(\\s+)EXTRATO(\\s+)DAS(\\s+)ATIVIDADES(\\s+)-(\\s+)ANO(\\s+)BASE:(\\s+)[0-9]{4}","") // Remove cabeçario
                 .toLowerCase();
     }
 

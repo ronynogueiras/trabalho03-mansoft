@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
 import static org.junit.Assert.*;
-
 /**
  *
  * @author raphael
@@ -137,7 +136,6 @@ public class ExtrairAtividadesTest {
      */
     @Test
     public void testGetAtividadesExtensao() throws IOException {
-        //String texto = ExtrairAtividades.tratarPDF(ExtrairAtividades.getPdfTexto());
         String texto = ExtrairAtividades.getPdfTexto("files/Radoc-2013-Final.pdf");
         texto = ExtrairAtividades.tratarPDF(texto);
         List<Atividade> expResult = new ArrayList<>();
